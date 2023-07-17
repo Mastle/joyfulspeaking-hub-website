@@ -16,7 +16,7 @@ import Navbar from '../components/Navbar.astro'
         <!-- <Navbar/> -->
 		<nav class="navbar navbar-expand-lg bg-primary navbar-dark py-3 fixed-top">
 			<div class="container">
-			  <a href="#" class="navbar-brand">Frontend Bootcamp</a>
+			  <a href="#" class="navbar-brand nav-item-on-hover fs-3">Joyful Speaking</a>
 	  
 			  <button
 				class="navbar-toggler"
@@ -30,13 +30,16 @@ import Navbar from '../components/Navbar.astro'
 			  <div class="collapse navbar-collapse" id="navmenu">
 				<ul class="navbar-nav ms-auto">
 				  <li class="nav-item">
-					<a href="#learn" class="nav-link">What You'll Learn</a>
+					<a href="#learn" class="nav-link nav-item-on-hover text-white fs-5"> What You'll Learn</a>
 				  </li>
 				  <li class="nav-item">
-					<a href="#questions" class="nav-link">Questions</a>
+					<a href="#questions" class="nav-link nav-item-on-hover text-white fs-5">Questions</a>
 				  </li>
 				  <li class="nav-item">
-					<a href="#instructors" class="nav-link">Instructors</a>
+					<a href="#instructors" class="nav-link nav-item-on-hover text-white fs-5">Instructors</a>
+				  </li>
+				  <li class="nav-item">
+					<a href="#instructors" class="nav-link nav-item-on-hover text-white fs-5">Hub</a>
 				  </li>
 				</ul>
 			  </div>
@@ -50,10 +53,10 @@ import Navbar from '../components/Navbar.astro'
 			<div class="container">
 			  <div class="d-sm-flex align-items-center justify-content-between">
 				<div>
-				  <h1>Become a <span class="text-warning"> Web Developer </span></h1>
+				  <h1>Become a <span class="text-warning"> a fluent speaker </span></h1>
 				  <p class="lead my-4">
 					We focus on teaching our students the fundamentals of the latest
-					and greatest technologies to prepare them for their first dev role
+					and greatest teaching methods to prepare them for their English
 				  </p>
 				  <button
 					class="btn btn-warning btn-lg mb-2"
@@ -73,7 +76,7 @@ import Navbar from '../components/Navbar.astro'
 		  </section>
 	  
 		  <!-- Newsletter -->
-		  <section class="bg-dark text-light p-5">
+		  <section class="bg-lightDark text-light p-5">
 			<div class="container">
 			  <div class="d-md-flex justify-content-between align-items-center">
 				<h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
@@ -106,7 +109,7 @@ import Navbar from '../components/Navbar.astro'
 				  </div>
 				</div>
 				<div class="col-md">
-				  <div class="card bg-dark text-light">
+				  <div class="card bg-lightDark text-light">
 					<div class="card-body text-center">
 					  <div class="h1 mb-3">
 						<i class="bi bi-person-square"></i>
@@ -435,6 +438,11 @@ import Navbar from '../components/Navbar.astro'
 			  </div>
 			</div>
 		  </section>
+
+	      <!-- Hub area -->
+		  <section>
+			<h1 class="text-center" style={'height: 50vh;'}>The Hub Area</h1>
+		  </section>
 	  
 		  <!-- Contact & Map -->
 		  <section class="p-5">
@@ -470,7 +478,7 @@ import Navbar from '../components/Navbar.astro'
 		  </section>
 	  
 		  <!-- Footer -->
-		  <footer class="p-5 bg-dark text-white text-center position-relative">
+		  <footer class="p-5 bg-lightDark text-white text-center position-relative">
 			<div class="container">
 			  <p class="lead">Copyright &copy; 2021 Frontend Bootcamp</p>
 	  
@@ -542,9 +550,3 @@ import Navbar from '../components/Navbar.astro'
 		></script>
 	</body>
 </html>
- <!-- Plans:
-    A- Make the nav bar and the hero banner pretty
-	B- Add your own logo
-	C- Switch up the colors (less darker black, some white for navbar maybe, more yellows all around)
-
--->

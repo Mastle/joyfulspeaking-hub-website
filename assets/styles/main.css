@@ -11934,5 +11934,12 @@ body::before {
     width: 50%;
   }
 }
+.nav-item-on-hover:hover {
+  color: #ffc107 !important;
+}
+
+.bg-lightDark {
+  background-color: rgb(50, 57, 64) !important;
+}
 
 /*# sourceMappingURL=main.css.map */

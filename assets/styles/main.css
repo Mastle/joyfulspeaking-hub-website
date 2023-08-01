@@ -11942,4 +11942,14 @@ body::before {
   background-color: rgb(50, 57, 64) !important;
 }
 
+.bottom-logo-resizer {
+  max-width: 90% !important;
+}
+
+@media (min-width: 768px) {
+  .ms-custom-size {
+    margin-left: 14rem !important;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

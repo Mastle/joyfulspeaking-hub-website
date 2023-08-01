@@ -447,39 +447,74 @@ import Navbar from "../components/Navbar.astro";
       </div>
     </section>
 
-    <!-- Hub area -->
-    <!-- current step: create the hub area section of the main page-->
-    <section>
-      <h1 class="text-center" style={"height: 50vh;"}>The Hub Area</h1>
-    </section>
-
-    <!-- Contact & Map -->
-    <section class="p-5">
+    <!-- Hub -->
+    <!-- 
+      current step: 
+      1- adjust the position
+      2- let Sareh know that she's gonna design the cards for the page that this sectioned is linked to (4 cards that represent the 4 types of tutorials that are available on the website)
+    -->
+    <section id="learn" class="p-5">
       <div class="container">
-        <div class="row g-4">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img
+              src="../../assets/home/hub_area.svg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-md p-5">
+            <h2>The Hub Area</h2>
+            <p class="lead">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Similique deleniti possimus magnam corporis ratione facere!
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+              reiciendis eius autem eveniet mollitia, at asperiores suscipit
+              quae similique laboriosam iste minus placeat odit velit quos,
+              nulla architecto amet voluptates?
+            </p>
+            <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact & Map -->
+    <section class="p-5 bg-primary text-light">
+      <div class="container">
+        <div class="row g-4 justify-content-between">
           <div class="col-md">
             <h2 class="text-center mb-4">Contact Info</h2>
             <ul class="list-group list-group-flush lead">
-              <li class="list-group-item">
+              <li class="list-group-item text-light bg-primary border-4">
                 <span class="fw-bold">Main Location:</span> 50 Main st Boston MA
               </li>
-              <li class="list-group-item">
+              <li class="list-group-item text-light bg-primary border-4">
                 <span class="fw-bold">Enrollment Phone:</span> (555) 555-5555
               </li>
-              <li class="list-group-item">
+              <li class="list-group-item text-light bg-primary border-4">
                 <span class="fw-bold">Student Phone:</span> (333) 333-3333
               </li>
-              <li class="list-group-item">
+              <li class="list-group-item text-light bg-primary border-4">
                 <span class="fw-bold">Enrollment Email:</span> (555) enroll@frontendbc.test
               </li>
-              <li class="list-group-item">
+              <li class="list-group-item text-light bg-primary border-4">
                 <span class="fw-bold">Student Email:</span>
                 student@frontendbc.test
               </li>
             </ul>
           </div>
-          <div class="col-md">
-            <div id="map"></div>
+          <div class="col-md ms-custom-size">
+            <div>
+              <img
+                class="bottom-logo-resizer"
+                src="../../assets/bottom-page-logo.png"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>

@@ -17,55 +17,7 @@ import Navbar from "../components/Navbar.astro";
   </head>
   <body>
     <!-- <Navbar/> -->
-    <nav class="navbar navbar-expand-lg bg-primary navbar-dark py-3 fixed-top">
-      <div class="container">
-        <a href="#" class="navbar-brand nav-item-on-hover fs-3"
-          >Joyful Speaking</a
-        >
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a
-                href="#learn"
-                class="nav-link nav-item-on-hover text-white fs-5"
-              >
-                What You'll Learn</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                href="#questions"
-                class="nav-link nav-item-on-hover text-white fs-5">Questions</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                href="#instructors"
-                class="nav-link nav-item-on-hover text-white fs-5"
-                >Instructors</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                href="#instructors"
-                class="nav-link nav-item-on-hover text-white fs-5">Hub</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
+    <Navbar />
     <!-- Showcase -->
     <section
       class="bg-primary text-light pt-7 pt-lg-6 text-center text-sm-start"
@@ -108,13 +60,9 @@ import Navbar from "../components/Navbar.astro";
         </div>
       </div>
     </section>
-    <!-- TODO: once everything is done, before deployment, hook up this submit button to a legitimate email service systsem. I should
-	     allow the visitors to subscribe to their favorite content creator down the line
-	-->
 
     <!-- Boxes -->
-    <!-- TODO: fill the content in the cards -->
-    <section class="p-5">
+    <section class="p-5 my-5">
       <div class="container">
         <div class="row text-center g-4">
           <div class="col-md">
@@ -167,10 +115,9 @@ import Navbar from "../components/Navbar.astro";
     </section>
 
     <!-- Learn Sections -->
-    <!-- TODO: fill the content in this section -->
-    <section id="learn" class="p-5">
+    <section id="learn" class="p-5 bg-primary">
       <div class="container">
-        <div class="row align-items-center justify-content-between">
+        <div class="row align-items-center justify-content-between text-light">
           <div class="col-md">
             <img src="../../assets/home/book.svg" class="img-fluid" alt="" />
           </div>
@@ -186,9 +133,39 @@ import Navbar from "../components/Navbar.astro";
               quae similique laboriosam iste minus placeat odit velit quos,
               nulla architecto amet voluptates?
             </p>
-            <a href="#" class="btn btn-light mt-3">
+            <a href="#" class="btn btn-warning mt-3">
               <i class="bi bi-chevron-right"></i> Read More
             </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="learn" class="p-5 my-3">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>Unique approach for teaching children</h2>
+            <p class="lead">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Similique deleniti possimus magnam corporis ratione facere!
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+              reiciendis eius autem eveniet mollitia, at asperiores suscipit
+              quae similique laboriosam iste minus placeat odit velit quos,
+              nulla architecto amet voluptates?
+            </p>
+            <a href="#" class="btn btn-primary mt-3">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+          <div class="col-md">
+            <img
+              src="../../assets/home/children.svg"
+              class="img-fluid"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -197,6 +174,13 @@ import Navbar from "../components/Navbar.astro";
     <section id="learn" class="p-5 bg-primary text-light">
       <div class="container">
         <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img
+              src="../../assets/home/education.svg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
           <div class="col-md p-5">
             <h2>Learn Advacned Grammar and IELTS</h2>
             <p class="lead">
@@ -209,16 +193,9 @@ import Navbar from "../components/Navbar.astro";
               quae similique laboriosam iste minus placeat odit velit quos,
               nulla architecto amet voluptates?
             </p>
-            <a href="#" class="btn btn-light mt-3">
+            <a href="#" class="btn btn-warning mt-3">
               <i class="bi bi-chevron-right"></i> Read More
             </a>
-          </div>
-          <div class="col-md">
-            <img
-              src="../../assets/home/education.svg"
-              class="img-fluid"
-              alt=""
-            />
           </div>
         </div>
       </div>
@@ -431,7 +408,7 @@ import Navbar from "../components/Navbar.astro";
                   class="rounded-circle mb-3"
                   alt=""
                 />
-                <h3 class="card-title mb-3">Soheila Something</h3>
+                <h3 class="card-title mb-3">Soheila Asheqi</h3>
                 <p class="card-text">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
@@ -448,11 +425,6 @@ import Navbar from "../components/Navbar.astro";
     </section>
 
     <!-- Hub -->
-    <!-- 
-      current step: 
-      1- adjust the position
-      2- let Sareh know that she's gonna design the cards for the page that this sectioned is linked to (4 cards that represent the 4 types of tutorials that are available on the website)
-    -->
     <section id="learn" class="p-5">
       <div class="container">
         <div class="row align-items-center justify-content-between">
@@ -475,7 +447,7 @@ import Navbar from "../components/Navbar.astro";
               quae similique laboriosam iste minus placeat odit velit quos,
               nulla architecto amet voluptates?
             </p>
-            <a href="#" class="btn btn-light mt-3">
+            <a href="#" class="btn btn-primary mt-3">
               <i class="bi bi-chevron-right"></i> Read More
             </a>
           </div>
@@ -523,7 +495,7 @@ import Navbar from "../components/Navbar.astro";
     <!-- Footer -->
     <footer class="p-5 bg-lightDark text-white text-center position-relative">
       <div class="container">
-        <p class="lead">Copyright &copy; 2021 Frontend Bootcamp</p>
+        <p class="lead">Copyright &copy; 2023 Joyful Speaking</p>
 
         <a href="#" class="position-absolute bottom-0 end-0 p-5">
           <i class="bi bi-arrow-up-circle h1"></i>
@@ -591,5 +563,3 @@ import Navbar from "../components/Navbar.astro";
       crossorigin="anonymous"></script>
   </body>
 </html>
-<!-- TODO: test responsiveness before moving on to the next page -->
-<!-- snippet: col-md-6 col-lg-3 -->

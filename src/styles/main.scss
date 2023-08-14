@@ -1,7 +1,7 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 $smooth-yellow: #ffc107;
-$light-black: rgb(50, 57, 64);
+$light-black: #323940;
 
 .pt-lg-6 {
   padding: 5rem 0 0 0;
@@ -50,6 +50,20 @@ body::before {
 @media (min-width: 768px) {
   .ms-custom-size {
     margin-left: 14rem !important;
+  }
+
+}
+
+
+.footer-logo-position {
+  bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .make-invisible {
+    visibility: hidden;
+
   }
 
 }

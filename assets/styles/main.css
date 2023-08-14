@@ -11951,5 +11951,14 @@ body::before {
     margin-left: 14rem !important;
   }
 }
+.footer-logo-position {
+  bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .make-invisible {
+    visibility: hidden;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

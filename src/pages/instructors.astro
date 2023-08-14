@@ -1,6 +1,7 @@
 ---
 import "../../assets/styles/main.css";
 import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
 ---
 
 <html lang="en">
@@ -14,10 +15,15 @@ import Navbar from "../components/Navbar.astro";
   <body>
     <Navbar />
     <div>
-      <h1 class="text-center py-5">Joyful Speaking</h1>
-      <p class="text-center fs-3">Our Instructors</p>
+      <h1 class="text-center py-5">
+        Joyful Speaking (we could use our logo somewhere on this page)
+      </h1>
+      <p class="text-center fs-3">
+        Our Instructors (might wanna make the cards vertical for this one?)
+      </p>
     </div>
-    <section class="p-5 my-5">
+    <section class="p-5 my-5" style="min-height: 50vh;">
+      <!-- TODO: Delete the placeholder inline css -->
       <div class="container">
         <div class="row text-center g-4">
           <div class="col-md">
@@ -26,7 +32,7 @@ import Navbar from "../components/Navbar.astro";
                 <div class="h1 mb-3">
                   <i class="bi bi-laptop"></i>
                 </div>
-                <h3 class="card-title mb-3">From zero to hero</h3>
+                <h3 class="card-title mb-3">Amirali Taqishah</h3>
                 <p class="card-text">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Iure, quas quidem possimus dolorum esse eligendi?
@@ -41,7 +47,7 @@ import Navbar from "../components/Navbar.astro";
                 <div class="h1 mb-3">
                   <i class="bi bi-person-square"></i>
                 </div>
-                <h3 class="card-title mb-3">DIY IELTS tips</h3>
+                <h3 class="card-title mb-3">Sareh Ranjbar</h3>
                 <p class="card-text">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Iure, quas quidem possimus dolorum esse eligendi?
@@ -56,7 +62,7 @@ import Navbar from "../components/Navbar.astro";
                 <div class="h1 mb-3">
                   <i class="bi bi-people"></i>
                 </div>
-                <h3 class="card-title mb-3">How to train your kid</h3>
+                <h3 class="card-title mb-3">Soheila Asheqi</h3>
                 <p class="card-text">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Iure, quas quidem possimus dolorum esse eligendi?
@@ -68,6 +74,7 @@ import Navbar from "../components/Navbar.astro";
         </div>
       </div>
     </section>
+    <Footer />
   </body>
 </html>
 

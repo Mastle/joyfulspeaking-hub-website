@@ -1,0 +1,33 @@
+---
+import BlogPost from "../../components/BlogPage.astro";
+
+export function getStaticPaths() {
+    return [
+        { params: { author: "amirali" } },
+        { params: { author: "sareh" } },
+        { params: { author: "soheila" } },
+    ];
+}
+
+const { author } = Astro.params;
+---
+
+<!-- current step: get BlogPage component to return the appropriate blog posts based on the author's name in the url -->
+<div><h1>{author} is a kickass author</h1></div>
+<!-- work around for astro.glob being useless ->
+    ---
+export function getStaticPaths() {
+  return [
+    { params: { contentType: 'blog' } },
+    { params: { contentType: 'conversations' } },
+    { params: { contentType: 'videos' } },
+  ];
+}
+
+const { contentType } = Astro.params
+const posts = await Astro.glob(`./**/*.md`)
+const filtered = posts.filter(post => {
+  return post.url.includes(contentType)
+})
+---
+ -->

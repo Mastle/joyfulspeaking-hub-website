@@ -1,5 +1,7 @@
 ---
-const allPostContent = await Astro.glob("../content/amirali-posts/*.md");
+const { nameOfAuthor } = Astro.props;
+
+const allPostContent = await Astro.glob(`../content/amirali-posts/*.md`);
 ---
 
 <main>
@@ -10,3 +12,5 @@ const allPostContent = await Astro.glob("../content/amirali-posts/*.md");
         ))
     }
 </main>
+
+<!--  -->

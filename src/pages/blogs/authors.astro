@@ -1,0 +1,103 @@
+---
+import "../../../assets/styles/main.css";
+import Navbar from "../../components/Navbar.astro";
+import Footer from "../../components/Footer.astro";
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link
+            rel="icon"
+            type="image/svg+xml"
+            href="../../assets/js_favicon.svg"
+        />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>Joyful Speaking Hub</title>
+    </head>
+    <body>
+        <Navbar />
+        <div>
+            <h1 class="text-center py-5">
+                Joyful Speaking (we could use our logo somewhere on this page)
+            </h1>
+            <p class="text-center fs-3">Blogs</p>
+        </div>
+        <section class="p-5 my-5" style="min-height: 50vh;">
+            <div class="container">
+                <div class="row text-center g-4">
+                    <div class="col-md">
+                        <div class="card text-primary border border-primary">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                    <i class="bi bi-laptop"></i>
+                                </div>
+                                <h3 class="card-title mb-3">
+                                    Amirali Taqishah
+                                </h3>
+                                <span class="fw-bold fs-4"
+                                    >From zero to hero</span
+                                >
+                                <p class="card-text">
+                                    Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit. Iure, quas quidem possimus
+                                    dolorum esse eligendi?
+                                </p>
+                                <a
+                                    href="./bloglist/author/amirali"
+                                    class="btn btn-primary">Read More</a
+                                >
+                            </div>
+                            <!-- current step: I want this link to generate a dynamic url like this: ../blogs/bloglist/{amirali} 
+                             This is the route that displays all the available blog posts of an author.
+                             It feels like I need to pass down a prop from this link to an astro component that
+                             creates the blog list page based on author that's been chosen
+                            -->
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-lightDark text-light">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                    <i class="bi bi-person-square"></i>
+                                </div>
+                                <h3 class="card-title mb-3">Sareh Ranjbar</h3>
+                                <span class="fw-bold fs-4"
+                                    >DIY IELTS techniques</span
+                                >
+                                <p class="card-text">
+                                    Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit. Iure, quas quidem possimus
+                                    dolorum esse eligendi?
+                                </p>
+                                <a href="#" class="btn btn-dark">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card text-primary border border-primary">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                    <i class="bi bi-people"></i>
+                                </div>
+                                <h3 class="card-title mb-3">Soheila Asheqi</h3>
+                                <span class="fw-bold fs-4"
+                                    >How to train your dragonling</span
+                                >
+                                <p class="card-text">
+                                    Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit. Iure, quas quidem possimus
+                                    dolorum esse eligendi?
+                                </p>
+                                <a href="#" class="btn btn-primary">Read More</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <Footer />
+    </body>
+</html>

@@ -1,0 +1,16 @@
+---
+export function getStaticPaths() {
+    return [
+        { params: { author: "amirali" } },
+        { params: { author: "sareh" } },
+        { params: { author: "soheila" } },
+    ];
+}
+
+const { author } = Astro.params;
+---
+
+<!-- step 2: and the blog posts lead to the real blog post. and the final looks like this: ../blogs/authors/bloglist/author/{amirali}  -->
+<div><h1>{author} is a kickass author</h1></div>
+<!-- step 3: get the author's name from url param, display the appropriate blogs based on the param as well -->
+<!-- for example: if the param is amirali, render the first 5 blog posts by amirali -->

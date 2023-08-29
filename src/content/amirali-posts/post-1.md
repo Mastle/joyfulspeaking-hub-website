@@ -1,8 +1,8 @@
 ---
-company: coolCompanyNameA
+instructor: Amirali
 role: coolRoleA
 year: 2017
-
+link: /blogs/amirali/my-first-blog
 ---
 
 # h1 Heading 8-)

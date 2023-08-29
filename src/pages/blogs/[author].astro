@@ -1,33 +1,25 @@
 ---
-import BlogPost from "../../components/BlogPage.astro";
+import BlogPost from "../../components/BlogLayout.astro";
 
-export function getStaticPaths() {
-    return [
-        { params: { author: "amirali" } },
-        { params: { author: "sareh" } },
-        { params: { author: "soheila" } },
-    ];
-}
-
-const { author } = Astro.params;
----
-
-<!-- current step: get BlogPage component to return the appropriate blog posts based on the author's name in the url -->
-<div><h1>{author} is a kickass author</h1></div>
-<!-- work around for astro.glob being useless ->
-    ---
 export function getStaticPaths() {
   return [
-    { params: { contentType: 'blog' } },
-    { params: { contentType: 'conversations' } },
-    { params: { contentType: 'videos' } },
+    { params: { author: "amirali" }, props: { surname: "taqishah" } },
+    { params: { author: "sareh" }, props: { surname: "ranjbar" } },
+    { params: { author: "soheila" }, props: { surname: "asheqi" } },
   ];
 }
 
-const { contentType } = Astro.params
-const posts = await Astro.glob(`./**/*.md`)
-const filtered = posts.filter(post => {
-  return post.url.includes(contentType)
-})
+const { author } = Astro.params;
+const { surname } = Astro.props;
 ---
- -->
+
+<div>
+  <h1>
+    Blog posts by
+    <span>
+      {author[0].toUpperCase() + author.slice(1)}
+      {surname[0].toUpperCase() + surname.slice(1)}
+    </span>
+  </h1>
+  <BlogPost authorName={author} />
+</div>

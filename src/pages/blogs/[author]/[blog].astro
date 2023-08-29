@@ -1,0 +1,14 @@
+---
+export function getStaticPaths() {
+    return [{ params: { author: "amirali", blog: "my-first-blog" } }];
+}
+
+const { lang, version } = Astro.params;
+---
+
+<h1>Hello</h1>
+
+<!-- current step: whenever a blog post is added, we have to add the name of its author and its title as properties of the params object 
+on this page
+then the blog post component will fire up, which will display the actual blog on this page
+-->

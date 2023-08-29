@@ -1,7 +1,8 @@
 ---
-company: coolCompanyNameB
+instructor: Amirali
 role: coolRoleB
 year: 2018
+link: /blog/my-first-blog
 
 ---
 

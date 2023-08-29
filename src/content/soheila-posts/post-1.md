@@ -1,7 +1,7 @@
 ---
-instructor: Amirali
-role: coolRoleC
-year: 2019
+instructor: Soheila
+role: coolRoleA
+year: 2017
 link: /blog/my-first-blog
 
 ---

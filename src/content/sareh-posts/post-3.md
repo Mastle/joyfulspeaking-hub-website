@@ -1,5 +1,5 @@
 ---
-instructor: Amirali
+instructor: Sareh
 role: coolRoleC
 year: 2019
 link: /blog/my-first-blog

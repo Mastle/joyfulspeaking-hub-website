@@ -1,6 +1,6 @@
 ---
+import "../../assets/styles/main.css";
 import BlogPost from "../../components/BlogLayout.astro";
-
 export function getStaticPaths() {
   return [
     { params: { author: "amirali" }, props: { surname: "taqishah" } },
@@ -14,12 +14,12 @@ const { surname } = Astro.props;
 ---
 
 <div>
-  <h1>
+  <h1 class="text-center">
     Blog posts by
     <span>
       {author[0].toUpperCase() + author.slice(1)}
       {surname[0].toUpperCase() + surname.slice(1)}
     </span>
   </h1>
-  <BlogPost authorName={author} />
+  <!-- <BlogPost authorName={author} /> -->
 </div>

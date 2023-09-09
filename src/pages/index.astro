@@ -1,5 +1,12 @@
 ---
-import "../../assets/styles/main.css";
+import "../assets/styles/main.css";
+import {
+  book,
+  children,
+  education,
+  hubArea,
+  notebook,
+} from "../assets/home/index.js";
 import Navbar from "../components/Navbar.astro";
 import Footer from "../components/Footer.astro";
 ---
@@ -7,7 +14,7 @@ import Footer from "../components/Footer.astro";
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="../../assets/js_favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="../assets/js_favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <link
@@ -39,11 +46,7 @@ import Footer from "../components/Footer.astro";
               Start The Enrollment
             </button>
           </div>
-          <img
-            class="img-fluid w-75 d-none d-sm-block"
-            src="../../assets/home/notebook.svg"
-            alt=""
-          />
+          <img class="img-fluid w-75 d-none d-sm-block" src={notebook} alt="" />
         </div>
       </div>
     </section>
@@ -120,7 +123,7 @@ import Footer from "../components/Footer.astro";
       <div class="container">
         <div class="row align-items-center justify-content-between text-light">
           <div class="col-md">
-            <img src="../../assets/home/book.svg" class="img-fluid" alt="" />
+            <img src={book} class="img-fluid" alt="" />
           </div>
           <div class="col-md p-5">
             <h2>Learn The Fundamentals</h2>
@@ -157,16 +160,12 @@ import Footer from "../components/Footer.astro";
               quae similique laboriosam iste minus placeat odit velit quos,
               nulla architecto amet voluptates?
             </p>
-            <a href="#" class="btn btn-primary mt-3">
+            <a href="/instructors/soheila" class="btn btn-primary mt-3">
               <i class="bi bi-chevron-right"></i> Read More
             </a>
           </div>
           <div class="col-md">
-            <img
-              src="../../assets/home/children.svg"
-              class="img-fluid"
-              alt=""
-            />
+            <img src={children} class="img-fluid" alt="" />
           </div>
         </div>
       </div>
@@ -176,11 +175,7 @@ import Footer from "../components/Footer.astro";
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md">
-            <img
-              src="../../assets/home/education.svg"
-              class="img-fluid"
-              alt=""
-            />
+            <img src={education} class="img-fluid" alt="" />
           </div>
           <div class="col-md p-5">
             <h2>Learn Advacned Grammar and IELTS</h2>
@@ -430,11 +425,7 @@ import Footer from "../components/Footer.astro";
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md">
-            <img
-              src="../../assets/home/hub_area.svg"
-              class="img-fluid"
-              alt=""
-            />
+            <img src={hubArea} class="img-fluid" alt="" />
           </div>
           <div class="col-md p-5">
             <h2>Our Bite-sized tutorials & tips</h2>
@@ -448,7 +439,11 @@ import Footer from "../components/Footer.astro";
               quae similique laboriosam iste minus placeat odit velit quos,
               nulla architecto amet voluptates?
             </p>
-            <a href="#" class="btn btn-primary mt-3">
+            <a
+              href="/blogs/authors"
+              target="_blank"
+              class="btn btn-primary mt-3"
+            >
               <i class="bi bi-chevron-right"></i> Read More
             </a>
           </div>

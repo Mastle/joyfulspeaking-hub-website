@@ -1,5 +1,5 @@
 ---
-import "../../assets/styles/main.css";
+import "../assets/styles/main.css";
 import Navbar from "../components/Navbar.astro";
 import Footer from "../components/Footer.astro";
 ---
@@ -7,7 +7,7 @@ import Footer from "../components/Footer.astro";
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="../../assets/js_favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="../assets/js_favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>Joyful Speaking Hub</title>
@@ -15,12 +15,7 @@ import Footer from "../components/Footer.astro";
   <body>
     <Navbar />
     <div>
-      <h1 class="text-center py-5">
-        Joyful Speaking (we could use our logo somewhere on this page)
-      </h1>
-      <p class="text-center fs-3">
-        Our Instructors (might wanna make the cards vertical for this one?)
-      </p>
+      <h1 class="text-center py-5 my-5">Our Instructors</h1>
     </div>
     <section class="p-5 my-5" style="min-height: 50vh;">
       <!-- TODO: Delete the placeholder inline css -->

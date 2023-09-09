@@ -12,7 +12,6 @@ const allPostContent = await Astro.glob(`../content/*/*.md`);
                     <p>
                         {post.frontmatter.year}
                         <span>{post.frontmatter.instructor} </span>
-                        <a href={post.frontmatter.link}>click me</a>
                     </p>
                 </>
             );
@@ -20,16 +19,20 @@ const allPostContent = await Astro.glob(`../content/*/*.md`);
     })
 }
 
-<!-- <main>
-    <h1>This is where you'll see the blog years:</h1>
-    {
-        allPostContent.map((post) => (
-            <>
-                <p>
-                    {post.frontmatter.year}
-                    <span>{post.frontmatter.instructor} </span>
-                </p>
-            </>
-        ))
-    }
-</main> --><!--  -->
+<!-- the real code: (anchor tag temporarily omitted for showcase)
+{
+    allPostContent.map((post) => {
+        if (post.frontmatter.instructor.toLowerCase() === authorName) {
+            return (
+                <>
+                    <p>
+                        {post.frontmatter.year}
+                        <span>{post.frontmatter.instructor} </span>
+                        <a href={post.frontmatter.link}>click me</a>
+                    </p>
+                </>
+            );
+        }
+    })
+}
+ -->

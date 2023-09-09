@@ -11960,5 +11960,8 @@ body::before {
     visibility: hidden;
   }
 }
+.w-50 {
+  width: 50% !important;
+}
 
 /*# sourceMappingURL=main.css.map */

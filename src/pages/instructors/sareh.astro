@@ -1,5 +1,6 @@
 ---
 import "../../assets/styles/main.css";
+import favicon from "../../assets/js_favicon.svg";
 import mainLogo from "../../assets/bottom-page-logo.png";
 import { femaleInstructor, bookLover } from "../../assets/instructors-pics";
 import Navbar from "../../components/Navbar.astro";
@@ -11,7 +12,7 @@ import Footer from "../../components/Footer.astro";
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="../assets/js_favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href={favicon} />
     <title>Joyful Speaking Hub</title>
   </head>
   <body>

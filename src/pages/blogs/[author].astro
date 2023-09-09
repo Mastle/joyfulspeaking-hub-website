@@ -1,5 +1,6 @@
 ---
 import "../../assets/styles/main.css";
+import favicon from "../../assets/js_favicon.svg";
 import BlogPost from "../../components/BlogLayout.astro";
 export function getStaticPaths() {
   return [
@@ -13,13 +14,22 @@ const { author } = Astro.params;
 const { surname } = Astro.props;
 ---
 
-<div>
-  <h1 class="text-center">
-    Blog posts by
-    <span>
-      {author[0].toUpperCase() + author.slice(1)}
-      {surname[0].toUpperCase() + surname.slice(1)}
-    </span>
-  </h1>
-  <!-- <BlogPost authorName={author} /> -->
-</div>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/svg+xml" href={favicon} />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="generator" content={Astro.generator} />
+  <title>Joyful Speaking Hub</title>
+</head>
+<body>
+  <div>
+    <h1 class="text-center">
+      Blog posts by
+      <span>
+        {author[0].toUpperCase() + author.slice(1)}
+        {surname[0].toUpperCase() + surname.slice(1)}
+      </span>
+    </h1>
+    <!-- <BlogPost authorName={author} /> -->
+  </div>
+</body>

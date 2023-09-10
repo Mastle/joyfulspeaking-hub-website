@@ -8,12 +8,11 @@ const allPostContent = await Astro.glob(`../content/*/*.md`);
     allPostContent.map((post) => {
         if (post.frontmatter.instructor.toLowerCase() === authorName) {
             return (
-                <>
-                    <p>
-                        {post.frontmatter.year}
-                        <span>{post.frontmatter.instructor} </span>
-                    </p>
-                </>
+                <div class="border">
+                    <span>{post.frontmatter.instructor} </span>
+                    <p class="pt-3">{post.frontmatter.contentType} </p>
+                    <p>{post.frontmatter.year}</p>
+                </div>
             );
         }
     })

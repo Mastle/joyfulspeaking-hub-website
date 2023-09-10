@@ -1,6 +1,8 @@
 ---
 import "../../assets/styles/main.css";
 import favicon from "../../assets/js_favicon.svg";
+import Navbar from "../../components/Navbar.astro";
+import Footer from "../../components/Footer.astro";
 import BlogPost from "../../components/BlogLayout.astro";
 export function getStaticPaths() {
   return [
@@ -22,14 +24,27 @@ const { surname } = Astro.props;
   <title>Joyful Speaking Hub</title>
 </head>
 <body>
-  <div>
-    <h1 class="text-center">
+  <Navbar />
+  <div class="container text-center" style="min-height: 100vh;">
+    <h1 class="mt-5 fw-light">
       Blog posts by
-      <span>
+      <span class="fst-italic fw-normal">
         {author[0].toUpperCase() + author.slice(1)}
         {surname[0].toUpperCase() + surname.slice(1)}
       </span>
     </h1>
-    <!-- <BlogPost authorName={author} /> -->
+    <div class="py-5">
+      <h1>(This is where the searchbar and the search tags will be)</h1>
+    </div>
+    <BlogPost authorName={author} />
   </div>
+  <Footer />
 </body>
+<!-- 
+  current step:
+  - Figure out how the searchbars work in javascript
+  - Implement your own searchbar system with search tags
+  - How can I retrieve the blog posts of an instructor properly and make them appear in an orderly manner? 
+  answer: all of that happens within with ordinary css styling
+
+-->

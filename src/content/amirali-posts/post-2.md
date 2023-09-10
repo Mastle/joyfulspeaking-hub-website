@@ -1,5 +1,6 @@
 ---
 instructor: Amirali
+contentType: coolstuff2
 role: coolRoleB
 year: 2018
 link: /blog/my-first-blog

@@ -2,7 +2,7 @@
 import favicon from "../../../assets/js_favicon.svg";
 
 export function getStaticPaths() {
-    return [{ params: { author: "amirali", blog: "my-first-blog" } }];
+    return [{ params: { author: "amirali", blog: "how-to-learn-english" } }];
 }
 ---
 
@@ -12,8 +12,9 @@ export function getStaticPaths() {
     <link rel="icon" type="image/svg+xml" href={favicon} />
     <title>Joyful Speaking Hub</title>
 </head>
-<h1>Hello</h1>
-
+<main>
+    <!-- The javascript code that'll return the right article that the user has clicked on will run here -->
+</main>
 <!-- 
 step 2: whenever a blog post is added, we have to add the name of its author and its title as properties of the params object 
         on this page

@@ -2,6 +2,16 @@
 
 $smooth-yellow: #ffc107;
 $light-black: #323940;
+$main-blue: #0d6efd;
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline #0d6efd 3px;
+}
 
 .pt-lg-6 {
   padding: 5rem 0 0 0;
@@ -66,4 +76,9 @@ body::before {
 
   }
 
+}
+
+
+.max-width-1000 {
+  max-width: 1000px !important;
 }

@@ -1,0 +1,46 @@
+---
+const { authorName } = Astro.props;
+
+const allPostContent = await Astro.glob(`../content/*/*.md`);
+allPostContent.reverse();
+---
+
+{
+    allPostContent.map((post) => {
+        if (post.frontmatter.instructor.toLowerCase() === authorName) {
+            return (
+                <div class="text-start p-3">
+                    <a
+                        target="_blank"
+                        class="text-primary-hover"
+                        href={post.frontmatter.link}
+                    >
+                        <h1 class="fs-1 fw-bold mt-5">
+                            {post.frontmatter.title}{" "}
+                        </h1>{" "}
+                    </a>
+                    <p class="text-secondary">{post.frontmatter.date}</p>
+                    <span class="border border-dark rounded p-2">
+                        {post.frontmatter.blogSeriesName}
+                    </span>
+                    <p class="mt-4 fs-5">{post.frontmatter.introduction} </p>
+                    <a
+                        target="_blank"
+                        class="text-primary"
+                        href={post.frontmatter.link}
+                    >
+                        Read more
+                    </a>
+                    <p class="text-secondary mt-3">
+                        level: {post.frontmatter.level}
+                    </p>
+                </div>
+            );
+        }
+    })
+}
+
+<!-- 
+  current step.current step: - Time to create the searchbar with tags
+  - The link within bloglisting component will lead to the route that fires up the bloglayout component. And that's where the user will be able to read the blog
+ -->

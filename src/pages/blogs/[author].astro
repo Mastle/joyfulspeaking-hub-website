@@ -3,7 +3,7 @@ import "../../assets/styles/main.css";
 import favicon from "../../assets/js_favicon.svg";
 import Navbar from "../../components/Navbar.astro";
 import Footer from "../../components/Footer.astro";
-import BlogPost from "../../components/BlogLayout.astro";
+import BlogListing from "../../components/BlogListing.astro";
 export function getStaticPaths() {
   return [
     { params: { author: "amirali" }, props: { surname: "taqishah" } },
@@ -16,6 +16,7 @@ const { author } = Astro.params;
 const { surname } = Astro.props;
 ---
 
+<!-- BlogListings page -->
 <head>
   <meta charset="utf-8" />
   <link rel="icon" type="image/svg+xml" href={favicon} />
@@ -25,7 +26,7 @@ const { surname } = Astro.props;
 </head>
 <body>
   <Navbar />
-  <div class="container text-center" style="min-height: 100vh;">
+  <div class="container max-width-1000 text-center" style="min-height: 100vh;">
     <h1 class="mt-5 fw-light">
       Blog posts by
       <span class="fst-italic fw-normal">
@@ -36,15 +37,21 @@ const { surname } = Astro.props;
     <div class="py-5">
       <h1>(This is where the searchbar and the search tags will be)</h1>
     </div>
-    <BlogPost authorName={author} />
+    <BlogListing authorName={author} />
   </div>
   <Footer />
 </body>
 <!-- 
-  current step:
-  - Figure out how the searchbars work in javascript
-  - Implement your own searchbar system with search tags
-  - How can I retrieve the blog posts of an instructor properly and make them appear in an orderly manner? 
-  answer: all of that happens within with ordinary css styling
 
+ 
+  current step: 
+  - Then, Implement your own searchbar system with search tags using kyle's blog search bar
+  - I'll add pagination if it doesn't turn out to be too difficult 
+  - Once the blog system is finalized, I'll go back to turning the hard coded into components
+  - I'll remove the unnecessary inline CSS codes, I'll take care of the require modals
+  - the step after that will be responsiveness issues. The navbar doesn't work outside of homepage
+  - Once that is over, website will be ready to be filled with content (important: must figure out how to implement proper SEO protocols, also, there needs to be a persian version of the whole website)
+  - The final step will be to find out the best host provider for my Joyful Speaking hub
+  - And once that's over, it is finally over. Joyful speaking hub is ready to be viewed and used by everyone :) 
+  
 -->

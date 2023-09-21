@@ -1,9 +1,13 @@
 ---
 instructor: Soheila
-role: coolRoleB
-year: 2018
-link: /blog/my-first-blog
-
+title: The first step
+blogSeriesName: From Zero to Hero
+level: intermediate
+date: June 12, 2023
+link: /blogs/amirali/how-to-learn-english
+introduction: "Markdown is one of 
+the best text markup languages and with this aritcle you will learn everything you need 
+to know to become a master of Markdown."
 ---
 
 # h1 Heading 8-)

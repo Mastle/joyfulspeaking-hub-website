@@ -1,9 +1,13 @@
 ---
 instructor: Sareh
-role: coolRoleC
-year: 2019
-link: /blog/my-first-blog
-
+title: Understanding the schwa sound
+blogSeriesName: Beyond the classroom
+level: advanced
+date: August 12, 2023
+link: /blogs/amirali/how-to-learn-english
+introduction: "Markdown is one of 
+the best text markup languages and with this aritcle you will learn everything you need 
+to know to become a master of Markdown."
 ---
 
 # h1 Heading 8-)

@@ -11973,4 +11973,8 @@ body::before {
   max-width: 1000px !important;
 }
 
+.hidden {
+  display: none;
+}
+
 /*# sourceMappingURL=main.css.map */

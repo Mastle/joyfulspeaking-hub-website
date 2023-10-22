@@ -11968,6 +11968,9 @@ body::before {
   .make-invisible {
     visibility: hidden;
   }
+  .add-border-bottom {
+    border-bottom: 1px solid white;
+  }
 }
 .max-width-1000 {
   max-width: 1000px !important;

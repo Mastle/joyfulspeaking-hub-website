@@ -11980,4 +11980,8 @@ body::before {
   display: none;
 }
 
+.add-padding-bottom {
+  padding-bottom: 2.5rem;
+}
+
 /*# sourceMappingURL=main.css.map */

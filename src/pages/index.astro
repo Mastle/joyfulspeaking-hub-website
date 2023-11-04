@@ -28,6 +28,7 @@ import Footer from "../components/Footer.astro";
     <!-- <Navbar/> -->
     <Navbar />
     <!-- Showcase -->
+    <!-- TODO: connect all forms to your email -->
     <section
       class="bg-primary text-light pt-7 pt-lg-6 text-center text-sm-start"
     >
@@ -68,7 +69,7 @@ import Footer from "../components/Footer.astro";
         </div>
       </div>
     </section>
-    <!-- TODO: as soon as they press submit, a modal pops up that requires the user to choose on of the three programs that are currently avaialble -->
+    <!-- TODO: as soon as they press submit, a modal pops up that requires the user to choose on of the three programs that are currently available -->
     <!-- Boxes -->
     <section class="p-5 my-5 fs-5">
       <div class="container">
@@ -130,16 +131,15 @@ import Footer from "../components/Footer.astro";
             <img src={book} class="img-fluid" alt="" />
           </div>
           <div class="col-md p-5">
-            <h2>Learn The Fundamentals</h2>
+            <h2 class="">Learn The Fundamentals</h2>
             <p class="lead">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Similique deleniti possimus magnam corporis ratione facere!
+              No matter what you want to do with English, it all starts from
+              here
             </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
-              reiciendis eius autem eveniet mollitia, at asperiores suscipit
-              quae similique laboriosam iste minus placeat odit velit quos,
-              nulla architecto amet voluptates?
+            <p class="fs-5">
+              Our comprehensive approach to teaching the fundamnetals of the
+              English language ensures that you know everything you need to have
+              a solid basis as an English speaker
             </p>
             <a href="#" class="btn btn-warning mt-3">
               <i class="bi bi-chevron-right"></i> Read More
@@ -360,7 +360,7 @@ import Footer from "../components/Footer.astro";
         <div class="row g-4">
           <div class="col">
             <div class="card bg-light">
-              <div class="card-body text-center">
+              <div class="card-body text-center add-padding-bottom">
                 <img
                   src="https://randomuser.me/api/portraits/men/11.jpg"
                   class="rounded-circle mb-3"
@@ -368,8 +368,8 @@ import Footer from "../components/Footer.astro";
                 />
                 <h3 class="card-title mb-3">Amirali Taqishah</h3>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                  Nothing excites me more than introducing students to all the
+                  fascinating concepts of the English language
                 </p>
                 <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
                 <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
@@ -518,20 +518,9 @@ import Footer from "../components/Footer.astro";
   </body>
 </html>
 
-<!-- TODO: the main bulk of an instructor's activity can either happen on youtube or the blog section of the website -->
-<!-- TODO: the platforms I'm personally targeting -> youtube(and even aparat?),instagram(I'm not entirely sure about activity as an English teacher 
-  on instagram?), blog posts on this site, even whatsapp stories can be superuseful too -->
-<!-- TODO: Whatever you do, MAKE SURE YOU DO IT GRADUALLY WITH UTMOST MINDFULNESS AND PATIENCE -->
-<!-- TODO: the real content of this website has to be added according to SEO rules. Remember that! -->
-
 <!-- 
 
-    current step: - Make every page production ready. Make use of Astro components as much as you can. Clean up/reorganize all comments and inline css as well. Add real content
-                     -- Finalizing homepage:
-                      --- Nav menu requires aesthetic rework on responsive mode. it needs borders (done)
-                      --- Connect the submission button on the forums to your email
-
-  - Add multilang support for Persian as well
+    current step: 
 
 
 -->

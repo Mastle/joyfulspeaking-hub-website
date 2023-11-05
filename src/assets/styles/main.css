@@ -11980,8 +11980,10 @@ body::before {
   display: none;
 }
 
-.add-padding-bottom {
-  padding-bottom: 2.5rem;
+@media (min-width: 768px) {
+  .add-padding-bottom {
+    padding-bottom: 2.5rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

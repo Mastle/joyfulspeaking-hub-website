@@ -11984,6 +11984,9 @@ body::before {
   .add-padding-bottom {
     padding-bottom: 2.5rem;
   }
+  .newsletter-form-size {
+    width: 545px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

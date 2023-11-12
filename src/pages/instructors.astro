@@ -14,7 +14,7 @@ import Footer from "../components/Footer.astro";
     <title>Joyful Speaking Hub</title>
   </head>
   <body>
-    <Navbar />
+    <Navbar isHomepage={false} />
     <div>
       <h1 class="text-center py-5 my-5">Our Instructors</h1>
     </div>
@@ -83,5 +83,12 @@ import Footer from "../components/Footer.astro";
       </div>
     </section>
     <Footer />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"></script>
   </body>
 </html>
+<!-- 
+  current step: To fix the navbar problem, start with passing props into the Navbar
+ -->

@@ -5,7 +5,11 @@ import Navbar from "../../components/Navbar.astro";
 import Footer from "../../components/Footer.astro";
 ---
 
+<!-- 
+  current step: this page is almost done as well. Write your first legitimate blog post and test the blog post system again
+ -->
 <html lang="en">
+    <!-- TODO: the cards on this page could use better styling -->
     <head>
         <meta charset="utf-8" />
         <!-- <link rel="icon" type="image/svg+xml" href={favicon} /> -->
@@ -27,18 +31,17 @@ import Footer from "../../components/Footer.astro";
                                 <div class="h1 mb-3">
                                     <i class="bi bi-laptop"></i>
                                 </div>
-                                <h3 class="card-title mb-3">
-                                    Amirali Taqishah
+                                <h3 class="card-title mb-4">
+                                    Blog posts by <span class="fst-italic"
+                                        >Amirali Taqishah
+                                    </span>
                                 </h3>
-                                <span class="fw-bold fs-4"
-                                    >From zero to hero</span
-                                >
-                                <p class="card-text">
-                                    Lorem, ipsum dolor sit amet consectetur
-                                    adipisicing elit. Iure, quas quidem possimus
-                                    dolorum esse eligendi?
+                                <p class="card-text fs-4 mb-4">
+                                    Here, you will find articles on general
+                                    English, tips for improving your speaking
+                                    and English literature
                                 </p>
-                                <a href="../amirali" class="btn btn-primary"
+                                <a href="./amirali" class="btn btn-primary"
                                     >Read More</a
                                 >
                             </div>
@@ -50,11 +53,12 @@ import Footer from "../../components/Footer.astro";
                                 <div class="h1 mb-3">
                                     <i class="bi bi-person-square"></i>
                                 </div>
-                                <h3 class="card-title mb-3">Sareh Ranjbar</h3>
-                                <span class="fw-bold fs-4"
-                                    >DIY IELTS techniques</span
-                                >
-                                <p class="card-text">
+                                <h3 class="card-title mb-3">
+                                    Blog posts by <span class="fst-italic"
+                                        >Sareh Ranjbar
+                                    </span>
+                                </h3>
+                                <p class="card-text fs-4">
                                     Lorem, ipsum dolor sit amet consectetur
                                     adipisicing elit. Iure, quas quidem possimus
                                     dolorum esse eligendi?
@@ -65,7 +69,7 @@ import Footer from "../../components/Footer.astro";
                             </div>
                         </div>
                     </div>
-                    <div class="col-md">
+                    <!-- <div class="col-md">
                         <div class="card text-primary border border-primary">
                             <div class="card-body text-center">
                                 <div class="h1 mb-3">
@@ -84,15 +88,14 @@ import Footer from "../../components/Footer.astro";
                                     >Read More</a
                                 >
                             </div>
-                        </div>
-                    </div>
+                        </div> -->
                 </div>
             </div>
         </section>
-        <Footer />
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-            crossorigin="anonymous"></script>
     </body>
+    <Footer />
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
 </html>

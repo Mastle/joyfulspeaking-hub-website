@@ -11993,4 +11993,9 @@ body::before {
   top: 50px;
 }
 
+.position-relative-instructor-img {
+  position: relative;
+  left: 150px;
+}
+
 /*# sourceMappingURL=main.css.map */

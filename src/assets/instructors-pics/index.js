@@ -1,5 +1,5 @@
 import femaleInstructor from './female.svg'
-import maleInstructor from './male.svg'
+import maleInstructor from './male.png'
 import bookLover from './book-lover.svg'
 
 

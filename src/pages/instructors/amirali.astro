@@ -7,8 +7,9 @@ import Navbar from "../../components/Navbar.astro";
 import Footer from "../../components/Footer.astro";
 ---
 
-<!-- TODO: I'm gonna have to use an instructor layout page with components for this one --><!-- TODO: I need to use props to change the navbar content ("what you'll learn & questions are not active outside of homepage) --><!-- TODO: navbar needs to be made responsive outside of homepage -->
+<!-- TODO: I'm gonna have to use an instructor layout page with components for this one -->
 <html lang="en">
+  <!-- TODO: I need to use props to change the navbar content ("what you'll learn & questions are not active outside of homepage) --><!-- TODO: navbar needs to be made responsive outside of homepage -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,22 +18,19 @@ import Footer from "../../components/Footer.astro";
   </head>
   <body>
     <Navbar />
-    <section
-      class="bg-primary text-light pt-7 pt-lg-6 text-center text-sm-start"
-    >
+    <section class="bg-primary text-light pt-7 text-center text-sm-start">
       <div class="container">
         <div class="d-sm-flex align-items-center justify-content-between">
           <div>
             <h1 class="text-warning">Amirali Taqishah</h1>
             <p class="fs-2 my-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. natus
-              commodi
+              My students quickly learn that learning English is, in fact, a lot
+              of fun
             </p>
           </div>
-          <div class="mb-3">
+          <div>
             <img
-              class="img-fluid d-none d-sm-block"
-              style="width: 70%;"
+              class="img-fluid d-none d-sm-block position-relative-instructor-img"
               src={maleInstructor}
               alt=""
             />
@@ -58,18 +56,16 @@ import Footer from "../../components/Footer.astro";
           <div class="col-md p-5">
             <h2>My main philosohpy</h2>
             <p class="lead">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Similique deleniti possimus magnam corporis ratione facere!
+              Anyone can learn English. It's all about your goals and how you go
+              about achieving them
             </p>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
-              reiciendis eius autem eveniet mollitia, at asperiores suscipit
-              quae similique laboriosam iste minus placeat odit velit quos,
-              nulla architecto amet voluptates?
+              If you need guidance on where to start, or if you'd like to know
+              more about me and my approach, you can click the link below to
+              learn about all of that
             </p>
             <a href="#" class="btn btn-warning mt-3">
-              <i class="bi bi-chevron-right"></i> link to the first blog post that
-              explains our method
+              <i class="bi bi-chevron-right"></i> Read more
             </a>
           </div>
         </div>
@@ -155,20 +151,13 @@ import Footer from "../../components/Footer.astro";
             <h2 class="text-center mb-4">Contact Info</h2>
             <ul class="list-group list-group-flush lead">
               <li class="list-group-item border-4 border-dark">
-                <span class="fw-bold">Main Location:</span> 50 Main st Boston MA
+                <span class="fw-bold">Main Location:</span> Tehran, Haft-e tir Square
               </li>
               <li class="list-group-item border-4 border-dark">
-                <span class="fw-bold">Enrollment Phone:</span> (555) 555-5555
+                <span class="fw-bold">Phone:</span> +989352487000
               </li>
               <li class="list-group-item border-4 border-dark">
-                <span class="fw-bold">Student Phone:</span> (333) 333-3333
-              </li>
-              <li class="list-group-item border-4 border-dark">
-                <span class="fw-bold">Enrollment Email:</span> (555) enroll@frontendbc.test
-              </li>
-              <li class="list-group-item border-4 border-dark">
-                <span class="fw-bold">Student Email:</span>
-                student@frontendbc.test
+                <span class="fw-bold">Email:</span> amirali.tsh13@gmail.com
               </li>
             </ul>
           </div>

@@ -12016,4 +12016,9 @@ body::before {
   left: 28px;
 }
 
+.position-relative-right-blog-header {
+  position: relative;
+  right: 20px;
+}
+
 /*# sourceMappingURL=main.css.map */

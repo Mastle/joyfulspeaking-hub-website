@@ -1,9 +1,14 @@
 ---
 import favicon from "../../../assets/js_favicon.svg";
-
+import BlogLayout from "../../../components/BlogLayout.astro";
 export function getStaticPaths() {
-    return [{ params: { author: "amirali", blog: "how-to-learn-english" } }];
+    return [
+        { params: { author: "amirali", blog: "how-to-learn-english" } },
+        { params: { author: "amirali", blog: "the-first-step" } },
+    ];
 }
+
+const { blog, author } = Astro.params;
 ---
 
 <head>
@@ -13,7 +18,7 @@ export function getStaticPaths() {
     <title>Joyful Speaking Hub</title>
 </head>
 <main>
-    <!-- The javascript code that'll return the right article that the user has clicked on will run here -->
+    <BlogLayout blogPostTitle={blog} blogAuthor={author} />
 </main>
 <!-- 
 step 2: whenever a blog post is added, we have to add the name of its author and its title as properties of the params object 

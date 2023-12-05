@@ -4,13 +4,13 @@ title: The first step
 blogSeriesName: From Zero to Hero
 level: intermediate
 date: June 12, 2023
-link: /blogs/amirali/how-to-learn-english
+link: /blogs/amirali/the-first-step
 introduction: "Markdown is one of 
 the best text markup languages and with this aritcle you will learn everything you need 
 to know to become a master of Markdown."
 ---
 
-# h1 Heading 8-)
+# h1 Heading 8-))
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading

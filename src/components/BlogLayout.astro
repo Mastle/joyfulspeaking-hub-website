@@ -1,0 +1,52 @@
+---
+const allPostContent = await Astro.glob(`../content/*/*.md`);
+
+const { blogPostTitle, blogAuthor } = Astro.props;
+const newBlogPostTitle = blogPostTitle.replaceAll("-", " ");
+---
+
+<!-- current step: See if you can return the parameter that is passed into this component as a prop -->{
+    allPostContent.map((post) => {
+        if (
+            post.frontmatter.title.toLowerCase() === newBlogPostTitle &&
+            post.frontmatter.instructor.toLowerCase() === blogAuthor
+        ) {
+            return <div set:html={post.compiledContent()} />;
+        }
+    })
+}
+<!-- 
+{
+    allPostContent.map((post) => {
+        if (post.frontmatter.instructor.toLowerCase() === authorName) {
+            return (
+                <div class="text-start p-3" data-post>
+                    <a
+                        target="_blank"
+                        class="text-primary-hover"
+                        href={post.frontmatter.link}
+                    >
+                        <h1 class="fs-1 fw-bold mt-5">
+                            {post.frontmatter.title}{" "}
+                        </h1>{" "}
+                    </a>
+                    <p class="text-secondary">{post.frontmatter.date}</p>
+                    <span class="border border-dark rounded p-2">
+                        {post.frontmatter.blogSeriesName}
+                    </span>
+                    <p class="mt-4 fs-5">{post.frontmatter.introduction} </p>
+                    <a
+                        target="_blank"
+                        class="text-primary"
+                        href={post.frontmatter.link}
+                    >
+                        Read more
+                    </a>
+                    <p class="text-secondary mt-3">
+                        level: {post.frontmatter.level}
+                    </p>
+                </div>
+            );
+        }
+    })
+} -->

@@ -6,7 +6,7 @@ import Footer from "../../components/Footer.astro";
 ---
 
 <!-- 
-  current step: this page is almost done as well (add lists to the cards first).Then, Write your first legitimate blog post and test the blog post system again
+  current step: Then, Write your first legitimate blog post and test the blog post system again. If that quickly succeeds, redesign the left card (blue background white text) and a blog icon to the "Blogs" header
  -->
 <html lang="en">
     <!-- TODO: the cards on this page could use better styling -->
@@ -15,18 +15,27 @@ import Footer from "../../components/Footer.astro";
         <!-- <link rel="icon" type="image/svg+xml" href={favicon} /> -->
         <meta name="viewport" content="width=device-width" />
         <meta name="generator" content={Astro.generator} />
+        <script
+            src="https://kit.fontawesome.com/7ba95182a4.js"
+            crossorigin="anonymous"></script>
         <title>Joyful Speaking Hub</title>
     </head>
     <body>
         <Navbar />
         <div>
-            <h1 class="text-center py-5 my-5 fw-semibold">Blogs</h1>
+            <h1
+                class="text-center py-5 my-5 fw-semibold position-relative-right-blog-header"
+            >
+                <i class="fa-solid fa-blog me-2"></i>Blogs
+            </h1>
         </div>
         <section class="p-2">
             <div class="container min-height-half-vh">
                 <div class="row text-center g-4">
                     <div class="col-md">
-                        <div class="card text-primary border border-primary">
+                        <div
+                            class="card text-light bg-primary border border-primary"
+                        >
                             <div class="card-body text-center">
                                 <div class="h1 mb-3">
                                     <i class="bi bi-laptop"></i>
@@ -48,7 +57,7 @@ import Footer from "../../components/Footer.astro";
                                     <li class="my-2">Tips for speaking</li>
                                     <li class="my-2">English literature</li>
                                 </ul>
-                                <a href="./amirali" class="btn btn-primary"
+                                <a href="./amirali" class="btn btn-light"
                                     >Read More</a
                                 >
                             </div>
@@ -82,9 +91,7 @@ import Footer from "../../components/Footer.astro";
                                         Advanced Grammar Tips
                                     </li>
                                 </ul>
-                                <a href="./amirali" class="btn btn-dark mt-5"
-                                    >Read More</a
-                                >
+                                <a class="btn btn-dark mt-5">coming soon</a>
                             </div>
                         </div>
                         <!-- <div class="card bg-lightDark text-light">

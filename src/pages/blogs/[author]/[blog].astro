@@ -1,6 +1,9 @@
 ---
 import favicon from "../../../assets/js_favicon.svg";
+import "../../../assets/styles/main.css";
 import BlogLayout from "../../../components/BlogLayout.astro";
+import Navbar from "../../../components/Navbar.astro";
+import Footer from "../../../components/Footer.astro";
 export function getStaticPaths() {
     return [
         { params: { author: "amirali", blog: "how-to-learn-english" } },
@@ -18,11 +21,7 @@ const { blog, author } = Astro.params;
     <title>Joyful Speaking Hub</title>
 </head>
 <main>
+    <Navbar />
     <BlogLayout blogPostTitle={blog} blogAuthor={author} />
+    <Footer />
 </main>
-<!-- 
-step 2: whenever a blog post is added, we have to add the name of its author and its title as properties of the params object 
-        on this page
-        then the blog post component will fire up, which will display the actual blog on this page.
-        now I just have to go back, make sure the blog list page ([author]) looks pretty, set up a few more components and finalize the blog system
--->

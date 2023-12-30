@@ -3,6 +3,7 @@ import "../../assets/styles/main.css";
 import favicon from "../../assets/js_favicon.svg";
 import mainLogo from "../../assets/bottom-page-logo.png";
 import { maleInstructor, bookLover } from "../../assets/instructors-pics";
+import { TestimonialOne } from "../../assets/instructors/amirali/index";
 import Navbar from "../../components/Navbar.astro";
 import Footer from "../../components/Footer.astro";
 ---
@@ -82,15 +83,11 @@ import Footer from "../../components/Footer.astro";
           <div class="col">
             <div class="card bg-light">
               <div class="card-body text-center">
-                <img
-                  src="https://randomuser.me/api/portraits/men/10.jpg"
-                  class="rounded-circle mb-3"
-                  alt=""
-                />
-                <h3 class="card-title mb-3">John Doe</h3>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                <img src={TestimonialOne} class="rounded-circle mb-3" alt="" />
+                <h3 class="card-title mb-3">Mehrad Nouri</h3>
+                <p class="card-text fs-5">
+                  His amazing teaching techniques cause you to fall in love with
+                  English
                 </p>
                 <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
                 <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>

@@ -6,7 +6,7 @@ level: beginner
 date: December 28, 2023
 link: /blogs/amirali/class-formats-explained
 introduction: "In this post, we will quickly go over all of the available formats for attending Joyful Speaking classes"
-audioLink: "will be added soon"
+audioLink: https://youtu.be/g-HN-aa-wvo
 ---
 
 

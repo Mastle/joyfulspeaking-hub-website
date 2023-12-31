@@ -7,7 +7,7 @@ date: December 27, 2023
 link: /blogs/amirali/the-very-first-step
 introduction: "So where is the starting point in the vast world of learning English? 
 and what are the prerequisites for achieving ideal results? all of this might sound overwhelming, but a little perspective shift is all you need!"
-audioLink: https://www.youtube.com/watch?v=9XtIWUSAF2A
+audioLink: https://youtu.be/9XtIWUSAF2A
 ---
 
 

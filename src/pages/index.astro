@@ -6,6 +6,9 @@ import {
   education,
   hubArea,
   notebook,
+  firstInstructor,
+  secondInstructor,
+  thirdInstructor,
 } from "../assets/home/index.js";
 import favicon from "../assets/js_favicon.svg";
 import Navbar from "../components/Navbar.astro";
@@ -353,11 +356,7 @@ import Footer from "../components/Footer.astro";
           <div class="col">
             <div class="card bg-light">
               <div class="card-body text-center add-padding-bottom">
-                <img
-                  src="https://randomuser.me/api/portraits/men/11.jpg"
-                  class="rounded-circle mb-3"
-                  alt=""
-                />
+                <img src={firstInstructor} class="rounded-circle mb-3" alt="" />
                 <h3 class="card-title mb-3">Amirali Taqishah</h3>
                 <p class="card-text">
                   Nothing excites me more than introducing students to all the
@@ -375,14 +374,14 @@ import Footer from "../components/Footer.astro";
             <div class="card bg-light">
               <div class="card-body text-center">
                 <img
-                  src="https://randomuser.me/api/portraits/women/11.jpg"
+                  src={secondInstructor}
                   class="rounded-circle mb-3"
                   alt=""
                 />
                 <h3 class="card-title mb-3">Sareh Ranjbar</h3>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                  Seeing the transformation of my students is an incredible
+                  experience that I feel privileged to have in all my classes
                 </p>
                 <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
                 <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
@@ -395,15 +394,12 @@ import Footer from "../components/Footer.astro";
           <div class="col">
             <div class="card bg-light">
               <div class="card-body text-center">
-                <img
-                  src="https://randomuser.me/api/portraits/women/12.jpg"
-                  class="rounded-circle mb-3"
-                  alt=""
-                />
+                <img src={thirdInstructor} class="rounded-circle mb-3" alt="" />
                 <h3 class="card-title mb-3">Soheila Asheqi</h3>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                  Nurturing young minds through games and fun activities fills
+                  me with joy. I look forward to recreating that experience with
+                  more children
                 </p>
                 <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
                 <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
@@ -541,9 +537,7 @@ import Footer from "../components/Footer.astro";
 -->
 <!-- 
   current step: 
-  - Re-re-record the audio for your second blog
-  - Add all the required text (make the website production ready) 
-  - Add your pictures
+  - Add all the required content - make the website production ready (blog posts definitely need a back button) (longer text for your own instrcutor page) 
   - Build and make sure everything works the way it's supposed to
   - Add Persian translation (don't forget the blogs)
   - Build the final version

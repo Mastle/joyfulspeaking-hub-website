@@ -12,10 +12,21 @@ const newBlogPostTitle = blogPostTitle.replaceAll("-", " ");
             post.frontmatter.instructor.toLowerCase() === blogAuthor
         ) {
             return (
-                <div class="pb-5">
+                <div class="position-relative pb-5">
                     <h1 class="mt-5 pt-5 fw-bold">{post.frontmatter.title}</h1>
+                    <a href={`../${blogAuthor}`}>
+                        <i
+                            style="top:65px"
+                            class="position-absolute end-0 fa-solid fa-rotate-left"
+                        />
+                    </a>
                     <p class="text-secondary pt-1">{post.frontmatter.date}</p>
-                    <a target="_blank" href={post.frontmatter.audioLink}>
+                    <a
+                        style="width: 330px;"
+                        class="d-block"
+                        target="_blank"
+                        href={post.frontmatter.audioLink}
+                    >
                         <p class="text-primary">
                             Click here for the audio version
                         </p>

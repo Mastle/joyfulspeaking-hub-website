@@ -1,5 +1,8 @@
 ---
-const { isHomepage } = Astro.props;
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <nav
@@ -20,23 +23,20 @@ const { isHomepage } = Astro.props;
     <div class="collapse navbar-collapse" id="navmenu">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
+          <a class="nav-link nav-item-on-hover text-white fs-5">
+            {t("nav.learn")}</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-item-on-hover text-white fs-5"
+            >{t("nav.questions")}</a
+          >
+        </li>
+        <li class="nav-item">
           <a
-            href={isHomepage ? "#learn" : "/#learn"}
+            href={`./blogs/authors`}
             class="nav-link nav-item-on-hover text-white fs-5"
-          >
-            What You'll Learn</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            href={isHomepage ? "#questions" : "/#questions"}
-            class="nav-link nav-item-on-hover text-white fs-5">Questions</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            href="/blogs/authors"
-            class="nav-link nav-item-on-hover text-white fs-5">blogs</a
+            >{t("nav.blogs")}</a
           >
         </li>
       </ul>

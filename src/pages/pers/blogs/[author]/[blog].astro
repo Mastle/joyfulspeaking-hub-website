@@ -1,0 +1,44 @@
+---
+import favicon from "../../../assets/js_favicon.svg";
+import "../../../assets/styles/main.css";
+import BlogLayout from "../../../components/BlogLayout.astro";
+import Navbar from "../../../components/Navbar.astro";
+import Footer from "../../../components/Footer.astro";
+export function getStaticPaths() {
+    return [
+        { params: { author: "amirali", blog: "the-very-first-step" } },
+        {
+            params: {
+                author: "amirali",
+                blog: "class-formats-explained",
+            },
+        },
+    ];
+}
+
+const { blog, author } = Astro.params;
+---
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href={favicon} />
+    <script
+        src="https://kit.fontawesome.com/7ba95182a4.js"
+        crossorigin="anonymous"></script>
+    <title>Joyful Speaking Hub</title>
+</head>
+<main>
+    <Navbar />
+    <div class="container max-width-1000">
+        <BlogLayout blogPostTitle={blog} blogAuthor={author} />
+    </div>
+    <Footer />
+</main>
+
+<style>
+    body {
+        font-size: 1.5rem;
+        line-height: 1.625;
+    }
+</style>

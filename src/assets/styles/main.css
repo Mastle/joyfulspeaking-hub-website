@@ -12029,4 +12029,13 @@ body::before {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .navbar-nav-pers {
+    text-align: right !important;
+  }
+  .responsive-paragraph-pers {
+    text-align: center !important;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

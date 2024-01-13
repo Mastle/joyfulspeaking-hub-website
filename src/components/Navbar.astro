@@ -21,7 +21,11 @@ const t = useTranslations(lang);
     </button>
 
     <div class="collapse navbar-collapse" id="navmenu">
-      <ul class="navbar-nav ms-auto">
+      <ul
+        class={lang === "pers"
+          ? "navbar-nav navbar-nav-pers ms-auto"
+          : "navbar-nav ms-auto"}
+      >
         <li class="nav-item">
           <a class="nav-link nav-item-on-hover text-white fs-5">
             {t("nav.learn")}</a

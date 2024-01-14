@@ -33,7 +33,7 @@ const lang = getLangFromUrl(Astro.url);
   </head>
   <body>
     <!-- <Navbar/> -->
-    <Navbar />
+    <Navbar isHome={true} />
     <!-- Showcase -->
     <section
       class="bg-primary text-light pt-7 pt-lg-6 text-center text-sm-start"
@@ -79,7 +79,7 @@ const lang = getLangFromUrl(Astro.url);
                 type="text"
                 class="form-control"
                 name="email"
-                placeholder="Enter Email"
+                placeholder="ایمیلتان را وارد کنید"
                 required
               />
               <button class="btn btn-dark btn-lg" type="submit">ارسال</button>
@@ -563,12 +563,10 @@ const lang = getLangFromUrl(Astro.url);
         <div class="modal-content">
           <div class="modal-body">
             <p class="text-center">
-              Soheila will soon add a page that fully describes her teaching
-              methodology. In the meantime, you can
-              <a class="form-link" href="https://t.me/Star75moon">
-                send her a message</a
-              >
-              to inquire about her classes
+              به زودی این صفحه به وب سایت اضافه خواهد شد. در حال حاضر می توانید
+              به مدرس مربوطه
+              <a class="form-link" href="https://t.me/Star75moon"> از اینجا</a>
+              پیام بفرستید
             </p>
           </div>
         </div>
@@ -585,12 +583,12 @@ const lang = getLangFromUrl(Astro.url);
         <div class="modal-content">
           <div class="modal-body">
             <p class="text-center">
-              Sareh will soon add a page that fully describes her teaching
-              methodology. In the meantime, you can
+              به زودی این صفحه به وب سایت اضافه خواهد شد. در حال حاضر می توانید
+              به مدرس مربوطه
               <a class="form-link" href="https://t.me/sarehranjbar">
-                send her a message</a
+                از اینجا</a
               >
-              to inquire about her classes
+              پیام بفرستید
             </p>
           </div>
         </div>
@@ -612,9 +610,9 @@ const lang = getLangFromUrl(Astro.url);
 <!-- 
   current step: 
   - Add Persian translation (don't forget the blogs)
-   -- Fix navbar links
    -- hide language from url
    -- add a change language button to the page
+   -- revise and re-upload persian blogs
   - Build the final version
   - Release
   - Once the website has been released, create a separate branch from the main branch for working on the "instrcutors" section

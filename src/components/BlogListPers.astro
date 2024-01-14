@@ -1,7 +1,7 @@
 ---
 const { authorName } = Astro.props;
 
-const allPostContent = await Astro.glob(`../content/en/*/*.md`);
+const allPostContent = await Astro.glob(`../content/pers/*/*.md`);
 allPostContent.reverse();
 ---
 
@@ -9,10 +9,10 @@ allPostContent.reverse();
     allPostContent.map((post) => {
         if (post.frontmatter.instructor.toLowerCase() === authorName) {
             return (
-                <div class="text-start p-3" data-post>
+                <div class="text-end p-3" data-post>
                     <a class="text-primary-hover" href={post.frontmatter.link}>
                         <h1 class="fs-1 fw-bold mt-5">
-                            {post.frontmatter.title}
+                            {post.frontmatter.persianTitle}
                         </h1>
                     </a>
                     <p class="text-secondary my-3">{post.frontmatter.date}</p>
@@ -21,10 +21,10 @@ allPostContent.reverse();
                     </span>
                     <p class="mt-4 fs-5">{post.frontmatter.introduction} </p>
                     <a class="text-primary" href={post.frontmatter.link}>
-                        Read more
+                        ادامه
                     </a>
                     <p class="text-secondary mt-3">
-                        level: {post.frontmatter.level}
+                        سطح: {post.frontmatter.level}
                     </p>
                 </div>
             );

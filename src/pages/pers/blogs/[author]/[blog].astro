@@ -1,9 +1,9 @@
 ---
 import favicon from "../../../assets/js_favicon.svg";
-import "../../../assets/styles/main.css";
-import BlogLayout from "../../../components/BlogLayout.astro";
-import Navbar from "../../../components/Navbar.astro";
-import Footer from "../../../components/Footer.astro";
+import "../../../../assets/styles/main.css";
+import BlogLayoutPers from "../../../../components/BlogLayoutPers.astro";
+import Navbar from "../../../../components/Navbar.astro";
+import Footer from "../../../../components/Footer.astro";
 export function getStaticPaths() {
     return [
         { params: { author: "amirali", blog: "the-very-first-step" } },
@@ -26,12 +26,12 @@ const { blog, author } = Astro.params;
     <script
         src="https://kit.fontawesome.com/7ba95182a4.js"
         crossorigin="anonymous"></script>
-    <title>Joyful Speaking Hub</title>
+    <title>Joyful Speaking</title>
 </head>
 <main>
-    <Navbar />
+    <Navbar isHome={false} />
     <div class="container max-width-1000">
-        <BlogLayout blogPostTitle={blog} blogAuthor={author} />
+        <BlogLayoutPers blogPostTitle={blog} blogAuthor={author} />
     </div>
     <Footer />
 </main>

@@ -1,8 +1,8 @@
 ---
-import "../../assets/styles/main.css";
+import "../../../assets/styles/main.css";
 import favicon from "../../assets/js_favicon.svg";
-import Navbar from "../../components/Navbar.astro";
-import Footer from "../../components/Footer.astro";
+import Navbar from "../../../components/Navbar.astro";
+import Footer from "../../../components/Footer.astro";
 ---
 
 <html lang="en">
@@ -14,10 +14,10 @@ import Footer from "../../components/Footer.astro";
         <script
             src="https://kit.fontawesome.com/7ba95182a4.js"
             crossorigin="anonymous"></script>
-        <title>Joyful Speaking Hub</title>
+        <title>Joyful Speaking</title>
     </head>
     <body>
-        <Navbar />
+        <Navbar isHome={false} />
         <div>
             <h1
                 class="text-center py-5 my-5 fw-semibold position-relative-right-blog-header"

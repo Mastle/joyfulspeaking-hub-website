@@ -3,17 +3,12 @@ import "../../../assets/styles/main.css";
 import favicon from "../../../assets/js_favicon.svg";
 import Navbar from "../../../components/Navbar.astro";
 import Footer from "../../../components/Footer.astro";
-import BlogList from "../../../components/BlogList.astro";
+import BlogListPers from "../../../components/BlogListPers.astro";
 export function getStaticPaths() {
-  return [
-    { params: { author: "amirali" }, props: { surname: "taqishah" } },
-    { params: { author: "sareh" }, props: { surname: "ranjbar" } },
-    { params: { author: "soheila" }, props: { surname: "asheqi" } },
-  ];
+  return [{ params: { author: "amirali" } }, { params: { author: "sareh" } }];
 }
 
 const { author } = Astro.params;
-const { surname } = Astro.props;
 ---
 
 <!-- BlogList page -->
@@ -22,23 +17,22 @@ const { surname } = Astro.props;
   <link rel="icon" type="image/svg+xml" href={favicon} />
   <meta name="viewport" content="width=device-width" />
   <meta name="generator" content={Astro.generator} />
-  <title>Joyful Speaking Hub</title>
+  <title>Joyful Speaking</title>
 </head>
 <body>
-  <Navbar />
+  <Navbar isHome={false} />
   <div class="container max-width-1000" style="min-height: 100vh;">
     <h1 class="text-center mt-5 fw-light">
-      Blog posts by
+      بلاگ های
       <span class="fst-italic fw-normal">
-        {author[0].toUpperCase() + author.slice(1)}
-        {surname[0].toUpperCase() + surname.slice(1)}
+        {author === "amirali" ? " امیرعلی تقی شاه" : "ساره رنجبر"}
       </span>
     </h1>
     <div class="d-flex flex-column py-5 px-3">
-      <label class="fw-semibold text-right fs-3" for="search">Search</label>
+      <label class="fw-semibold text-end fs-3 mb-3" for="search">جستجو</label>
       <input class="p-2" type="search" id="search" />
     </div>
-    <BlogList authorName={author} />
+    <BlogListPers authorName={author} />
   </div>
   <Footer />
 </body>
@@ -48,12 +42,12 @@ const { surname } = Astro.props;
   const searchInput = document.querySelector("#search");
 
   searchInput.addEventListener("input", (e) => {
-    const value = e.target.value.toLowerCase();
+    const value = e.target.value;
     blogPosts.forEach((post) => {
       const isVisible =
-        post.title.toLowerCase().includes(value) ||
-        post.series.toLowerCase().includes(value) ||
-        post.level.toLowerCase().includes(value);
+        post.title.includes(value) ||
+        post.series.includes(value) ||
+        post.level.includes(value);
       post.element.classList.toggle("hidden", !isVisible);
     });
   });

@@ -1,6 +1,6 @@
 ---
 import { getLangFromUrl, useTranslations } from "../i18n/utils";
-const { isHome } = Astro.props;
+const { isHome, learnAddress, questionAddress } = Astro.props;
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -10,8 +10,9 @@ const t = useTranslations(lang);
   class="navbar navbar-expand-lg bg-primary navbar-dark py-3 fixed-top add-border-bottom"
 >
   <div class="container">
-    <a href={`/${lang}`} class="navbar-brand nav-item-on-hover fs-3"
-      >Joyful Speaking</a
+    <a
+      href={lang === "pers" ? "/" : "/en"}
+      class="navbar-brand nav-item-on-hover fs-3">Joyful Speaking</a
     >
 
     <button
@@ -30,29 +31,34 @@ const t = useTranslations(lang);
           : "navbar-nav ms-auto"}
       >
         <li class="nav-item">
-          <a class="nav-link nav-item-on-hover text-white fs-5"> English</a>
-          <li class="nav-item">
-            <a
-              href={isHome ? "#learn" : "../#learn"}
-              class="nav-link nav-item-on-hover text-white fs-5"
-            >
-              {t("nav.learn")}</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              href={isHome ? "#questions" : "../#questions"}
-              class="nav-link nav-item-on-hover text-white fs-5"
-              >{t("nav.questions")}</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              href={`/${lang}/blogs/authors`}
-              class="nav-link nav-item-on-hover text-white fs-5"
-              >{t("nav.blogs")}</a
-            >
-          </li>
+          <a
+            href={isHome ? "#learn" : learnAddress}
+            class="nav-link nav-item-on-hover text-white fs-5"
+          >
+            {t("nav.learn")}</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href={isHome ? "#questions" : questionAddress}
+            class="nav-link nav-item-on-hover text-white fs-5"
+            >{t("nav.questions")}</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href={lang === "pers" ? "/blogs/authors" : "/en/blogs/authors"}
+            class="nav-link nav-item-on-hover text-white fs-5"
+            >{t("nav.blogs")}</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href={lang === "pers" ? "/en" : "/"}
+            class="nav-link nav-item-on-hover text-white fs-5"
+          >
+            {t("nav.language")}</a
+          >
         </li>
       </ul>
     </div>

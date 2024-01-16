@@ -5,7 +5,7 @@ persianTitle: اولین قدم
 blogSeriesName: before you begin
 level: مبتدی
 date: ۱۴۰۲، ۱۸ اسفند
-link: /pers/blogs/amirali/the-very-first-step
+link: /blogs/amirali/the-very-first-step
 introduction: " بنابراین نقطه شروع در دنیای وسیع یادگیری زبان انگلیسی کجاست؟
 و پیش نیازهای دستیابی به نتایج ایده آل چیست؟ همه اینها ممکن است طاقت فرسا به نظر برسد، اما کمی تغییر دیدگاه تنها چیزی است که نیاز دارید"
 audioLink: https://youtu.be/9XtIWUSAF2A

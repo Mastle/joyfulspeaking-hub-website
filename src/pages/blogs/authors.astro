@@ -1,8 +1,8 @@
 ---
-import "../../../assets/styles/main.css";
-import favicon from "../../../assets/js_favicon.svg";
-import Navbar from "../../../components/Navbar.astro";
-import Footer from "../../../components/Footer.astro";
+import "../../assets/styles/main.css";
+import favicon from "../../assets/js_favicon.svg";
+import Navbar from "../../components/Navbar.astro";
+import Footer from "../../components/Footer.astro";
 ---
 
 <html lang="en">
@@ -17,7 +17,11 @@ import Footer from "../../../components/Footer.astro";
         <title>Joyful Speaking</title>
     </head>
     <body>
-        <Navbar isHome={false} />
+        <Navbar
+            isHome={false}
+            learnAddress="../#learn"
+            questionAddress="../#questions"
+        />
         <div>
             <h1
                 class="text-center py-5 my-5 fw-semibold position-relative-right-blog-header"

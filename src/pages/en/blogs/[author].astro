@@ -25,7 +25,11 @@ const { surname } = Astro.props;
   <title>Joyful Speaking</title>
 </head>
 <body>
-  <Navbar isHome={false} />
+  <Navbar
+    isHome={false}
+    learnAddress="../#learn"
+    questionAddress="../#questions"
+  />
   <div class="container max-width-1000" style="min-height: 100vh;">
     <h1 class="text-center mt-5 fw-light">
       Blog posts by

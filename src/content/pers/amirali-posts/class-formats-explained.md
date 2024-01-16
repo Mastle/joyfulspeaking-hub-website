@@ -5,7 +5,7 @@ persianTitle: انواع کلاس ها
 blogSeriesName: before you begin
 level: مبتدی
 date: ۱۴۰۲، ۱۹ اسفند
-link: /pers/blogs/amirali/class-formats-explained
+link: /blogs/amirali/class-formats-explained
 introduction: "در این پست به سرعت تمام فرمت های موجود برای شرکت در کلاس های Joyful Speaking را مرور خواهیم کرد"
 audioLink: https://youtu.be/g-HN-aa-wvo
 ---

@@ -29,7 +29,11 @@ const { blog, author } = Astro.params;
     <title>Joyful Speaking</title>
 </head>
 <main>
-    <Navbar isHome={false} />
+    <Navbar
+        isHome={false}
+        learnAddress="../../#learn"
+        questionAddress="../../#questions"
+    />
     <div class="container max-width-1000">
         <BlogLayout blogPostTitle={blog} blogAuthor={author} />
     </div>

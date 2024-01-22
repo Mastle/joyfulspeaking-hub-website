@@ -47,8 +47,8 @@ const lang = getLangFromUrl(Astro.url);
               بدون دردسر زبان انگلیسی را <span class="text-warning">سلیس</span> صحبت
               کنید
             </h1>
-            <p class="lead my-4 fs-4">
-              هدف اصلی ما آموختن اساس مهم زبان انگلیسی از طریق بهترین و برترین
+            <p class="lead my-4 fs-5">
+              هدف اصلی ما آموختن مفاهیم مهم زبان انگلیسی از طریق بهترین و برترین
               روش های آموزش زبان است
             </p>
             <button
@@ -69,7 +69,7 @@ const lang = getLangFromUrl(Astro.url);
         <div
           class="d-md-flex justify-content-between align-items-center responsive-paragraph"
         >
-          <h3 class="mb-3 mb-md-0">برای هفته نامه ما ثبت نام کنید</h3>
+          <h3 class="mb-3 mb-md-0">در هفته نامه ما ثبت نام کنید</h3>
           <form
             action="https://formspree.io/f/mbjverqb"
             method="POST"
@@ -155,15 +155,15 @@ const lang = getLangFromUrl(Astro.url);
       <div class="container">
         <div class="row align-items-center justify-content-between text-light">
           <div class="col-md p-5 text-end responsive-paragraph">
-            <h2>اساس را بیاموزید</h2>
+            <h2 class="pb-3">مفاهیم اساسی را بیاموزید</h2>
             <p class="lead">
-              هر هدفی که از یادگیری زبان انلگلیسی داشته باشید، نقطه شروع از همین
-              جاست
+              هر هدفی که از شروع به یادگیری زبان انلگلیسی داشته باشید، آغاز مسیر
+              از همین جاست
             </p>
             <p class="fs-5">
               رویکرد جامع ما برای آموزش اصول اولیه زبان انگلیسی تضمین می کند که
               شما همه مفاهیمی را که برای داشتن یک پایه محکم به عنوان یک زبان
-              آموز نیاز دارید می دانید
+              آموز نیاز دارید یاد می گیرید
             </p>
             <a
               href="./blogs/amirali/the-very-first-step"
@@ -178,40 +178,14 @@ const lang = getLangFromUrl(Astro.url);
         </div>
       </div>
     </section>
-
-    <section id="learn" class="p-5 my-3">
+    <section id="learn" class="p-5">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md">
-            <img src={children} class="img-fluid" alt="" />
+            <img src={education} class="img-fluid" alt="" />
           </div>
           <div class="col-md p-5 text-end responsive-paragraph">
-            <h2>روشی منحصر به فرد برای آموزش کودکان</h2>
-            <p class="lead">
-              کودکی زمان فوق العاده است برای شروع به یادگیری زبان انگلیسی
-            </p>
-            <p class="fs-5">
-              با ثبت نام درکلاس های پویای ما، پتانسیل بی حد و مرز آینده فرزندتان
-              را باز کنید! ما در پرورش ذهنی که علاقه مند به فراگیری زبان است
-              تخصص داریم
-            </p>
-            <a
-              data-bs-toggle="modal"
-              data-bs-target="#children"
-              class="btn btn-primary mt-3"
-            >
-              <i class="bi bi-chevron-right"></i> بیشتر
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="learn" class="p-5 bg-primary text-light">
-      <div class="container">
-        <div class="row align-items-center justify-content-between">
-          <div class="col-md p-5 text-end responsive-paragraph">
-            <h2>گرامر و آیلتس پیشرفته را بیاموزید</h2>
+            <h2 class="pb-2">گرامر پیشرفته و آیلتس</h2>
             <p class="lead">
               برای آزمون آیلتس به ساده ترین شکل ممکن آماده شوید
             </p>
@@ -223,17 +197,42 @@ const lang = getLangFromUrl(Astro.url);
             <a
               data-bs-toggle="modal"
               data-bs-target="#ielts"
+              class="btn btn-primary mt-3"
+            >
+              <i class="bi bi-chevron-right"></i> بیشتر
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="learn" class="p-5 my-3 bg-primary">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5 text-end responsive-paragraph text-light">
+            <h2 class="pb-2">روشی منحصر به فرد برای آموزش کودکان</h2>
+            <p class="lead">
+              کودکی زمان فوق العاده است برای شروع به یادگیری زبان انگلیسی
+            </p>
+            <p class="fs-5">
+              با ثبت نام درکلاس های پویای ما، پتانسیل بی حد و مرز آینده فرزندتان
+              را باز کنید! ما در پرورش ذهنی که علاقه مند به فراگیری زبان است
+              تخصص داریم
+            </p>
+            <a
+              data-bs-toggle="modal"
+              data-bs-target="#children"
               class="btn btn-warning mt-3"
             >
               <i class="bi bi-chevron-right"></i> بیشتر
             </a>
           </div>
           <div class="col-md">
-            <img src={education} class="img-fluid" alt="" />
+            <img src={children} class="img-fluid" alt="" />
           </div>
         </div>
       </div>
     </section>
+
     <!-- Question Accordion -->
     <section id="questions" class="p-5">
       <div class="container">
@@ -257,10 +256,10 @@ const lang = getLangFromUrl(Astro.url);
               data-bs-parent="#questions"
             >
               <div class="accordion-body text-end">
-                مربیان ما در مناطق مختلف تهران مستقر هستند. فقط باید مطمئن شوید
-                که مربی انتخابی شما می تواند کلاس ها را در نزدیکی محل شما برگزار
+                مربیان ما در مناطق مختلف تهران قرار دارند. فقط باید مطمئن شوید
+                که مربی منتخب شما می تواند کلاس ها را در نزدیکی محل شما برگزار
                 کند. برای اطلاع از این موضوع، تماس بگیرید یا پیام ارسال کنید!
-                اگر هیچ مربی در منطقه شما وجود ندارد، نگران نباشید! ما برای دانش
+                اگر هیچ مربی در منطقه شما وجود ندارد، نگران نباشید! ما برای زبان
                 آموزانی مانند شما کلاس های آنلاین ارائه می دهیم
               </div>
             </div>
@@ -283,11 +282,11 @@ const lang = getLangFromUrl(Astro.url);
               data-bs-parent="#questions"
             >
               <div class="accordion-body text-end">
-                اطمینان از اینکه دانش آموزان ما به ارزش پول خودبرسند، اولویت
-                اصلی ما است. خدمات ما قیمت مناسبی دارند، اما بسته به مربی و
-                خدماتی که ارائه می شود، قیمت متفاوت است. بنابراین، تنها کاری که
-                باید انجام دهید این است که تماس بگیرید یا به مربی انتخابی خود
-                پیام ارسال کنید
+                اطمینان از اینکه زبان آموزان ما نتیجه هزینه ای که پرداخت می کنند
+                را ببینند، اولویت اصلی ما است. خدمات ما قیمت مناسبی دارند، اما
+                بسته به مربی و خدماتی که ارائه می شود، قیمت آن متفاوت است.
+                بنابراین، تنها کاری که باید انجام دهید این است که تماس بگیرید یا
+                به مربی انتخابی خود پیام ارسال کنید
               </div>
             </div>
           </div>
@@ -309,9 +308,9 @@ const lang = getLangFromUrl(Astro.url);
               data-bs-parent="#questions"
             >
               <div class="accordion-body text-end">
-                برای دوره های مبتدی ما، شما نیازی به دانستن چیزی ندارید. برای
-                دوره های خاص مانند آیلتس و ادبیات انگلیسی می توانید برای اطلاع
-                از پیش نیازها با مدرسان مربوطه تماس بگیرید
+                در دوره های مبتدی ما پیشنیازی وجود ندارد. برای دوره های خاص
+                مانند آیلتس و ادبیات انگلیسی می توانید برای اطلاع از پیش نیازها
+                با مدرسان مربوطه تماس بگیرید
               </div>
             </div>
           </div>
@@ -446,7 +445,7 @@ const lang = getLangFromUrl(Astro.url);
             <img src={hubArea} class="img-fluid" alt="" />
           </div>
           <div class="col-md p-5 text-end responsive-paragraph">
-            <h2>آموزش ها و راهنمایی های خلاصه ما</h2>
+            <h2 class="pb-2">آموزش ها و راهنمایی های خلاصه ما</h2>
             <p class="lead">بلاگ های ما را از دست ندهید</p>
             <p class="fs-5">
               چه به تازگی شروع به یادگیری کرده باشید، چه حرفه ای باشید، در وبلاگ

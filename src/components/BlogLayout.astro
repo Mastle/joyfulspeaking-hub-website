@@ -21,17 +21,7 @@ const newBlogPostTitle = blogPostTitle.replaceAll("-", " ");
                         />
                     </a>
                     <p class="text-secondary pt-1">{post.frontmatter.date}</p>
-                    <a
-                        style="width: 330px;"
-                        class="d-block"
-                        target="_blank"
-                        href={post.frontmatter.audioLink}
-                    >
-                        <p class="text-primary">
-                            Click here for the audio version
-                        </p>
-                    </a>
-                    <span class="border border-dark rounded p-2">
+                    <span class="border border-dark rounded p-2 text-primary">
                         {post.frontmatter.blogSeriesName}
                     </span>
                     <div class="mt-4 pt-5" set:html={post.compiledContent()} />

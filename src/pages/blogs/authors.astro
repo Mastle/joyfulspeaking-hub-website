@@ -24,9 +24,7 @@ import Footer from "../../components/Footer.astro";
             questionAddress="../../#questions"
         />
         <div>
-            <h1
-                class="text-center py-5 my-5 fw-semibold position-relative-right-blog-header"
-            >
+            <h1 class="text-center py-5 my-5 fw-semibold">
                 بلاگ ها <i class="fa-solid fa-blog me-2"></i>
             </h1>
         </div>
@@ -46,15 +44,10 @@ import Footer from "../../components/Footer.astro";
                                         >امیرعلی تقی شاه
                                     </span>
                                 </h3>
-                                <p class="card-text fs-4 mb-4">
-                                    :در اینجا به این مفاهیم پرداخته شده است
-                                </p>
                                 <ul
                                     class="d-flex flex-column text-start align-items-center fs-5 fw-semibold"
                                 >
-                                    <li class="position-relative-right-li my-2">
-                                        زبان عمومی
-                                    </li>
+                                    <li class="my-2">زبان عمومی</li>
                                     <li class="my-2">روش های بهتر صحبت کردن</li>
                                     <li class="my-2">ادبیات انگلیسی</li>
                                 </ul>
@@ -66,7 +59,7 @@ import Footer from "../../components/Footer.astro";
                     </div>
                     <div class="col-md">
                         <div
-                            class="card text-primary border border-primary bg-lightDark text-light min-height-author-card"
+                            class="card text-primary border border-primary bg-lightDark text-light"
                         >
                             <div class="card-body text-center">
                                 <div class="h1 mb-3">
@@ -77,21 +70,11 @@ import Footer from "../../components/Footer.astro";
                                         >ساره رنجبر
                                     </span>
                                 </h3>
-                                <p class="card-text fs-4 mb-4">
-                                    :مواردی که ساره به صورت تخصصتی به آن ها می
-                                    پردازد
-                                </p>
                                 <ul
                                     class="d-flex flex-column text-start align-items-center fs-5 fw-semibold"
                                 >
-                                    <li class="position-relative-right-li my-2">
-                                        تکنیک های آیلتس
-                                    </li>
-                                    <li
-                                        class="my-2 position-relative-left-li-half"
-                                    >
-                                        گرامر پیشرفته
-                                    </li>
+                                    <li class="my-2">تکنیک های آیلتس</li>
+                                    <li class="my-2">گرامر پیشرفته</li>
                                 </ul>
                                 <a class="btn btn-dark mt-5">به زودی</a>
                             </div>
@@ -100,16 +83,16 @@ import Footer from "../../components/Footer.astro";
                 </div>
             </div>
         </section>
+        <Footer />
+        <style>
+            li {
+                list-style-type: none;
+            }
+        </style>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"></script>
     </body>
-    <Footer />
-    <style>
-        li {
-            list-style-type: none;
-        }
-    </style>
-    <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
 </html>
 <!-- TODO: re-align the bullet points -->

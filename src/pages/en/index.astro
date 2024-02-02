@@ -88,7 +88,6 @@ const lang = getLangFromUrl(Astro.url);
       </div>
     </section>
     <!-- Boxes -->
-    <!-- TODO: connect the link to the blog posts that explains class formats -->
     <section class="p-5 my-5 fs-5">
       <div class="container">
         <div class="row text-center g-4">
@@ -362,7 +361,11 @@ const lang = getLangFromUrl(Astro.url);
           <div class="col">
             <div class="card bg-light">
               <div class="card-body text-center add-padding-bottom">
-                <img src={firstInstructor} class="rounded-circle mb-3" alt="" />
+                <img
+                  src={firstInstructor}
+                  class="rounded-circle mb-3 proper-homepage-avatar-size"
+                  alt=""
+                />
                 <h3 class="card-title mb-3">Amirali Taqishah</h3>
                 <p class="card-text">
                   Nothing excites me more than introducing students to all the
@@ -389,7 +392,7 @@ const lang = getLangFromUrl(Astro.url);
               <div class="card-body text-center">
                 <img
                   src={secondInstructor}
-                  class="rounded-circle mb-3"
+                  class="rounded-circle mb-3 proper-homepage-avatar-size"
                   alt=""
                 />
                 <h3 class="card-title mb-3">Sareh Ranjbar</h3>
@@ -417,7 +420,11 @@ const lang = getLangFromUrl(Astro.url);
           <div class="col">
             <div class="card bg-light">
               <div class="card-body text-center">
-                <img src={thirdInstructor} class="rounded-circle mb-3" alt="" />
+                <img
+                  src={thirdInstructor}
+                  class="rounded-circle mb-3 proper-homepage-avatar-size"
+                  alt=""
+                />
                 <h3 class="card-title mb-3">Soheila Asheqi</h3>
                 <p class="card-text">
                   educating young minds through games and fun activities fills

@@ -156,6 +156,17 @@ body::before {
   height: 128px;
 }
 
-// .padding-bottom-hero-header {
-//   padding-bottom: 2rem;
-// }
+#heroText {
+  animation: change-header-color 4s linear 0s infinite alternate;
+
+}
+
+@keyframes change-header-color {
+  from {
+    fill: orange;
+  }
+
+  to {
+    fill: rgb(192, 61, 192);
+  }
+}

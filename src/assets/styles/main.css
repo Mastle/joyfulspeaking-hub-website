@@ -12037,4 +12037,17 @@ body::before {
   height: 128px;
 }
 
+#heroText {
+  animation: change-header-color 4s linear 0s infinite alternate;
+}
+
+@keyframes change-header-color {
+  from {
+    fill: orange;
+  }
+  to {
+    fill: rgb(192, 61, 192);
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

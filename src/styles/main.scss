@@ -157,16 +157,33 @@ body::before {
 }
 
 #heroText {
-  animation: change-header-color 4s linear 0s infinite alternate;
+  animation: change-header-color 16s linear 0s infinite alternate-reverse;
 
 }
 
 @keyframes change-header-color {
-  from {
-    fill: orange;
+
+  0%,
+  40% {
+    fill: $main-blue;
   }
 
-  to {
-    fill: rgb(192, 61, 192);
+  40%,
+  70% {
+    fill: $smooth-yellow;
   }
+
+  70%,
+  90% {
+    fill: $light-black;
+  }
+
+  90%,
+  100% {
+    fill: $main-blue;
+
+  }
+
+
+
 }

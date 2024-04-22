@@ -11,7 +11,7 @@ const t = useTranslations(lang);
 >
   <div class="container">
     <a
-      href={lang === "pers" ? "/" : "/en"}
+      href={lang === "fa" ? "/" : "/en"}
       class="navbar-brand nav-item-on-hover fs-3">Joyful Speaking</a
     >
 
@@ -26,8 +26,8 @@ const t = useTranslations(lang);
 
     <div class="collapse navbar-collapse" id="navmenu">
       <ul
-        class={lang === "pers"
-          ? "navbar-nav navbar-nav-pers ms-auto"
+        class={lang === "fa"
+          ? "navbar-nav navbar-nav-fa ms-auto"
           : "navbar-nav ms-auto"}
       >
         <li class="nav-item">
@@ -47,14 +47,14 @@ const t = useTranslations(lang);
         </li>
         <li class="nav-item">
           <a
-            href={lang === "pers" ? "/blogs/authors" : "/en/blogs/authors"}
+            href={lang === "fa" ? "/blogs/authors" : "/en/blogs/authors"}
             class="nav-link nav-item-on-hover text-white fs-5"
             >{t("nav.blogs")}</a
           >
         </li>
         <li class="nav-item">
           <a
-            href={lang === "pers" ? "/en" : "/"}
+            href={lang === "fa" ? "/en" : "/"}
             class="nav-link nav-item-on-hover text-white fs-5"
           >
             {t("nav.language")}</a

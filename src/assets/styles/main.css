@@ -12025,7 +12025,7 @@ body::before {
 }
 
 @media (max-width: 768px) {
-  .navbar-nav-pers {
+  .navbar-nav-fa {
     text-align: right !important;
   }
   .responsive-paragraph {

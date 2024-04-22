@@ -1,12 +1,12 @@
 export const languages = {
     en: 'English',
-    pers: 'Persian',
+    fa: 'Persian',
 };
 
-export const defaultLang = 'pers';
+export const defaultLang = 'fa';
 
 export const ui = {
-    pers: {
+    fa: {
         'nav.language': 'English',
         'nav.learn': 'چه چیزی خواهید یادگرفت',
         'nav.questions': 'سوالات',

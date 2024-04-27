@@ -17,6 +17,15 @@ import Footer from "../../components/Footer.astro";
             crossorigin="anonymous"></script>
         <title>Joyful Speaking</title>
     </head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DS5TEBPBKQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DS5TEBPBKQ');
+</script>
     <body>
         <Navbar
             isHome={false}

@@ -12055,5 +12055,9 @@ body::before {
     fill: #0d6efd;
   }
 }
+.persian-accordion-button::after {
+  margin-left: 0;
+  margin-right: auto;
+}
 
 /*# sourceMappingURL=main.css.map */

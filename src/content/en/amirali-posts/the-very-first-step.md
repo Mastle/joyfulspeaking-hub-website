@@ -11,7 +11,7 @@ audioLink: https://youtu.be/9XtIWUSAF2A
 ---
 
 
-Welcome to the Joyful Speaking hub.   
+Welcome to Joyful Speaking.   
 
 We have all felt the need to improve our English. It could be a requirement at your workplace, or perhaps you’re someone like me who enjoys the elegance and simplicity of the language.  
 

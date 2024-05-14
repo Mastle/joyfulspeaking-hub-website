@@ -193,3 +193,10 @@ body::before {
   margin-right: auto;
 
 }
+
+.modal-phone-icon-position::before{
+  display:inline;
+  position: relative;
+  bottom: 6px;
+  right: 6px;
+}

@@ -524,34 +524,22 @@ const lang = getLangFromUrl(Astro.url);
                 <input
                   type="text"
                   class="form-control"
-                  id="first-name"
-                  name="firstName"
+                  id="name"
+                  name="name"
                   required
                 />
               </div>
               <div class="mb-3">
-                <label for="last-name" class="col-form-label"
-                  >نام خانوادگی</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="last-name"
-                  name="lastName"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="col-form-label">آدرس ایمیل</label>
+                <label for="email" class="col-form-label">آدرس ایمیل (اختیاری)</label>
                 <input
                   type="email"
                   class="form-control"
                   id="email"
                   name="email"
-                  required
                 />
               </div>
               <div class="mb-3">
-                <label for="phone" class="col-form-label">شماره تماس</label>
+                <label for="phone" class="col-form-label">شماره تماس (اختیاری)</label>
                 <input
                   type="tel"
                   class="form-control"
@@ -559,9 +547,9 @@ const lang = getLangFromUrl(Astro.url);
                   name="phone"
                 />
               </div>
-              <div class="text-center pb-3 fw-semibold fs-5">
-                همچنین می توانید مستقیما با ما تماس بگیرید <a
-                  href="tel:+989352487000">۰۹۳۵۲۴۸۷۰۰۰</a
+              <div class="text-center pb-3 fs-5">
+                <span class="d-block my-4">همچنین می توانید مستقیما با ما <span class="fw-semibold"> تماس </span> بگیرید</span> 
+                <a class="py-4" href="tel:+989352487000"><i class="modal-phone-icon-position bi bi-telephone"></i>۰۹۳۵۲۴۸۷۰۰۰</a
                 >
               </div>
               <div class="modal-footer">
@@ -635,7 +623,6 @@ const lang = getLangFromUrl(Astro.url);
 </html>
 <!-- TODO:
      - Current step -> 
-      - Must improve the sign up form on the main page - there's gotta be less fields to fill
       - implement your finalized blog post
       - Add the image opengraph metatag after build
       - Add robots.txt after build

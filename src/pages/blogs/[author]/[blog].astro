@@ -2,7 +2,7 @@
 import "../../../assets/styles/main.css";
 import "../../../assets/styles/persianFont.css";
 import favicon from "../../../assets/js_favicon.svg";
-import BlogLayoutPers from "../../../components/BlogLayoutPers.astro";
+import BlogLayoutFa from "../../../components/BlogLayoutFa.astro";
 import Navbar from "../../../components/Navbar.astro";
 import Footer from "../../../components/Footer.astro";
 export function getStaticPaths() {
@@ -47,7 +47,7 @@ const { blog, author } = Astro.params;
                 questionAddress="../../../#questions"
             />
             <div class="container max-width-1000 px-4">
-                <BlogLayoutPers blogPostTitle={blog} blogAuthor={author} />
+                <BlogLayoutFa blogPostTitle={blog} blogAuthor={author} />
             </div>
             <Footer />
         </main>

@@ -4,7 +4,7 @@ import "../../assets/styles/persianFont.css";
 import favicon from "../../assets/js_favicon.svg";
 import Navbar from "../../components/Navbar.astro";
 import Footer from "../../components/Footer.astro";
-import BlogListPers from "../../components/BlogListPers.astro";
+import BlogListFa from "../../components/BlogListFa.astro";
 export function getStaticPaths() {
   return [{ params: { author: "amirali" } }, { params: { author: "sareh" } }];
 }
@@ -47,7 +47,7 @@ const { author } = Astro.params;
         <label class="fw-semibold text-end fs-3 mb-3" for="search">جستجو</label>
         <input class="p-2" type="search" id="search" />
       </div>
-      <BlogListPers authorName={author} />
+      <BlogListFa authorName={author} />
     </div>
     <Footer />
     <script>

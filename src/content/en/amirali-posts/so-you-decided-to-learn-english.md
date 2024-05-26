@@ -1,4 +1,14 @@
-So You Decided to Learn English (add this to the frontmatter elements)
+---
+instructor: Amirali
+title: So You Decided to Learn English
+blogSeriesName: From Zero to Hero
+level: beginner
+date: May 26, 2024
+link: /en/blogs/amirali/so-you-decided-to-learn-english
+introduction: "The first lesson of the From Zero to Hero course"
+audioLink: https://youtu.be/g-HN-aa-wvo
+---
+
 
 In my [previous blog post](https://joyfulspeaking.com/en/blogs/amirali/the-very-first-step/) I mentioned how Joyful Speaking is dedicated to exploring ways and techniques that allow you to become an excellent English speaker without unnecessary expenses or wasting your time on unnecessary information. 
 
@@ -6,6 +16,8 @@ The “From Zero to Hero” blog series presents the first course for those who 
 This blog post marks the beginning of the series. 
 
 ![person studying at a desk](/src/assets/articleAssets/guy-studying-at-desk.png)
+
+<small class="text-secondary" style="position:relative; left: 5rem;bottom: 3rem"><a style="color: #888" href="https://www.vecteezy.com/free-vector/education">Education Vectors by Vecteezy </a></small>
 
 Becoming a fluent English speaker starts with implementing these three essential things into your lifestyle. This will help you start developing your English skills with the right attitude, which will be quite useful in the long run.
 
@@ -17,7 +29,8 @@ Forget the misconceptions from schools and language institutes that make languag
 
 In other words, learning English doesn't have to be tedious or frightening! Instead, it can be enjoyable and rewarding. It merely needs to become a permanent part of your life.
 By the end of this article, you will have a clear understanding of how that is possible
- 
+ <br><br>
+
 ## Discipline
 Discipline is the foundation of learning any foreign language.
 
@@ -36,6 +49,7 @@ Keep in mind that you don't have to focus on educational activities in the first
 Even if you have inconsistently followed this schedule, it still means that you are ready to learn.
 
 As long as you did not completely give up, even if you had to postpone a few days, you have successfully taken the first step.
+ <br><br>
 
 ## Love of Learning
 The second ingredient is love of learning. It is vital to engage with English learning materials that are suitable for you. This means that the materials should be interesting and relatable to you. In other words, the materials you select should be compatible with your personality and individuality.
@@ -48,7 +62,8 @@ You may initially struggle with selecting the right materials, so Joyful Speakin
 And for a more personalized experience, you can get in contact with me and get a free plan.
 
 Before we proceed, there is a small reminder that I would like you to consider throughout this routine: even the best study plan can have boring parts. That's when discipline is extremely essential! So if you've already taken the previous step successfully, you will not be bothered by this, and therefore, you have completed most of the work!"
- 
+<br><br>
+
 ## Proper outlet
 The final step is to ensure that you have a way to express yourself regularly. For the first two months or so, this step is optional. You can ignore it if you are not used to the previous steps yet.
 
@@ -65,7 +80,8 @@ If you require sentence review but lack someone to check them, feel free to send
 We all started as beginners who struggled with basic language skills, the only difference is we persevered and kept practicing until we improved. This same dedication is what has led language teachers and fluent speakers of English to their success.
 
 If you manage to get things right on your first try, congratulations! However, even if you make mistakes in consecutive attempts, you should view it as an opportunity to learn and identify areas for improvement.
- 
+<br><br>
+
 ## Closing Thoughts
 You have all the resources you need to start learning English. If you have always wanted to learn English, but were held back by scheduling conflicts, lack of finances, or lack of guidance, following the steps I just laid out is your opportunity to change that.
 

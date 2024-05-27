@@ -21,7 +21,7 @@ const newBlogPostTitle = blogPostTitle.replaceAll("-", " ");
                         {post.frontmatter.blogSeriesName}
                     </span>
                     <p class="text-secondary pt-3"><i class="fa-solid fa-user-pen p-2"></i>امیرعلی تقی شاه</p>
-                    <div class="mt-4 pt-5" set:html={post.compiledContent()} />
+                    <div class="pt-5" set:html={post.compiledContent()} />
                 </div>
             );
         }

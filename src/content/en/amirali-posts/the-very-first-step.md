@@ -10,7 +10,6 @@ and what are the prerequisites for achieving ideal results? all of this might so
 audioLink: https://youtu.be/9XtIWUSAF2A
 ---
 
-<p class="bg-primary">yo</p>
 Welcome to Joyful Speaking.   
 
 We have all felt the need to improve our English. It could be a requirement at your workplace, or perhaps you’re someone like me who enjoys the elegance and simplicity of the language.  

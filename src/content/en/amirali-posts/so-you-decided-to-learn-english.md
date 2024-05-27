@@ -83,7 +83,7 @@ If you manage to get things right on your first try, congratulations! However, e
 <br><br>
 
 ## Closing Thoughts
-You have all the resources you need to start learning English. If you have always wanted to learn English, but were held back by scheduling conflicts, lack of finances, or lack of guidance, following the steps I just laid out is your opportunity to change that.
+You have all the resources you need to start learning English. If you have always wanted to learn English, but were held back by scheduling conflicts, lack of finances, or absence of guidance, following the steps I just laid out is your opportunity to change that.
 
 It's important to remember that when starting a learning routine, you should take it step by step and not worry about doing everything perfectly for the first month. During this time, the focus should be on building the discipline necessary to establish a strong foundation.
 
@@ -96,6 +96,45 @@ However, if at any point it becomes too much to handle, remember that me and my 
 Looking forward to catching up with you in a new blog post in a month where we will also discuss the next step 
 
 Good luck with your English journey! 
+
+---
+
+## Summary
+
+- **Introduction to Joyful Speaking**:
+  - Dedicated to exploring ways and techniques for becoming an excellent English speaker.
+  - Introducing the “From Zero to Hero” series aimed at improving English language skills through self-study.
+
+
+- **Essential Elements for English Learning**:
+  - Implementing three essential lifestyle changes to develop English skills with the right attitude.
+  - Emphasizing the importance of enjoying the learning process and achieving exceptional results.
+
+- **Discipline**
+  - Discipline is the foundation of learning any foreign language. It minimizes the risk of problems such as burnout and information overload, making progress meaningful.
+  - Instilling Self-Discipline:
+    - Importance of consistency and dedication in language learning.
+    - Setting aside dedicated time for English-related activities weekly.
+
+- **Love of Learning**
+
+  - Engage with English learning materials that are interesting and relatable to you, ensuring motivation and progress.
+
+  - Selecting Suitable Materials:
+    - Choosing content compatible with your personality and interests.
+    - Balancing entertainment and educational activities for an enjoyable learning experience.
+
+- **Proper Outlet**
+
+  - Ensure regular practice and expression of newfound knowledge to enhance speaking and writing skills.
+  - Putting Knowledge into Practice:
+    - Importance of using new vocabulary and grammar rules in real-life situations.
+    - Seeking opportunities for practice, such as conversations with proficient speakers or writing exercises.
+
+- **Closing Thoughts**
+
+  - Start your English learning journey with the right mindset and tools, focusing on building discipline and enjoying the process.
+  - Stay tuned for updates and assistance from Joyful Speaking throughout your language learning adventure.
 
 
 

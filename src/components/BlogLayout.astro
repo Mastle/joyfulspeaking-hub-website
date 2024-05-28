@@ -18,7 +18,11 @@ const newBlogPostTitle = blogPostTitle.replaceAll("-", " ");
                     <span class="border border-dark rounded p-2 text-primary">
                         {post.frontmatter.blogSeriesName}
                     </span>
-                    <p class="text-secondary pt-3"><i class="fa-solid fa-user-pen p-2"></i>Amirali Taqishah</p>
+                    <p class="text-secondary pt-3 mb-1">
+                        <i class="fa-solid fa-user-pen p-2">
+                        </i>{(post.frontmatter.instructor === "Amirali")
+                         ? "Amirali Taqishah": "Sareh Ranjbar"}</p>
+                         <span class="text-secondary"><i class="fa-brands fa-readme p-2"></i>{post.frontmatter.readtime}</span>
                     <div class="pt-5" set:html={post.compiledContent()} />
                 </div>
             );

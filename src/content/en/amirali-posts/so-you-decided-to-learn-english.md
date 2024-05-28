@@ -7,6 +7,7 @@ date: May 26, 2024
 link: /en/blogs/amirali/so-you-decided-to-learn-english
 introduction: "The first lesson of the From Zero to Hero course"
 audioLink: https://youtu.be/g-HN-aa-wvo
+readtime: "8 min read"
 ---
 
 

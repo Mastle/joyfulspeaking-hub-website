@@ -8,6 +8,7 @@ link: /en/blogs/amirali/class-formats-explained
 introduction: "In this post, we will quickly go over all of the available formats for attending Joyful Speaking classes"
 audioLink: https://youtu.be/g-HN-aa-wvo
 readtime: "1 min read"
+hasSummary: false
 ---
 
 

@@ -5,9 +5,10 @@ blogSeriesName: From Zero to Hero
 level: beginner
 date: May 26, 2024
 link: /en/blogs/amirali/so-you-decided-to-learn-english
-introduction: "The first lesson of the From Zero to Hero course"
+introduction: "The first lesson of the From Zero to Hero course, a language learning series aimed at improving English skills through self-study."
 audioLink: https://youtu.be/g-HN-aa-wvo
 readtime: "8 min read"
+hasSummary: true
 ---
 
 
@@ -99,6 +100,7 @@ Looking forward to catching up with you in a new blog post in a month where we w
 Good luck with your English journey! 
 
 ---
+<div class="pt-5" id="summary-section">
 
 ## Summary
 
@@ -136,6 +138,7 @@ Good luck with your English journey!
 
   - Start your English learning journey with the right mindset and tools, focusing on building discipline and enjoying the process.
   - Stay tuned for updates and assistance from Joyful Speaking throughout your language learning adventure.
+</div>
 
 
 

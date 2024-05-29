@@ -9,6 +9,7 @@ introduction: "So where is the starting point in the vast world of learning Engl
 and what are the prerequisites for achieving ideal results? all of this might sound overwhelming, but a little perspective shift is all you need!"
 audioLink: https://youtu.be/9XtIWUSAF2A
 readtime: "2 min read"
+hasSummary: false
 ---
 
 Welcome to Joyful Speaking.   

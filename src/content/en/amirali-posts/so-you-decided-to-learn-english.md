@@ -7,7 +7,7 @@ date: May 26, 2024
 link: /en/blogs/amirali/so-you-decided-to-learn-english
 introduction: "The first lesson of the From Zero to Hero course, a language learning series aimed at improving English skills through self-study."
 audioLink: https://youtu.be/g-HN-aa-wvo
-readtime: "8 min read"
+readtime: "10 min read"
 hasSummary: true
 ---
 

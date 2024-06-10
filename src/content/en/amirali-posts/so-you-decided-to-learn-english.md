@@ -3,14 +3,13 @@ instructor: Amirali
 title: So You Decided to Learn English
 blogSeriesName: From Zero to Hero
 level: beginner
-date: May 26, 2024
+date: June 6, 2024
 link: /en/blogs/amirali/so-you-decided-to-learn-english
 introduction: "The first lesson of the From Zero to Hero course, a language learning series aimed at improving English skills through self-study."
 audioLink: https://youtu.be/g-HN-aa-wvo
 readtime: "10 min read"
 hasSummary: true
 ---
-import { personStudying } from './src/assets/articleAssets/guy-studying-at-desk.png'
 
 
 In my [previous blog post](https://joyfulspeaking.com/en/blogs/amirali/the-very-first-step/) I mentioned how Joyful Speaking is dedicated to exploring ways and techniques that allow you to become an excellent English speaker without unnecessary expenses or wasting your time on unnecessary information. 
@@ -18,10 +17,12 @@ In my [previous blog post](https://joyfulspeaking.com/en/blogs/amirali/the-very-
 The “From Zero to Hero” blog series presents the first course for those who wish to improve their English language skills through self-study. It includes all the necessary materials to make significant progress in language learning. Even students already taking different courses can greatly benefit from this strategy.
 This blog post marks the beginning of the series. 
 
+<div class="d-none d-lg-block">
 
-![person studying at a desk](../../../../_astro/guy-studying-at-desk.png)
+ ![person studying at a desk](../../../../_astro/guy-studying-at-desk.png)
+ <small class="text-secondary" style="position:relative; left: 5rem;bottom: 3rem"><a style="color: #888" href="https://www.vecteezy.com/free-vector/education">Education Vectors by Vecteezy </a></small>
+</div>
 
-<small class="text-secondary" style="position:relative; left: 5rem;bottom: 3rem"><a style="color: #888" href="https://www.vecteezy.com/free-vector/education">Education Vectors by Vecteezy </a></small>
 
 Becoming a fluent English speaker starts with implementing these three essential things into your lifestyle. This will help you start developing your English skills with the right attitude, which will be quite useful in the long run.
 

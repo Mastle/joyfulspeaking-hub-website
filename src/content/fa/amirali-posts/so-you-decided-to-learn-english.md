@@ -157,5 +157,13 @@ hasSummary: true
   - در این مسیر، منتظر به‌روزرسانی‌ها و نکات جدید جویفول اسپیکینگ باشید
 </div>
 
+<style> 
+ div > ul {
+  padding: 0 1rem 0 0;
+ }
 
+ div > ul > li {
+  margin-top: 1rem;
+ }
+ </style>
 

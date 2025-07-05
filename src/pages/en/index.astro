@@ -52,7 +52,7 @@ const lang = getLangFromUrl(Astro.url);
               data-bs-toggle="modal"
               data-bs-target="#enroll"
             >
-              Start The Enrollment
+              Visit the linguist's lab
             </button>
           </div>
           <HeroBannerAnimated />
@@ -64,7 +64,12 @@ const lang = getLangFromUrl(Astro.url);
     <section class="bg-lightDark text-light p-5">
       <div class="container">
         <div class="d-md-flex justify-content-between align-items-center">
-          <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+          <div>
+          <h3 class="mb-3 mb-md-0">Book a free consulation</h3>
+          <p class="mb-3 mb-md-0 text-light pt-3" style="max-width: 420px;">
+          Not sure what your next step with English should be? Let’s chat—no pressure, just a real conversation.
+          </p>
+          </div>
           <form
             action="https://formspree.io/f/mbjverqb"
             method="POST"
@@ -154,7 +159,7 @@ const lang = getLangFromUrl(Astro.url);
             <img src={book} class="img-fluid" alt="" />
           </div>
           <div class="col-md p-5 responsive-paragraph">
-            <h2>Learn The Fundamentals</h2>
+            <h2>Understand the System, Speak with Purpose</h2>
             <p class="lead">
               No matter what you want to do with English, it all starts from
               here
@@ -621,6 +626,7 @@ const lang = getLangFromUrl(Astro.url);
 
 general notes:
 
+
 - various parts of this project need to be transformed
 - The first one is that most packages are outdated, project needs to be restructured based on the latest version of Astro
 - The second one is that the website feels like it belongs to an enterprise right now. I want to turn this into a personal portfolio. This is has to genuinely feel like my linguistics portfolio
@@ -629,5 +635,13 @@ general notes:
 
 steps: 
  - The English version of the website will become the default 
- - (current step) remodeling the homepage to be more personal using gpt -> done with the hero message -> move on to "start enrollment button"
--->
+ - Dude it kind of makes sense to fully get rid of the Persian version of the website. I have no plans for working with Persian companies,
+  and I've got more than enough clout to work with Persian clients directly as is (gotta cut my losses man, cut my losses to speed things up)
+- (Break through) First, I'll finalize the English version of the website. Then, I'll move on to ATP remodeling, I'll also take care of the portfolio and nextech sports projects, 
+ if I'm absolutely happy with those, I'll move back to working on the persian version of the website
+ - Once I'm done with the initial design, and I've mapped out the aesthetic and feature changes I wanna add, I'll start working on the technical restructuring of the project (upgrading to Astro 5 and ensuring highest standards)
+   - (current step) remodeling the homepage to be more personal using gpt -> done with the hero message -> the illustration will be replaced with the professor illustration from undraw
+    -- learn the fundamentals -> this bit is gonna be about part of speech. as I consider that to be the most fundamental concept in all of language. To me, a person who doesn't know the purpose of part of speech that wants to learn English is similar to someone who wants to code but doesn't know how to use a computer
+    -- so the "class types" section will be replaced by testimonials, once I've taken care of everything else, and the new code is about to be deployed, I'll get started on this (this is the final piece of the puzzle)
+    --  Amazing progress, gonna ace this shit in the next session!
+    -->

@@ -1,0 +1,43 @@
+---
+const pageTitle = "About"
+
+const identity = {
+  firstName: "Sarah",
+  country: "Canada",
+  occupation: "Technical Writer",
+  hobbies: ["photography", "birdwatching", "baseball"],
+}
+
+const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"]
+const skillColor = "navy"
+const greenColor = "green"
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{pageTitle}</title>
+    <style define:vars={{ skillColor, greenColor }}>
+      h1 {
+        color: purple;
+        font-size: 4rem;
+      }
+
+      .skill {
+        color: var(--skillColor);
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is the about page</h1>
+    <h2>{pageTitle}</h2>
+    <ul>
+      <li><a href="/posts/post-1/">Post 1</a></li>
+      <li><a href="/posts/post-2/">Post 2</a></li>
+      <li><a href="/posts/post-3/">Post 3</a></li>
+    </ul>
+    <ul>{skills.map((e) => <li class="skill">{e}</li>)}</ul>
+  </body>
+</html>

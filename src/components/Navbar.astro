@@ -1,0 +1,44 @@
+---
+const { isHome, learnAddress, questionAddress } = Astro.props
+---
+
+<nav
+  class="navbar navbar-expand-lg bg-primary navbar-dark py-3 fixed-top add-border-bottom"
+>
+  <div class="container">
+    <a href="/" class="navbar-brand nav-item-on-hover fs-3">Joyful Speaking</a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navmenu"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a
+            href={isHome ? "#learn" : learnAddress}
+            class="nav-link nav-item-on-hover text-white fs-5"
+          >
+            learn</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href={isHome ? "#questions" : questionAddress}
+            class="nav-link nav-item-on-hover text-white fs-5">questions</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="/" class="nav-link nav-item-on-hover text-white fs-5"
+            >blogs</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

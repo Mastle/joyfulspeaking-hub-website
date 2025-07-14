@@ -1,4 +1,6 @@
 ---
+import "../../styles/main.scss"
+import Navbar from "../components/Navbar.astro"
 import Welcome from "../components/Welcome.astro"
 import Layout from "../layouts/Layout.astro"
 import Footer from "../components/Footer.astro"
@@ -6,8 +8,8 @@ import Footer from "../components/Footer.astro"
 
 <html lang="en">
   <head>
-    <link rel="icon" type="image/svg+xml" href="" />
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
     <link
@@ -22,7 +24,10 @@ import Footer from "../components/Footer.astro"
       <h1>something</h1>
       <Footer />
     </Layout> -->
-    
+    <Navbar isHome={true} />
+    <script>
+      import "bootstrap/dist/js/bootstrap.bundle.min.js"
+    </script>
   </body>
 </html>
 

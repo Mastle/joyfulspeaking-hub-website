@@ -1,5 +1,5 @@
 ---
-const { isHome, learnAddress, questionAddress } = Astro.props
+const { isHome } = Astro.props
 ---
 
 <nav
@@ -20,22 +20,13 @@ const { isHome, learnAddress, questionAddress } = Astro.props
     <div class="collapse navbar-collapse" id="navmenu">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a
-            href={isHome ? "#learn" : learnAddress}
-            class="nav-link nav-item-on-hover text-white fs-5"
-          >
-            learn</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            href={isHome ? "#questions" : questionAddress}
-            class="nav-link nav-item-on-hover text-white fs-5">questions</a
-          >
-        </li>
-        <li class="nav-item">
           <a href="/" class="nav-link nav-item-on-hover text-white fs-5"
-            >blogs</a
+            >Blogs</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="/about" class="nav-link nav-item-on-hover text-white fs-5"
+            >About</a
           >
         </li>
       </ul>

@@ -2,6 +2,7 @@
 import "../../styles/main.scss"
 import Navbar from "../components/Navbar.astro"
 import HeroSection from "../components/HeroSection.astro"
+import ContactForm from "../components/ContactForm.astro"
 ---
 
 <html lang="en">
@@ -19,40 +20,11 @@ import HeroSection from "../components/HeroSection.astro"
   <body>
     <Navbar isHome={true} />
     <HeroSection />
+    <ContactForm />
+
     <!--
     current step: It's time for the news letter section =)
     -->
-
-    <!-- Newsletter -->
-    <section class="bg-lightDark text-light p-5">
-      <div class="container">
-        <div class="d-md-flex justify-content-between align-items-center">
-          <div>
-            <h3 class="mb-3 mb-md-0">Book a free consulation</h3>
-            <p class="mb-3 mb-md-0 text-light pt-3" style="max-width: 420px;">
-              Not sure what your next step with English should be? Let’s chat—no
-              pressure, just a real conversation.
-            </p>
-          </div>
-          <form
-            action="https://formspree.io/f/mbjverqb"
-            method="POST"
-            class="newsletter-form-size"
-          >
-            <div class="input-group">
-              <input
-                type="text"
-                class="form-control"
-                name="email"
-                placeholder="Enter Email"
-                required
-              />
-              <button class="btn btn-dark btn-lg" type="submit">Submit</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </section>
 
     <script>
       import "bootstrap/dist/js/bootstrap.bundle.min.js"

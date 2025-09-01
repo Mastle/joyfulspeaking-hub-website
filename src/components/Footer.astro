@@ -1,14 +1,25 @@
+---
+import footerLogo from "../assets/footer-logo-final.svg"
+---
+
 <footer class="site-footer">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+      <div
+        class="col-lg-4 col-md-6 mb-4 mb-lg-0 footer-rows-container-width-50"
+      >
         <h5>Joyful Speaking</h5>
-        <p class="text-muted">
-          Helping you find clarity and confidence in English.
+        <p class="text-light">
+          Helping you find clarity and confidence in language
         </p>
+        <div>
+          <a href="./"><img src={footerLogo.src} alt="" /></a>
+        </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+      <div
+        class="col-lg-4 col-md-6 mb-4 mb-lg-0 footer-rows-container-width-50"
+      >
         <h5>Navigate</h5>
         <ul class="list-unstyled">
           <li><a href="/blogs">Blogs</a></li>
@@ -18,8 +29,8 @@
         </ul>
       </div>
 
-      <div class="col-lg-4 col-md-12">
-        <h5>Connect</h5>
+      <div class="col-lg-4 col-md-12 center-with-flex-footer-icons">
+        <h5 class="hide-contact-text-footer">Connect</h5>
         <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
         <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
         <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>

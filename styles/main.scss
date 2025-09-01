@@ -308,3 +308,18 @@ body::before {
   margin: 0;
   font-size: 14px;
 }
+
+@media (max-width: 600px) {
+  .footer-rows-container-width-50 {
+    width: 50% !important;
+  }
+
+  .hide-contact-text-footer {
+    display: none;
+  }
+
+  .center-with-flex-footer-icons {
+    display: flex;
+    justify-content: center;
+  }
+}

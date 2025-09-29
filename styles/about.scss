@@ -109,17 +109,14 @@ body {
   box-shadow: 0 8px 20px rgba(12, 20, 40, 0.03);
 }
 .avatar {
-  width: 88px;
-  height: 88px;
-  border-radius: 14px;
-  background: linear-gradient(180deg, #e9eefb, #dfeeff);
-  display: grid;
-  place-items: center;
-  font-weight: 700;
-  color: var(--blue-2);
-  font-size: 20px;
-  flex-shrink: 0;
-  border: 1px solid rgba(12, 30, 80, 0.04);
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  background: #2563eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 .founder h2 {
   margin-bottom: 6px;

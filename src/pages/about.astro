@@ -3,6 +3,7 @@ import "../../styles/about.scss"
 import "../../styles/main.scss"
 import undrawBook from "../assets/undraw-book.svg"
 import aboutBannerSide from "../assets/about-banner-side.svg"
+import aboutAvatar from "../assets/about-avatar.jpg"
 import Navbar from "../components/Navbar.astro"
 import Footer from "../components/Footer.astro"
 ---
@@ -92,7 +93,19 @@ import Footer from "../components/Footer.astro"
           About me
         </div>
         <div class="about-container-info d-flex align-items-start gap-3">
-          <div class="avatar" aria-hidden="true">AT</div>
+          <div class="avatar" aria-hidden="true">
+            <a
+              href="https://www.linkedin.com/in/amirali-taqishah-27920a262/"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src={aboutAvatar.src}
+                alt="Amirali Taqishah"
+                style="width:100%;height:100%; object-fit:cover;border-radius:inherit;"
+              />
+            </a>
+          </div>
 
           <div>
             <h2 id="founder-title">
@@ -229,7 +242,7 @@ import Footer from "../components/Footer.astro"
 
 <!--
 step: 
-          - (current step) working on the first section - happy with the text, time to redesign it in a way that looks sexy AF and doesn't bother the eyes
+          - (current step) adding the testimonials and moving to the blog - gotta remember, the blog is supposed to feel like a legit magazine
           - It's time to wrap up the development of this thing
           - What's next is adding the first set of content that represents me well enough as a teacher
           - Anything else will be added later down the line (after remodeling ATP has been finished, and I've been through anotherr round of DSA mastery)

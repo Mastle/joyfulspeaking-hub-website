@@ -14,7 +14,11 @@ const sortedPosts = allPosts.sort(
 // Format date function -- short uppercase month like "JUN 01 2025"
 function formatDate(dateString: string) {
   const d = new Date(dateString)
-  const opts: Intl.DateTimeFormatOptions = { year: "numeric", month: "short", day: "2-digit" }
+  const opts: Intl.DateTimeFormatOptions = {
+    year: "numeric",
+    month: "short",
+    day: "2-digit",
+  }
   // e.g. "Jun 01, 2025" -> remove comma and uppercase -> "JUN 01 2025"
   return d.toLocaleDateString("en-US", opts).replace(",", "").toUpperCase()
 }
@@ -23,53 +27,58 @@ function formatDate(dateString: string) {
 <MainLayout title="Writing - Joyful Speaking">
   <div class="container py-5">
     <div class="mb-5">
-      <h1 class="display-5 fw-bold mb-3">My writing<span class="text-primary">.</span></h1>
+      <h1 class="display-5 fw-bold mb-3">
+        My writing<span class="text-primary">.</span>
+      </h1>
       <p class="lead text-muted col-lg-8 px-0">
-        Here you'll find my writing on topics ranging from coding and the web industry,
-        to linguistics and natural language processing — short essays, notes and
-        occasional long reads.
+        Here you'll find my writing on topics ranging from coding and the web
+        industry, to linguistics and natural language processing — short essays,
+        notes and occasional long reads.
       </p>
+      <h1>coming soon</h1>
     </div>
 
     <!-- Posts list: date column on left, content on right -->
-    <div class="posts-list">
+    <!-- <div class="posts-list">
       {
         sortedPosts.map((post) => (
           <article class="row align-items-start py-4 post-row" key={post.url}>
-            <!-- DATE column (narrow) -->
-            <div class="col-auto date-col pe-4 d-none d-md-block">
-              <time datetime={post.frontmatter.date} class="date small text-muted">
-                {formatDate(post.frontmatter.date)}
-              </time>
-            </div>
-
-            <!-- CONTENT column -->
-            <div class="col">
-              <a href={post.url} class="text-decoration-none text-dark">
-                <h2 class="h5 mb-1">{post.frontmatter.title}</h2>
-              </a>
-              {post.frontmatter.description && (
-                <p class="text-muted mb-2">{post.frontmatter.description}</p>
-              )}
-              <div class="d-flex justify-content-between align-items-center">
-                <small class="text-muted">
-                  {post.frontmatter.readTime ? `${post.frontmatter.readTime} • ` : ""}
-                  <span class="d-inline d-md-none">{formatDate(post.frontmatter.date)}</span>
-                </small>
-                <span class="btn btn-sm btn-outline-primary read-more-button">Read</span>
-              </div>
-            </div>
-          </article>
-        ))
-      }
+    <div class="col-auto date-col pe-4 d-none d-md-block">
+      <time datetime={post.frontmatter.date} class="date small text-muted">
+        {formatDate(post.frontmatter.date)}
+      </time>
     </div>
+
+    <div class="col">
+      <a href={post.url} class="text-decoration-none text-dark">
+        <h2 class="h5 mb-1">{post.frontmatter.title}</h2>
+      </a>
+      {
+        post.frontmatter.description && (
+          <p class="text-muted mb-2">{post.frontmatter.description}</p>
+        )
+      }
+      <div class="d-flex justify-content-between align-items-center">
+        <small class="text-muted">
+          {post.frontmatter.readTime ? `${post.frontmatter.readTime} • ` : ""}
+          <span class="d-inline d-md-none"
+            >{formatDate(post.frontmatter.date)}</span
+          >
+        </small>
+        <span class="btn btn-sm btn-outline-primary read-more-button">Read</span
+        >
+      </div>
+    </div>
+  </div>
+  )) }
+</MainLayout> -->
 
     <style>
       /* Keep Bootstrap defaults where possible; just small layout & accents */
 
       /* vertical spacing & separators */
       .post-row {
-        border-bottom: 1px solid rgba(0,0,0,0.06);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
       }
 
       /* left date column */
@@ -86,7 +95,7 @@ function formatDate(dateString: string) {
         top: 0;
         bottom: 0;
         width: 1px;
-        background: rgba(0,0,0,0.04);
+        background: rgba(0, 0, 0, 0.04);
       }
 
       .date {
@@ -97,7 +106,9 @@ function formatDate(dateString: string) {
 
       /* smaller screens: hide left column and show date under meta */
       @media (max-width: 767.98px) {
-        .date-col { display: none !important; }
+        .date-col {
+          display: none !important;
+        }
       }
 
       /* title tightness */
@@ -116,5 +127,5 @@ function formatDate(dateString: string) {
         color: #0d6efd; /* bootstrap primary */
       }
     </style>
-  </div>
-</MainLayout>
+  </div></MainLayout
+>

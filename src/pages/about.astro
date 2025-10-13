@@ -2,6 +2,9 @@
 // src/pages/about.astro
 import MainLayout from "../components/MainLayout.astro"
 import "../../styles/about.scss"
+import TestimonialAvatarOne from "../assets//testimonial-avatars/testimonial-avatar-one.jpg"
+import TestimonialAvatarTwo from "../assets//testimonial-avatars/testimonial-avatar-two.jpg"
+import TestimonialAvatarThree from "../assets//testimonial-avatars/testimonial-avatar-three.jpg"
 import undrawBook from "../assets/undraw-book.svg"
 import aboutBannerSide from "../assets/about-banner-side.svg"
 import aboutAvatar from "../assets/about-avatar.jpg"
@@ -48,10 +51,10 @@ import aboutAvatar from "../assets/about-avatar.jpg"
         class="d-flex gap-2 align-items-center flex-wrap"
         style="margin-top:18px;"
       >
-        <a class="btn btn-accent" href="/magazine" style="box-shadow:none;">
+        <a class="btn btn-accent" href="" style="box-shadow:none;">
           Explore the magazine
         </a>
-        <a class="btn btn-black" href="/consult" style="box-shadow:none;">
+        <a class="btn btn-black" href="" style="box-shadow:none;">
           let's collaborate!
         </a>
       </div>
@@ -136,18 +139,17 @@ import aboutAvatar from "../assets/about-avatar.jpg"
         <div class="p-4 h-100 rounded-4 shadow-sm bg-light">
           <p class="mb-3">
             "Joyful Speaking makes English click. The lessons are short but
-            powerful — I finally think in English instead of translating."
+            powerful, I finally think in English instead of translating."
           </p>
           <div class="d-flex align-items-center gap-2">
-            <div
-              class="rounded-circle bg-primary text-white fw-bold d-flex align-items-center justify-content-center"
-              style="width:40px;height:40px;"
-            >
-              L
-            </div>
+            <img
+              src={TestimonialAvatarOne.src}
+              alt="Aryan Aghajani - Engineer"
+              class="avatar-testimonial"
+            />
             <div>
-              <strong>Lina</strong><br />
-              <small class="text-muted">Student, Germany</small>
+              <strong>Aryan Aghajani</strong><br />
+              <small class="text-muted">Student</small>
             </div>
           </div>
         </div>
@@ -157,18 +159,17 @@ import aboutAvatar from "../assets/about-avatar.jpg"
         <div class="p-4 h-100 rounded-4 shadow-sm bg-light">
           <p class="mb-3">
             "The mix of linguistics and practice is unique. Amirali explains why
-            English works the way it does — it's unforgettable."
+            English works the way it does, it's unforgettable."
           </p>
           <div class="d-flex align-items-center gap-2">
-            <div
-              class="rounded-circle bg-primary text-white fw-bold d-flex align-items-center justify-content-center"
-              style="width:40px;height:40px;"
-            >
-              M
-            </div>
+            <img
+              src={TestimonialAvatarTwo.src}
+              alt="Parastoo Taghishah - Graphic Designer"
+              class="avatar-testimonial"
+            />
             <div>
-              <strong>Marco</strong><br />
-              <small class="text-muted">Engineer, Italy</small>
+              <strong>Parastoo Taghishah</strong><br />
+              <small class="text-muted">Graphic Designer</small>
             </div>
           </div>
         </div>
@@ -181,58 +182,36 @@ import aboutAvatar from "../assets/about-avatar.jpg"
             conversations at work thanks to Joyful Speaking."
           </p>
           <div class="d-flex align-items-center gap-2">
-            <div
-              class="rounded-circle bg-primary text-white fw-bold d-flex align-items-center justify-content-center"
-              style="width:40px;height:40px;"
-            >
-              A
-            </div>
+            <img
+              src={TestimonialAvatarThree.src}
+              alt="Sheyda Gholipour - Sales Manager"
+              class="avatar-testimonial"
+            />
             <div>
-              <strong>Aiko</strong><br />
-              <small class="text-muted">Designer, Japan</small>
+              <strong>Sheyda Gholipour</strong><br />
+              <small class="text-muted">Sales Manager </small>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- SHORT CTA -->
-  <section
-    style="margin-top:28px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap"
-  >
-    <div>
-      <strong>Want the Joyful Speaking experience?</strong>
-      <div class="muted" style="margin-top:6px">
-        Try a free consultation or get a custom study plan.
-      </div>
-    </div>
-
-    <div class="d-flex gap-2">
-      <a class="btn btn-ghost-white" href="/consult">Book a consult</a>
-      <a class="btn btn-accent" href="/subscribe">Subscribe</a>
-    </div>
-  </section>
 </MainLayout>
 
 <!--
-step: 
-          - (current step) avatar has responsiveness issues - adding the testimonials and moving to the blog - gotta remember, the blog is supposed to feel like a legit magazine
-          - It's time to wrap up the development of this thing
-          - What's next is adding the first set of content that represents me well enough as a teacher
-          - Anything else will be added later down the line (after remodeling ATP has been finished, and I've been through anotherr round of DSA mastery)
-          - so for the first round of content these blogs are needed:
-           -- 3 blog posts for each of the three guide cards
-           -- 3 blog posts for each section (you'll keep everything super clean, bite-sized and expressive and informative at the same time)
-           -- testimonials by siavash, Aryan and Sheyada (they seem like the best of the bunch)
-           -- a nice ass photo for the about section? (I might go all in on this and genuinely try to have a pretty professional and authentic looking photo! x) )
-           -- remember adding tags for blogs
-           -- 
-          - BREAK THROUGH: do think of this website as a magazine, and each blog entry is just a new edition of the magazine. 
+   steps: 
+
+    - Add a warning banner (consult AI) to that explains website is currently in the process of being updated, certain functionalities might not fully work   
+    - add and finalize the testimonials section
+    -  I will deploy what is currently on the develop branch on the main hosting service
+    - It is my plan to add a few blog posts, homepage updates (an explanation for each learn section, guide card summarizing option and etc)  BEFORE submitting my formal application
+    - Other than that, I see nothing else to require urgent attention at the moment.
+    - (final step) Must work on and have plans for regular updates on this project :)
+    -- remember adding tags for blogs
+    - BREAK THROUGH: do think of this website as a magazine, and each blog entry is just a new edition of the magazine. 
           herefore, try to give the blog the best magazine-like aesthetic that you can based on the current structure of the homepage and what's already there
 
          
-         
-          https://chatgpt.com/c/68692aa6-c5e4-8010-b0b2-d4e8d9ad475d
+    
 
     -->

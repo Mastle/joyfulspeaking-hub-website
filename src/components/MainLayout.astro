@@ -37,6 +37,73 @@ const {
       <!-- This is where your page content will be inserted -->
     </main>
     <Footer />
+    <!-- Update Banner -->
+    <div
+      id="site-update-banner"
+      role="region"
+      aria-live="polite"
+      aria-label="Site update notice"
+      class="update-banner shadow-sm"
+    >
+      <div
+        class="container d-flex align-items-center justify-content-between flex-wrap gap-2 py-2"
+      >
+        <div class="flex-grow-1" style="font-size: 0.96rem;">
+          <strong>Notice:</strong> The homepage and About page have been fully updated.
+          The blog section is currently being added, and some links may be temporarily
+          inactive. Full content will be live soon.
+          <div class="text-muted mt-1" style="font-size: 0.88rem;">
+            Need something now? Contact me via
+            <a href="https://t.me/Amiralixd" class="text-decoration-underline"
+              >Telegram @Amiralixd</a
+            >
+            or
+            <a
+              href="mailto:amirali.tsh13@gmail.com"
+              class="text-decoration-underline">email</a
+            >.
+          </div>
+        </div>
+        <button
+          id="dismiss-banner"
+          aria-label="Dismiss update notice"
+          class="btn btn-outline-secondary btn-sm ms-auto"
+        >
+          Dismiss
+        </button>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const banner = document.getElementById("site-update-banner")
+        const dismissBtn = document.getElementById("dismiss-banner")
+
+        if (sessionStorage.getItem("dismissSiteUpdateBanner") === "1") {
+          banner.style.display = "none"
+        }
+
+        dismissBtn.addEventListener("click", () => {
+          banner.style.display = "none"
+          sessionStorage.setItem("dismissSiteUpdateBanner", "1")
+        })
+      })
+    </script>
+
+    <style>
+      .update-banner {
+        background: #fffbea;
+        border-bottom: 1px solid #f3e6b3;
+        font-family: var(--bs-font-sans-serif);
+      }
+      .update-banner a {
+        color: #0d6efd;
+      }
+      .update-banner a:hover {
+        text-decoration: none;
+      }
+    </style>
+
     <script>
       import "bootstrap/dist/js/bootstrap.bundle.min.js"
     </script>

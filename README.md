@@ -3,7 +3,8 @@
 [🌐 Visit the Live Site](https://www.joyfulspeaking.com/)
 
 Joyful Speaking is a friendly, practical linguistics magazine designed to build real speaking confidence.  
-Short, conversational lessons, real-world prompts, and bite-sized practice put fluency within reach — for learners who want progress without pressure.
+Short, conversational lessons, real-world prompts, and bite-sized practice put fluency within reach. For learners who want progress without pressure, and for all lovers of language.
+
 
 ## What it does
 - Engaging cultural tidbits, like simplified poems, stories, and language insights that make learning enjoyable and memorable

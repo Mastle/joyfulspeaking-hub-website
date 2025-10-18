@@ -1,0 +1,21 @@
+---
+import MainLayout from "../components/MainLayout.astro"
+const { title, date } = Astro.props
+---
+
+<!-- src/components/BlogLayout.astro -->
+<MainLayout title={title}>
+  <div class="container py-5">
+    <article class="blog-content mx-auto col-lg-8">
+      <slot />
+    </article>
+  </div>
+</MainLayout>
+
+<style>
+  .blog-content {
+    font-size: 1rem;
+    line-height: 1.75;
+    color: #212529;
+  }
+</style>

@@ -2,7 +2,7 @@
 import MainLayout from "../components/MainLayout.astro"
 
 // Fetch all posts from the posts directory
-const allPosts = await Astro.glob("./posts/*.md")
+const allPosts = await Astro.glob("./lessons/*.md")
 
 // Sort posts by date (newest first)
 const sortedPosts = allPosts.sort(
@@ -28,12 +28,13 @@ function formatDate(dateString: string) {
   <div class="container py-5">
     <div class="mb-5">
       <h1 class="display-5 fw-bold mb-3">
-        My writing<span class="text-primary">.</span>
+        My lessons<span class="text-primary">.</span>
       </h1>
       <p class="lead text-muted fs-4 col-lg-8 px-0">
-        Here you'll find my writing on topics ranging from coding and the web
-        industry, to linguistics and natural language processing — short essays,
-        notes and occasional long reads.
+        Lessons that make English learning natural, meaningful, and fun — all in
+        one place. Each one is crafted through years of experience and grounded
+        in the science of linguistics, so you don’t just learn English — you
+        learn communication itself.
       </p>
     </div>
 
@@ -142,3 +143,21 @@ function formatDate(dateString: string) {
     }
   </style></MainLayout
 >
+
+<!--
+   steps: 
+
+  
+    - (current step) -> time to add all three lessons. then polish and release
+     -> Dude we'll add the three lessons we currently have thought of just as blog posts but on a separate page. This is without doubt the cleanest
+     and most efficient way to do this right now. Once I have a couple of lessons that I've added, I'll think of a better way to present them and make the 
+     lesson page distinct (differnt from writing page)
+     -> move on to the blog posts
+     - > Make the blog page itself (use the first blog post) look legit AF (blogs gotta look REAL good)
+    - Once the blog system is finished and all necessary blog posts have been added, polish the homepage one last time. Make sure eveything works!
+    - Remember to add favicon
+    - (final step) Must work on and have plans for regular updates on this project :)
+    -- remember adding tags for blogs
+    - BREAK THROUGH: do think of this website as a magazine, and each blog entry is just a new edition of the magazine. 
+          herefore, try to give the blog the best magazine-like aesthetic that you can based on the current structure of the homepage and what's already there
+    -->

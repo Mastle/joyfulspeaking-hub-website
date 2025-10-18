@@ -1,8 +1,8 @@
 ---
 layout: ../../components/BlogLayout.astro
-title: "Joyful Speaking 2.0"
+title: "first lesson"
 date: 2025-10-12
-description: "Reflecting on the journey of Joyful Speaking, rethinking its purpose, and exploring a new direction that celebrates the beauty and power of human language."
+description: "first lesson mmkay"
 author: "Amirali Taqishah"
 image:
   url: "https://your-image-url-here.jpg"
@@ -10,7 +10,7 @@ image:
 tags: ["english teaching", "linguistics", "poetry", "education", "reflection"]
 ---
 
-# Joyful Speaking 2.0
+# Lesson One
 
 Published on: 2025-10-12
 

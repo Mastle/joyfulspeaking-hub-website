@@ -1,41 +1,71 @@
+---
+
+---
+
 <section class="p-5">
   <div class="container">
     <h2 class="text-center fw-bold pb-4">
-      The Three Pillars of Human Language:
+      The three pillars of the human language:
     </h2>
+    <p class="text-center lead">
+      Dive into these core topics in our Writing (blog) section. Discover how
+      they inform our understanding, teaching, and joy of speaking.
+    </p>
     <div class="row text-center g-4 fs-5 mt-2">
       <div class="col-md">
         <div class="card text-primary border border-primary">
-          <div class="card-body text-center" style="min-height: 427px;">
+          <div class="card-body text-center">
             <div class="h1 mb-3">
               <i class="bi bi-hourglass-split"></i>
             </div>
             <h3 class="card-title mb-3">Mythology</h3>
-            <p class="lead">Why we speak in stories</p>
-            <p class="card-text">
-              From the gods of ancient Greece to creation tales around the
-              globe, mythology reveals how we first used mythic narratives to
-              explain our world and invented words to give those stories life.
-            </p>
-            <a href="" class="btn btn-primary mt-4">Read More</a>
+            <p class="lead">Why we speak in stories...</p>
+            <div class="collapse" id="mythologyCollapse">
+              <p class="card-text">
+                From the gods of ancient Greece to creation tales around the
+                globe, mythology reveals how we first used mythic narratives to
+                explain our world and invented words to give those stories life.
+              </p>
+            </div>
+            <button
+              class="btn btn-primary mt-4 toggle-btn"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mythologyCollapse"
+              aria-expanded="false"
+              aria-controls="mythologyCollapse"
+            >
+              Read More
+            </button>
           </div>
         </div>
       </div>
       <div class="col-md">
         <div class="card bg-lightDark text-light">
-          <div class="card-body text-center" style="min-height: 427px;">
+          <div class="card-body text-center">
             <div class="h1 mb-3">
               <i class="bi bi-journal-bookmark"></i>
             </div>
             <h3 class="card-title mb-3">Literature</h3>
-            <p class="lead">How we shape and share ideas</p>
-            <p class="card-text">
-              Whether epic poetry, philosophical treatises or the latest novel,
-              literature is the living archive of human thought. It refines our
-              vocabulary, stretches our imagination, and passes culture down
-              through the ages.
-            </p>
-            <a href="" class="btn btn-dark mt-4">Read More</a>
+            <p class="lead">How we shape and share ideas...</p>
+            <div class="collapse" id="literatureCollapse">
+              <p class="card-text">
+                Whether epic poetry, philosophical treatises or the latest
+                novel, literature is the living archive of human thought. It
+                refines our vocabulary, stretches our imagination, and passes
+                culture down through the ages.
+              </p>
+            </div>
+            <button
+              class="btn btn-dark mt-4 toggle-btn"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#literatureCollapse"
+              aria-expanded="false"
+              aria-controls="literatureCollapse"
+            >
+              Read More
+            </button>
           </div>
         </div>
       </div>
@@ -46,17 +76,48 @@
               <i class="bi bi-translate"></i>
             </div>
             <h3 class="card-title mb-3">Linguistics</h3>
-            <p class="lead">What makes language tick</p>
-            <p class="card-text">
-              Across time and technology, Linguistics reveals the hidden
-              machinery of language, the scientific study of sounds, structures,
-              and meaning that lets us reverse-engineer how words work to learn,
-              teach, and innovate.
-            </p>
-            <a href="" class="btn btn-primary">Read More</a>
+            <p class="lead">What makes language tick...</p>
+            <div class="collapse" id="linguisticsCollapse">
+              <p class="card-text">
+                Across time and technology, Linguistics reveals the hidden
+                machinery of language, the scientific study of sounds,
+                structures, and meaning that lets us reverse-engineer how words
+                work to learn, teach, and innovate.
+              </p>
+            </div>
+            <button
+              class="btn btn-primary mt-4 toggle-btn"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#linguisticsCollapse"
+              aria-expanded="false"
+              aria-controls="linguisticsCollapse"
+            >
+              Read More
+            </button>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const collapseButtons = document.querySelectorAll(".toggle-btn")
+
+    collapseButtons.forEach((button) => {
+      const collapse = document.querySelector(
+        button.getAttribute("data-bs-target")
+      )
+
+      collapse.addEventListener("show.bs.collapse", () => {
+        button.textContent = "Read Less"
+      })
+
+      collapse.addEventListener("hide.bs.collapse", () => {
+        button.textContent = "Read More"
+      })
+    })
+  })
+</script>

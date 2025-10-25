@@ -1,5 +1,5 @@
 ---
-layout: ../../components/BlogLayout.astro
+layout: ../../components/Layouts/BlogLayout.astro
 title: "first lesson"
 date: 2025-10-12
 description: "first lesson mmkay"

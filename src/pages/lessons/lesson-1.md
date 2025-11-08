@@ -1,8 +1,8 @@
 ---
-layout: ../../components/Layouts/BlogLayout.astro
-title: "first lesson"
+layout: ../../components/Layouts/BlogLessonLayout.astro
+title: "Lesson One: Part of Speech"
 date: 2025-10-12
-description: "first lesson mmkay"
+description: "Master the building blocks of English! This essential guide breaks down the Fantastic Four parts of speech (noun, adjective, verb, adverb) and gives you the magic questions for effortless word categorization and fluency."
 author: "Amirali Taqishah"
 image:
   url: "https://your-image-url-here.jpg"
@@ -12,7 +12,7 @@ tags: ["english teaching", "linguistics", "poetry", "education", "reflection"]
 
 # Lesson One: Part of Speech
 
-> **Words are the building blocks of language. Understanding their roles is the key to mastering any language.**
+> Words are the building blocks of language. Understanding their roles is the key to mastering any language.
 
 ### Before We Begin
 
@@ -42,10 +42,10 @@ So, to give us the focus we need to proceed, I’m going to repeat the **four es
 
 ### The Fantastic Four:
 
-1.  **Noun**
-2.  **Adjective**
-3.  **Verb**
-4.  **Adverb**
+1.   **Noun**
+2.   **Adjective**
+3.   **Verb**
+4.   **Adverb**
 
 Think of these as the primary colors of language, master these, and you can create any meaning you need\!
 
@@ -53,13 +53,13 @@ I also highly recommend delving deep into the exact meaning of each category (e.
 
 ---
 
-> ## The Essential Guide
+## The Essential Guide
 
-### 1\. Nouns
+### Nouns
 
 So what is a noun? A noun names a **person, place, or thing**. Think of it as a **"label" for concepts**. The latter is very crucial\! We'll discuss later that the best way to verify whether something is a noun is to try to grasp the meaning of the word itself.
 
-#### Examples
+> #### Examples
 
 - **Words:**
 
@@ -68,18 +68,15 @@ So what is a noun? A noun names a **person, place, or thing**. Think of it as a 
 - **In Action:**
   - The **teacher** works in a **school**.
   - **Happiness** is an important part of life.
-
 - **Tip:**
 
   So there are certain suffixes such as **-ness** and **-tion** that indicate the word is a noun. It's useful to learn that. I'll provide more information on this in future lessons.
 
----
-
-### 2\. Adjective
+### Adjective
 
 An adjective **modifies a noun or a pronoun**. Or as I'd like to call it: **"That which describes a noun."** At its core, an adjective always provides **more information about a noun**.
 
-#### Examples
+> #### Examples
 
 - **Words:**
 
@@ -92,9 +89,7 @@ An adjective **modifies a noun or a pronoun**. Or as I'd like to call it: **"Tha
 
   Words ending in **-ful** or **-able** are often adjectives. Once you start noticing these patterns, it becomes much easier to identify them in everyday use. We’ll explore this more in future lessons.
 
----
-
-### 3\. Verb
+### Verb
 
 A verb identifies an **action or state of being**. A verb always conveys the occurrence (**the happening**) of an action or connects an adjective to the noun (state of being).
 
@@ -107,20 +102,20 @@ A verb identifies an **action or state of being**. A verb always conveys the occ
 - **In Action:**
   - They **run** every morning. (the happening of an action)
   - She **is** very kind. (connecting adjective to noun)
-
 - **Tip:**
 
   Verbs can also change form by adding endings like **-ing** or **-ed** (e.g., "walk" → "walking" or "walked"), showing time or action progress. Keep an eye on these little changes—they reveal a lot about how verbs work. We’ll look deeper into this soon.
 
----
-
-### 4\. Adverb
+### Adverb
 
 An adverb **modifies a verb**. Or as I'd like to call it: **"That which describes a verb."** An adverb always gives us **more information about the verb**, such as how, when, where, or to what extent something happens.
 
-#### Examples
+> #### Examples
 
-- **Words:** quickly, happily, well, yesterday, very.
+- **Words:**
+
+  quickly, happily, well, yesterday, very.
+
 - **In Action:**
   - She ran **quickly** to catch the bus.
   - He speaks **well** in public.
@@ -134,7 +129,7 @@ An adverb **modifies a verb**. Or as I'd like to call it: **"That which describe
 
 The next step is to try to categorize all the words that you already know\! The best way to accomplish that is to start by asking the magic questions:
 
-<div style="background: \#f8f9fa; padding: 1.5rem; border-radius: 8px; border-left: 4px solid \#4CAF50; margin: 1rem 0;"\>
+<div class="tip-box">
 
 **1. Is this a label for a concept?**
 → If yes, you've found a **noun**\!
@@ -158,17 +153,19 @@ If you haven’t started using a vocabulary notebook yet, it’s time to get a n
 
 Each entry should include the part of speech signifier right next to the word. E.g.:
 
-- **Action (n)** → _n_ stands for **noun**
-- **Act (v)** → _v_ stands for **verb**
-- **Active (adj)** → _adj_ stands for **adjective**
-- **Actively (adv)** → _adv_ stands for **adverb**
+- Action **(n)** → _n_ stands for **noun**
+- Act **(v)** → _v_ stands for **verb**
+- Active **(adj)** → _adj_ stands for **adjective**
+- Actively **(adv)** → _adv_ stands for **adverb**
 
-> **Pro Tip:** If you can’t tell which part of speech a word belongs to, you can’t make a proper sentence with it, and that means you don’t even fully know the word\! This sounds negative at first, but understanding the words you truly know versus the ones you don’t know yet will become a great benefit down the road.
+> **Pro Tip:** If you can’t tell which part of speech a word belongs to, you can’t make a proper sentence with it, and that means you don’t even fully know the word\! This sounds negative at first, but understanding the words you truly know versus the ones you don’t know yet will become a great boon down the road.
 
 I’ll finish by emphasizing the power of part of speech:
 
 Remind yourself which part of speech all the new words you run into belong to as often as possible. This is the best attempt at turning things to the next level, both as a communicator and a language learner.
 
-In the future, I’ll gradually share blog posts that delve deep into each part. We will extensively examine the affixes and structures that are tied to these concepts. The greatest thing is it all becomes a fun puzzle to solve in the end\! That’s why I love this topic so much.
+In the future, I’ll gradually share blog posts that delve deep into each part. We will extensively examine the affixes and structures that are tied to these concepts.
+
+The greatest thing is it all becomes a fun puzzle to solve in the end\! That’s why I love this topic so much.
 
 Stay tuned for future lessons\! Happy studying\!

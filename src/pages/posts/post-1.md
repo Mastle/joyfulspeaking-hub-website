@@ -1,5 +1,5 @@
 ---
-layout: ../../components/Layouts/BlogLayout.astro
+layout: ../../components/Layouts/BlogLessonLayout.astro
 title: "Joyful Speaking 2.0"
 date: 2025-10-12
 description: "Reflecting on the journey of Joyful Speaking, rethinking its purpose, and exploring a new direction that celebrates the beauty and power of human language."

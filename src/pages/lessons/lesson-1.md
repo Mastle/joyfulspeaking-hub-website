@@ -14,8 +14,6 @@ tags: ["english teaching", "linguistics", "poetry", "education", "reflection"]
 
 > Words are the building blocks of language. Understanding their roles is the key to mastering any language.
 
-### Before We Begin
-
 - Some would argue that the mere concept of “part of speech” is too complicated for young learners or anyone with insufficient background knowledge. If you belong to either group, or simply feel overwhelmed, I recommend focusing solely on the curriculum your trainer has outlined.
 
 - While it’s true that “part of speech” is more of a **linguistic concept** than an English lesson, being able to categorize the words of the English language appropriately is the best indicator of a person’s overall understanding of English.

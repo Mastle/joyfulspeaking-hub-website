@@ -2,7 +2,7 @@
 layout: ../../components/Layouts/BlogLessonLayout.astro
 title: "Lesson Two: Your Living Vocabulary"
 date: 2025-10-12
-description: "(to be added soon)"
+description: "Discover the most fundamental and efficient practice for building a vocabulary you actually use. We'll show you how to skip endless lists and drilling, capture only the words you genuinely need, and turn real-life frustration into a free, powerful habit for true word mastery."
 author: "Amirali Taqishah"
 image:
   url: "https://your-image-url-here.jpg"
@@ -10,35 +10,80 @@ image:
 tags: ["english teaching", "linguistics", "poetry", "education", "reflection"]
 ---
 
-Lesson Two: Your Living Vocabulary
+# Lesson Two: Your Living Vocabulary
 
-- I believe this is the most universally applicable lesson for all students
-- What might seem like a habit that is difficult to instill in yourself at first, will become the most fun and rewarding way to learn new words
-- Crazy thing it’s also the cheapest way to improve your vocabulary
-  Now we’ve all heard of countless applications, books and techniques that are used to teach you vocabulary more efficiently, and this one is not here to take the spotlight away from any of those.
-  Whatever’s currently your primary way of learning new words, this extra technique can be added to that and it will unlock your potential in ways you’d never thought of. I’d only argue that this is the most fundamental one and it should be where it all begins.
-  Let’s get down to business before I try to oversell this thing anymore:
-  Your first tool and most fundamental tool can either be a little notebook in your pocket or your favorite note taking app on your cellphone. You can use either the physical or the digital medium for storing your words. What’s important is how you add new words and what words you choose to learn.
-  “Strike while the iron is hot” is my motto when it comes to discussing this technique as I consider this bit to be the most essential part of its philosophy as well. What we aim to accomplish with a personal vocabulary notebook (that you should try to have with as often as possible – if it ‘s on your phone, make sure it’s readily accessible. If it’s a notebook, make sure it’s right with you in your back pocket) is to use the momentary frustration of seeing a word that you need but can not fully understand.
-  The search has to start with the most essential words for your use case. Let’s say you’ve just started work in the financial sector of the economy, you’re very likely to run into words that are a part of the economics jargon that you haven’t fully mastered yet. You see the words “liquidty” and “equity” on today’s new articles, and while you can fully understand the overall message that the article is trying to convey, you are just bothered that you don’t have a solid grasp of these words. And this exact moment and the strong feeling of frustration that is associated with it is the fuel that we’re gonna utilize to build our personally vocabulary notebook.
+> Vocabulary can feel like an endless puzzle, but there’s a way to make it simple, fun, and practical.
 
-Here’s how your notebook is gonna help ya:
+- I believe this is one of the most useful lessons for every student regardless of their level
 
-- Start by adding both words to your vocabulary notebook
-- The next step is to verify that both of these words are on the level of difficulty that is appropriate for you to learn. You have several ways to do this. The easiest one is to use online cambridge dictionary (link Cambridge). You can also ask your instructor or anyone else who you believe to be an reliable source of authority.
-- Before we proceed, I’d simply like to remind you that putting this much time into learning a single word is absolutely warranted if you aim to have a good command of the English language
-- What’s more is all of this becomes second nature and much faster to redo with the next word. Your vocabulary (and linguistic knowledge in general) will grow exponentially with each attempt
-- Now onto the next step: after verifying if learning the word is appropriate for you, it’s time to make sure you fully understand it
-- Which brings us to my favorite topic: pat of speech. You can figure out the function of a word (part of speech) by looking it up on google (append image with the part of speech outlined as an example)
-- Now, the next step is to read the definition of the word (or look up its equivalent in your first language)
-- Here you should come up with a trick that’ll help you memorize the word. I believe you are free to utilize whatever trick you want to memorize the meaning of the word. For example, some words are more memorable when you associate them with a drawing of the concept they represent. Some are easier to remember when you know their equivalent in your first language. Whatever ties you more personally and deeply to that word, that is the type of trick we need here
-- By now, you have already been in contact with the word enough to have had a solid grasp of what it might mean and represent.
-- My final suggestion: make a sentence with it if you wanna make sure you've FULLY learned it. This is the soundest way to make sure you without a doubt know a word, and it’s more than a superficial awareness of the concept
-  (\* You don't have to make a sentence with every word, and there'll be plenty of words that you can only partially understand. it's all gooood if this is what is required of you in your use case for English :)
-  There's always time and more place to progress in your English journey ^^ )
+- What might feel like a hard habit to build at first will soon become the most fun and rewarding way to learn new words.
 
-This might seem like a lot of chore at first. You might even think: “what’s the point of archiving word in such a detailed manner? Why should I even write words when they are already everywhere on the screens around us? What’s more is there are thousands of words, why should I even devote my time to each one like this?”
-To those I say:” fist of all, the price of excellence is eternal vigilance” secondly, several filters are implemented to ensure that you give this much attention and learn with this much depth only when the words are essential parts of your case.
-Learning the essential words you need in depth (by making a sentence, picking their part of speech and trying to understand their definition) is without a doubt the most effective boost for your English and linguistic knowledge in general.
-Starting this routine feels like being a farmer who has decided to plant their first batch of crops on a huge field that’s never been planted on before. There seems to be lots of overwhelming areas to cover, but as soon as you follow take the right steps, and try to instill this habit in yourself regularly, you’ll become an exceptional farmer who knows when to plant, what to plant, and when is the best to make the most of their crops
-Good luck with your linguistic pursuit! Stay tuned for more ya wild cats
+- The crazy thing is it's also the cheapest way to grow your vocabulary!
+
+We’ve all seen countless apps, books, and techniques that promise to teach vocabulary more efficiently — and this one isn’t here to take the spotlight away from any of them.
+
+Whatever your main method is right now, this extra technique can fit right alongside it — and it’ll unlock your potential in ways you might not expect.  
+I’d only argue that this is the most fundamental one, and it’s where everything should begin.
+
+Let’s get down to business before I try to oversell this thing any more.
+
+Your first and most fundamental tool can be either a small notebook in your pocket or your favorite note-taking app on your phone.  
+It doesn’t matter whether you go physical or digital — what really matters is _how_ you add new words, and _which_ words you choose to learn.
+
+“Strike while the iron is hot” — that’s my motto when it comes to this technique.  
+I consider this part to be the very heart of its philosophy. What we aim to do with a personal vocabulary notebook (which you should keep with you as often as possible — if it’s on your phone, make sure it’s easy to open; if it’s a notebook, keep it in your pocket) is simple:
+
+Make use of that moment of frustration when you see a word you need but don’t fully understand. That feeling of “I wish I knew this word right now” is gold — that’s the exact moment you want to capture.
+
+The search should always start with the words that matter most to _you_.  
+Every learner has those “ugh, I should know this word by now” moments. Don’t waste them — that’s raw learning energy.
+
+Let’s say you’ve just started working in the financial sector — you’re likely to run into terms that belong to the economics jargon you haven’t fully mastered yet.
+You come across words like “liquidity” and “equity” in today’s news articles. You understand the general message, but it still bothers you that you don’t have a solid grasp of these words.
+That exact moment — and the frustration that comes with it — is the fuel we’re going to use to build your personal vocabulary notebook.
+
+Here’s how you'll make the most of your vocabulary notebook:
+
+1. Check that the word is worth learning.  
+   Before adding it to your notebook, make sure it’s actually useful for you.
+   Quickly check the Cambridge Dictionary or ask a trusted teacher/friend if it’s common and relevant to your level.  
+   In our example, these are words we regularly encounter at work (liquidity and equity) so we can be confident they’re worth adding!
+
+2. Add the word instantly.
+
+   Once you know it’s worth learning, jot it down in your notebook or phone notes app. That moment of curiosity is the fuel, don’t let it cool off.
+
+3. Note the basics — nothing more.
+
+   Keep each entry tiny. The goal is to make your archive as accessible and easy to maintain as possible.
+   - Part of speech (essential!): noun, verb, adjective, etc. Knowing this anchors the word and tells you how it behaves in a sentence.
+   - Definition / equivalent: on the same line as the part of speech, keep it short.
+
+Example:
+(make this part stand out visually - in a way that makes the user understand this is supposed to be a separate section from the notebook)
+liquidity (n): how easily something can be turned into cash  
+equity (n): ownership in a company or fairness
+
+4. **Try using it in a sentence.**
+
+   Write a short sentence with the word to make sure you really understand it. You don’t need to do this for every word — just the ones that feel most important.
+
+   But keep in mind: you haven’t fully mastered a word until you can use it in a sentence.
+   You don’t need to do this for every word — just the ones that feel most important.
+
+5. **Don’t aim for perfection.**  
+    As I mentioned in the previous step, you don’t need to fully know every word. Some will stick, some you’ll only partially understand — and that’s completely fine. What matters is noticing, recording, and gradually using the words that are actually useful to you.
+
+   Learning to prioritize what you need to master and what’s okay to forget is another pillar that strengthens your communication skills in a meaningful way.
+
+This might feel like a lot of work at first. You might even think: “What’s the point of archiving words in such detail? Why write them down when they’re everywhere around us? And there are thousands of words — why devote time to each one like this?”
+
+To that I say: “First of all, the price of excellence is eternal vigilance.” Secondly, several filters are built into this method to make sure you only spend this level of attention on words that are truly essential for your use case.
+
+Learning the essential words in depth — noting their part of speech, understanding their definition, and even using them in a sentence — is without a doubt the fastest, most effective boost for your English and overall linguistic knowledge.
+
+Think of your notebook as a living field, not a dictionary. The real learning happens the moment you write or use a word, not in how many pages you fill. Try to review it as often as possible — the more you interact with those words, the stronger your command of them becomes.
+
+Starting this routine is like being a farmer planting your first crops on a huge, empty field. At first, the field may seem overwhelming, but as you follow the right steps and make this habit part of your routine, you’ll become an exceptional farmer, knowing what to plant, when to plant it, and how to get the most out of your crops.
+
+Good luck with your linguistic journey!

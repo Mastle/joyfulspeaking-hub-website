@@ -12,36 +12,34 @@ tags: ["english teaching", "linguistics", "poetry", "education", "reflection"]
 
 # Lesson Three: Weave English into Your Everyday
 
-> Infusing their daily habits with English based on what they’re learning is the absolute meta for conquering the easy to forget nature of language learning
+> Real progress begins when English stops being a subject and starts being a habit
 
-A big painpoint for all students is to practice what they learn in classrooms effictively (expand on this). Another thing is acquiring the mindset and perception of a native speaker is the ultimate mindset shift that is required to give you complete fluency in the target language (which is English here)
+Before we begin: We use English in our lessons to discuss our techniques. I’ve applied the same philosophy to learning Japanese since summer, and the results convinced me that this approach works for almost any language. For this lesson, “English” is just our framework, so I highly recommend this technique for any other language you might be learning.
 
-- perhaps you are introduced to this concept as "immersion" - a lot of what I'm saying overlaps with that technique, but what is crucial here is to add the insight you gained into your life in a way that naturally (without forcing you) causes you interact with it again and again. This is why I called “weaving” English into your life
+A big pain point for most students is figuring out how to actually use what they learn in class. You might understand every word your teacher says, fill pages with new vocabulary, and even score well on tests, but when it’s time to speak or think in English naturally, everything feels distant again. That’s because most learning happens in the classroom, while real growth happens between lessons when you find small ways to practice what you’ve learned in your everyday world.
 
-Let's say you learned the months of a year in English in the previous session of your class. You should try as hard as you possibly can to refer to those months in their English version as much as possible! in fact, make it a rule. Make yourself think you have no choice but to only mention them with their English names!
+Real growth also means developing the mindset and perception of a native speaker. True fluency isn’t only about grammar or vocabulary; it’s about how you see and react to the language. Native speakers don’t translate in their heads or pause to analyze every sentence—they simply connect ideas through words that feel natural to them. The goal is to start thinking the same way, letting English become the lens through which you understand and express the world around you.
 
-Your knowledge has now become an essential part of your existence that you regularly interact with, and if you manage to make that stick, if you default your brain to use English months, which is a VERY small change on the surface, you're setting up the building the blocks to see the world through the eyes of a native speaker
+Some people call this immersion, and that label does capture part of it. But weaving goes a step further: it’s about folding what you learn into your life so it invites repeated, natural use without forcing you. Weaving means creating small, effortless chances to meet English again and again—through your thoughts, your messages, the things you watch and the notes you leave for yourself. Over time, those small, natural encounters build the kind of intuition and confidence classroom practice rarely gives.
 
-- You enjoy the English you learned, you’re upgrading your steeze, and you are doing all of this while you enhance your daily routines.
+Let’s put this into practice. Say you learned the months of the year in English in your last class. Try as much as possible to refer to them in English every time you mention them. Make it a little rule for yourself, a fun challenge: only use their English names, no matter what. By forcing yourself into these small, repeated habits, you start turning what you just learned into instinct, and that’s exactly how fluency begins to stick.
 
-- So you are doing the same things with more focus and better style, and you are reviewing lessons of the past as well
+The best part is that you’re enjoying the English you’ve learned while upgrading your style at the same time. You’re enhancing your daily routines without adding extra effort, doing the same things with more focus and better flair. Along the way, you’re also reviewing lessons from the past, reinforcing what you’ve learned without even noticing.
 
-- It’s easy to see how this can turn into such a superpower for all language enthusiast
+It’s easy to see how this approach can become a superpower for any language enthusiast. By weaving English into your daily life, small habits add up, your fluency grows naturally, and what once felt like a struggle begins to feel effortless and even enjoyable.
 
-- It can be something as small and silly as forcing yourself to write down the names of the weeks in English on your personal calendar and forcing yourself to keep it English and use the English pronounce and the English reading of date
+Your brain might protest and say, “These are tiny, ineffective things,” but this is exactly what you need to push back against. These small, repeated habits are actually the most important foundation for mastering a new language. What seems insignificant at first is what will support your fluency in the long run.
 
-- Again, the human brain says: “these are tiny ineffective things” this is what you fully need to rebel against! you are laying the most crucial foundation for mastering a new language
+Start adding these small habitual changes and English routines to your life, and soon your thinking will be so intertwined with English that the switch happens without effort. You will naturally frame ideas and talk about them the way a native does, not because you forced it, but because your daily habits made it normal.
 
-- Start adding these small habitual changes and English routines into your life, and pretty soon, your way of thinking has become so intertwined with the English language that you conveniently and unconsciously make the switch you need to always frame concepts and talk about them just like a real native :)
-  )
-  - (what I want to be added to this is I want the reader to understand this can be done with anything. They simply need to take the time to put it in a regular part of their life that they experience unintentionally)
-  - In other words, you are making your passive knowledge active. You are taking the final step that is needed to ensure you have properly mastered the new concept
+Build these habits today, and watch your English skills grow naturally every single day
 
 <!--
    steps:
 
 
-    - (current step) -> the best way to handle blogs and lessons is to first finalize the CONTENT of all the entries, then focus on styling them! only lesson 3 is left with a Japanase blog post ^_^
+    - (current step) -> Today's task is finalizing the content of this blog. That's all that needs to be done to be on schedule and it's gg. Already got the exact plans that I need to wrap up my other project. And once these two are done, ATP is next. gg :)
+    -  the best way to handle blogs and lessons is to first finalize the CONTENT of all the entries, then focus on styling them! only lesson 3 is left with a Japanase blog post ^_^
 
 
     - -> time to add all three lessons. then polish and release

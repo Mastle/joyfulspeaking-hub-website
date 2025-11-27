@@ -73,3 +73,8 @@ With that, I’d like to wrap up this post by sharing an incredible poem from on
 This piece exemplifies the power of language, showing how words can channel deep emotions and experiences.
 
 I’ll be back soon with more awesome, nerdy content related to language. And if you’re someone who wants to dive deeper into linguistics, feel free to reach out — I’d love to discuss it with you!
+
+<!-- TODO:
+
+- Make sure you update it with the recent events + mention the reason for delays (country falling into hell)
+ -->

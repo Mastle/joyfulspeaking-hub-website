@@ -34,24 +34,3 @@ Start adding these small habitual changes and English routines to your life, and
 
 Build these habits today, and watch your English skills grow naturally every single day
 
-<!--
-   steps:
-
-
-    - (current step) -> Today's task is finalizing the content of this blog. That's all that needs to be done to be on schedule and it's gg. Already got the exact plans that I need to wrap up my other project. And once these two are done, ATP is next. gg :)
-    -  the best way to handle blogs and lessons is to first finalize the CONTENT of all the entries, then focus on styling them! only lesson 3 is left with a Japanase blog post ^_^
-
-
-    - -> time to add all three lessons. then polish and release
-     -> Dude we'll add the three lessons we currently have thought of just as blog posts but on a separate page. This is without doubt the cleanest
-     and most efficient way to do this right now. Once I have a couple of lessons that I've added, I'll think of a better way to present them and make the
-     lesson page distinct (differnt from writing page)
-     -> move on to the blog posts
-     - > Make the blog page itself (use the first blog post) look legit AF (blogs gotta look REAL good)
-    - Once the blog system is finished and all necessary blog posts have been added, polish the homepage one last time. Make sure eveything works!
-    - Remember to add favicon
-    - (final step) Must work on and have plans for regular updates on this project :)
-    -- remember adding tags for blogs
-    - BREAK THROUGH: do think of this website as a magazine, and each blog entry is just a new edition of the magazine.
-          herefore, try to give the blog the best magazine-like aesthetic that you can based on the current structure of the homepage and what's already there
-    -->

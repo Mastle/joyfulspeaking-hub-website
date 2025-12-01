@@ -1,16 +1,15 @@
 ---
-layout: ../../components/Layouts/BlogLessonLayout.astro
+layout: ../../../components/Layouts/BlogLessonLayout.astro
 title: The Day of Moon
 date: 2025-10-12
 description: "How learning Japanese became the change I needed, not the intimidating goal I once feared"
 author: "Amirali Taqishah"
-image:
-  url: "https://your-image-url-here.jpg"
-  alt: "Joyful Speaking logo or abstract language art."
 tags: ["english teaching", "linguistics", "poetry", "education", "reflection"]
 ---
 
 # The day of Moon
+
+![person sitting at a desk studying Japanese](/public/images/blog-posts/person-at-desk.png)
 
 When I began learning Japanese a few months ago, I honestly thought it was going to be brutal. I’d admired the language and the culture for years, but I always held back because I assumed it would be too complicated or too time-consuming. It felt like one of those things you admire from a distance without ever expecting yourself to actually do. It took me a while to finally muster the courage to give it a real try.
 

@@ -44,34 +44,35 @@ That exact moment — and the frustration that comes with it — is the fuel we�
 
 Here’s how you'll make the most of your vocabulary notebook:
 
-1. Check that the word is worth learning.  
+1. **Check that the word is worth learning.**
+
    Before adding it to your notebook, make sure it’s actually useful for you.
    Quickly check the Cambridge Dictionary or ask a trusted teacher/friend if it’s common and relevant to your level.  
    In our example, these are words we regularly encounter at work (liquidity and equity) so we can be confident they’re worth adding!
 
-2. Add the word instantly.
+2. **Add the word instantly.**
 
    Once you know it’s worth learning, jot it down in your notebook or phone notes app. That moment of curiosity is the fuel, don’t let it cool off.
 
-3. Note the basics — nothing more.
+3. **Note the basics — nothing more.**
 
    Keep each entry tiny. The goal is to make your archive as accessible and easy to maintain as possible.
    - Part of speech (essential!): noun, verb, adjective, etc. Knowing this anchors the word and tells you how it behaves in a sentence.
    - Definition / equivalent: on the same line as the part of speech, keep it short.
 
-Example:
-(make this part stand out visually - in a way that makes the user understand this is supposed to be a separate section from the notebook)
-liquidity (n): how easily something can be turned into cash  
-equity (n): ownership in a company or fairness
+> Example: <br>
+> liquidity (**n**): how easily something can be turned into cash  
+> equity (**n**): ownership in a company or fairness <br>
+> word (part of speech): short description
 
-4. **Try using it in a sentence.**
+1. **Try using it in a sentence.**
 
    Write a short sentence with the word to make sure you really understand it. You don’t need to do this for every word — just the ones that feel most important.
 
    But keep in mind: you haven’t fully mastered a word until you can use it in a sentence.
    You don’t need to do this for every word — just the ones that feel most important.
 
-5. **Don’t aim for perfection.**  
+2. **Don’t aim for perfection.**  
     As I mentioned in the previous step, you don’t need to fully know every word. Some will stick, some you’ll only partially understand — and that’s completely fine. What matters is noticing, recording, and gradually using the words that are actually useful to you.
 
    Learning to prioritize what you need to master and what’s okay to forget is another pillar that strengthens your communication skills in a meaningful way.

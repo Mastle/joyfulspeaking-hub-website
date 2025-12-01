@@ -2,7 +2,7 @@
 layout: ../../components/Layouts/BlogLessonLayout.astro
 title: The Day of Moon
 date: 2025-10-12
-description: "What I learned about focus and calm in my first few months of Japanese."
+description: "How learning Japanese became the change I needed, not the intimidating goal I once feared"
 author: "Amirali Taqishah"
 image:
   url: "https://your-image-url-here.jpg"
@@ -11,8 +11,6 @@ tags: ["english teaching", "linguistics", "poetry", "education", "reflection"]
 ---
 
 # The day of Moon
-
-[some kind picture suitable to the blog post]
 
 When I began learning Japanese a few months ago, I honestly thought it was going to be brutal. I’d admired the language and the culture for years, but I always held back because I assumed it would be too complicated or too time-consuming. It felt like one of those things you admire from a distance without ever expecting yourself to actually do. It took me a while to finally muster the courage to give it a real try.
 
@@ -32,7 +30,6 @@ Let’s take a quick look at the fascinating building blocks that make up Japane
 
 ## Hiragana: The First Door You Walk Through
 
-[picture of hiragana]
 Hiragana is the simplest script in Japanese, but also one of the most brilliant teaching tools I’ve seen. The characters look soft and curved, almost deceptively cute (because you’ll confuse them a lot at first — at least I did!), but learning them flips a switch: suddenly you can read children’s books, basic sentences, and even menus or street signs. For beginners, it’s a rare early chance to interact with the language in its native form — no romanization, no training wheels.
 
 Being able to read hiragana changes your mindset. You stop feeling like an outsider peeking into a complicated system and start grappling with real words, sounds, and patterns. For me, mastering it wasn’t just a first step — it was proof that progress in Japanese comes from small, meaningful openings, not pain or difficulty.
@@ -83,7 +80,7 @@ After getting familiar with hiragana, katakana, and kanji, I decided to take the
 
 But it turned out to be exactly the change of pace I needed. Writing by hand and practicing in a real notebook brought a surprising clarity and energy I hadn’t felt in years. Being a Japanese student in this way lets me learn and practice without relying on a screen, giving each character, sentence, and sound a real, tangible presence.
 
-Then, in one of the sessions, I was asked, “Kyo wa nanji desu ka?(What day is it in Japanese?)” I didn’t get it on the first try and had to pause for a moment — but suddenly, it clicked: “kyo wa getsuyoubi desu(Today is the day of Moon!)” (which is how you say Monday in Japanese!).
+Then, in one of the sessions, I was asked by my sensei, “Kyo wa nanji desu ka? (What day is it in?)” I didn’t get it on the first try and had to pause for a moment — but suddenly, it clicked: “kyo wa getsuyoubi desu(Today is the day of Moon!)” (which is how you say Monday in Japanese!).
 
 That tiny sentence — “Today is the day of Moon!” — felt like a real breakthrough. It reminded me how powerful classroom guidance can be in building confidence and getting the basics right. At the same time, I realized that freely available resources are a perfect way to reinforce and expand what you learn in class.
 

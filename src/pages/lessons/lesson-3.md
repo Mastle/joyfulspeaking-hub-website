@@ -14,7 +14,7 @@ tags: ["english teaching", "linguistics", "poetry", "education", "reflection"]
 
 > Real progress begins when English stops being a subject and starts being a habit
 
-Before we begin: We use English in our lessons to discuss our techniques. I’ve applied the same philosophy to learning Japanese since summer, and the results convinced me that this approach works for almost any language. For this lesson, “English” is just our framework, so I highly recommend this technique for any other language you might be learning.
+We use English in our lessons to discuss our techniques. I’ve applied the same philosophy to learning Japanese since summer, and the results convinced me that this approach works for almost any language. For this lesson, “English” is just our framework, so I highly recommend this technique for any other language you might be learning.
 
 A big pain point for most students is figuring out how to actually use what they learn in class. You might understand every word your teacher says, fill pages with new vocabulary, and even score well on tests, but when it’s time to speak or think in English naturally, everything feels distant again. That’s because most learning happens in the classroom, while real growth happens between lessons when you find small ways to practice what you’ve learned in your everyday world.
 
@@ -33,4 +33,3 @@ Your brain might protest and say, “These are tiny, ineffective things,” but 
 Start adding these small habitual changes and English routines to your life, and soon your thinking will be so intertwined with English that the switch happens without effort. You will naturally frame ideas and talk about them the way a native does, not because you forced it, but because your daily habits made it normal.
 
 Build these habits today, and watch your English skills grow naturally every single day
-

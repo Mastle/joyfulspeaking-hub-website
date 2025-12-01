@@ -24,7 +24,7 @@ function formatDate(dateString: string) {
 }
 ---
 
-<MainLayout title="Writing - Joyful Speaking">
+<MainLayout title="Lessons - Joyful Speaking">
   <div class="container py-5">
     <div class="mb-5">
       <h1 class="display-5 fw-bold mb-3">
@@ -43,14 +43,14 @@ function formatDate(dateString: string) {
       {
         sortedPosts.map((post) => (
           <article class="row align-items-start py-4 post-row">
-            <div class="col-auto date-col pe-4 d-none d-md-block">
+            {/* <div class="col-auto date-col pe-4 d-none d-md-block">
               <time
                 datetime={post.frontmatter.date}
                 class="date small text-muted"
               >
                 {formatDate(post.frontmatter.date)}
               </time>
-            </div>
+            </div> */}
 
             <div class="col">
               <a href={post.url} class="text-decoration-none text-dark">
@@ -143,4 +143,3 @@ function formatDate(dateString: string) {
     }
   </style></MainLayout
 >
-

@@ -4,7 +4,6 @@ import "../../../styles/lesson.scss"
 const { title, date } = Astro.props
 ---
 
-<!-- src/components/BlogLayout.astro -->
 <MainLayout title={title}>
   <div class="container py-5">
     <article class="markdown-content blog-content mx-auto col-lg-8">
@@ -18,5 +17,8 @@ const { title, date } = Astro.props
     font-size: 1rem;
     line-height: 1.75;
     color: #212529;
+  }
+
+  .blog-date {
   }
 </style>

@@ -1,5 +1,5 @@
 ---
-layout: ../../components/Layouts/BlogLessonLayout.astro
+layout: ../../../components/Layouts/BlogLessonLayout.astro
 title: "Lesson Three: Weave English into Your Everyday"
 date: 2025-10-12
 description: "Discover the most fundamental and efficient practice for building a vocabulary you actually use. We'll show you how to skip endless lists and drilling, capture only the words you genuinely need, and turn real-life frustration into a free, powerful habit for true word mastery."

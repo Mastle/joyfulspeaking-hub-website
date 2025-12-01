@@ -1,5 +1,5 @@
 ---
-layout: ../../components/Layouts/BlogLessonLayout.astro
+layout: ../../../components/Layouts/BlogLessonLayout.astro
 title: "Lesson One: Part of Speech"
 date: 2025-10-12
 description: "Master the building blocks of English! This essential guide breaks down the Fantastic Four parts of speech (noun, adjective, verb, adverb) and gives you the magic questions for effortless word categorization and fluency."

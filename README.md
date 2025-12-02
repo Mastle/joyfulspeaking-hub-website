@@ -1,5 +1,5 @@
 Joyful Speaking
-🌐 Visit the Live Site
+🌐 [Visit the Live Site](https://joyfulspeaking.com/)
 
 React Vite Tailwind
 

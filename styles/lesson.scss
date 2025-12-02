@@ -68,3 +68,11 @@
 .markdown-content .tip-box strong {
   color: #4caf50;
 }
+
+.markdown-content h1 + p {
+  font-weight: 300;
+  font-size: 0.9em;
+  color: #666;
+  letter-spacing: 0.5px;
+  margin-top: 0.3em;
+}

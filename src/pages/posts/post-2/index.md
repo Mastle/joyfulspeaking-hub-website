@@ -9,6 +9,8 @@ tags: ["english teaching", "linguistics", "poetry", "education", "reflection"]
 
 # The day of Moon
 
+October 12, 2025
+
 ![person sitting at a desk studying Japanese](/public/images/blog-posts/person-at-desk.png)
 
 When I began learning Japanese a few months ago, I honestly thought it was going to be brutal. I’d admired the language and the culture for years, but I always held back because I assumed it would be too complicated or too time-consuming. It felt like one of those things you admire from a distance without ever expecting yourself to actually do. It took me a while to finally muster the courage to give it a real try.
@@ -83,7 +85,7 @@ Then, in one of the sessions, I was asked by my sensei, “Kyo wa nanji desu ka?
 
 That tiny sentence — “Today is the day of Moon!” — felt like a real breakthrough. It reminded me how powerful classroom guidance can be in building confidence and getting the basics right. At the same time, I realized that freely available resources are a perfect way to reinforce and expand what you learn in class.
 
-For example, Duolingo is really not as bad as people say, but it can become a negative influence if you don’t approach it with the right perspective. Jisho is a solid dictionary, but Japandict also deserves a shout-out since it offers a bigger database for certain kanji. In a future blog post, I’ll rank and explain how best to utilize each in detail.
+For example, Duolingo is really not as bad as people say, but it can become a negative influence if you don’t approach it with the right perspective. [**Jisho**](https://jisho.org/) is a solid dictionary, but [**Japandict**](https://www.japandict.com/) also deserves a shout-out since it offers a bigger database for certain kanji. In a future blog post, I’ll rank and explain how best to utilize each in detail.
 
 ## Go for It — Japanese Is Worth the Journey
 

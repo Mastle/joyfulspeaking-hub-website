@@ -12,16 +12,16 @@ const sortedPosts = allPosts.sort(
 )
 
 // Format date function -- short uppercase month like "JUN 01 2025"
-function formatDate(dateString: string) {
-  const d = new Date(dateString)
-  const opts: Intl.DateTimeFormatOptions = {
-    year: "numeric",
-    month: "short",
-    day: "2-digit",
-  }
-  // e.g. "Jun 01, 2025" -> remove comma and uppercase -> "JUN 01 2025"
-  return d.toLocaleDateString("en-US", opts).replace(",", "").toUpperCase()
-}
+// function formatDate(dateString: string) {
+//   const d = new Date(dateString)
+//   const opts: Intl.DateTimeFormatOptions = {
+//     year: "numeric",
+//     month: "short",
+//     day: "2-digit",
+//   }
+// e.g. "Jun 01, 2025" -> remove comma and uppercase -> "JUN 01 2025"
+//   return d.toLocaleDateString("en-US", opts).replace(",", "").toUpperCase()
+// }
 ---
 
 <MainLayout title="Lessons - Joyful Speaking">
@@ -65,7 +65,7 @@ function formatDate(dateString: string) {
                     ? `${post.frontmatter.readTime} • `
                     : ""}
                   <span class="d-inline d-md-none">
-                    {formatDate(post.frontmatter.date)}
+                    {/* {formatDate(post.frontmatter.date)} */}
                   </span>
                 </small>
               </div>

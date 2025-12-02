@@ -4,9 +4,6 @@ title: "Joyful Speaking 2.0"
 date: 2024-12-20
 description: "Reflecting on the journey of Joyful Speaking, rethinking its purpose, and exploring a new direction that celebrates the beauty and power of human language."
 author: "Amirali Taqishah"
-image:
-  url: "https://your-image-url-here.jpg"
-  alt: "Joyful Speaking logo or abstract language art."
 tags: ["english teaching", "linguistics", "poetry", "education", "reflection"]
 ---
 

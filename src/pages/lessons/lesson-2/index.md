@@ -62,14 +62,14 @@ Here’s how you'll make the most of your vocabulary notebook:
 > equity (**n**): ownership in a company or fairness <br>
 > word (part of speech): short description
 
-1. **Try using it in a sentence.**
+4. **Try using it in a sentence.**
 
    Write a short sentence with the word to make sure you really understand it. You don’t need to do this for every word — just the ones that feel most important.
 
    But keep in mind: you haven’t fully mastered a word until you can use it in a sentence.
    You don’t need to do this for every word — just the ones that feel most important.
 
-2. **Don’t aim for perfection.**  
+5. **Don’t aim for perfection.**  
     As I mentioned in the previous step, you don’t need to fully know every word. Some will stick, some you’ll only partially understand — and that’s completely fine. What matters is noticing, recording, and gradually using the words that are actually useful to you.
 
    Learning to prioritize what you need to master and what’s okay to forget is another pillar that strengthens your communication skills in a meaningful way.

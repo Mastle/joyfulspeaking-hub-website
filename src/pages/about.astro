@@ -1,0 +1,203 @@
+---
+// src/pages/about.astro
+import MainLayout from "../components/Layouts/MainLayout.astro"
+import "../../styles/about.scss"
+import TestimonialAvatarOne from "../assets//testimonial-avatars/testimonial-avatar-one.jpg"
+import TestimonialAvatarTwo from "../assets//testimonial-avatars/testimonial-avatar-two.jpg"
+import TestimonialAvatarThree from "../assets//testimonial-avatars/testimonial-avatar-three.jpg"
+import undrawBook from "../assets/undraw-book.svg"
+import aboutBannerSide from "../assets/about-banner-side.svg"
+import aboutAvatar from "../assets/about-avatar.jpg"
+---
+
+<MainLayout
+  title="About — Joyful Speaking"
+  description="The Human Side of Language as a linguistics magazine"
+>
+  <!-- HERO -->
+  <header
+    class="hero"
+    role="banner"
+    aria-label="About Joyful Speaking"
+    style="
+      background: #f7f7f9;
+      border-radius: 18px;
+      box-shadow: 0 2px 16px rgba(60,60,80,0.07);
+      padding: 40px 32px;
+      display: flex;
+      align-items: center;
+      gap: 36px;
+      margin-bottom: 32px;
+    "
+  >
+    <div style="flex:1;min-width:240px">
+      <div
+        class="eyebrow"
+        aria-hidden="true"
+        style="color:#6b7280;font-weight:500;letter-spacing:0.04em;"
+      >
+        About Joyful Speaking
+      </div>
+      <h1 style="color:#23272f;font-weight:700;font-size:2.2rem;">
+        The Human Side of Language as a linguistics magazine
+      </h1>
+      <p class="lead" style="color:#444c56;">
+        English, Japanese and Persian examples that open a window into human
+        communication. Articles, talks and explorations that show how language
+        builds meaning.
+      </p>
+
+      <div
+        class="d-flex gap-2 align-items-center flex-wrap"
+        style="margin-top:18px;"
+      >
+        <a class="btn btn-accent" href="/writing" style="box-shadow:none;">
+          Explore the magazine
+        </a>
+        <a
+          class="btn btn-black"
+          href="mailto:amirali.tsh13@gmail.com"
+          style="box-shadow:none;"
+        >
+          let's collaborate!
+        </a>
+      </div>
+    </div>
+
+    <img
+      src={aboutBannerSide.src}
+      alt=""
+      class="hero-art-img ms-5"
+      style="max-width:220px;filter:brightness(0.92) grayscale(0.1);border-radius:12px;"
+    />
+  </header>
+
+  <!-- FOUNDER / NOTE -->
+  <section class="founder d-flex flex-column" aria-labelledby="founder-title">
+    <div
+      class="eyebrow"
+      aria-hidden="true"
+      style="color:#6b7280;font-weight:500;letter-spacing:0.04em;"
+    >
+      About me
+    </div>
+    <div class="about-container-info d-flex align-items-start gap-3">
+      <div class="avatar avatar-fix" aria-hidden="true">
+        <a
+          href="https://www.linkedin.com/in/amirali-taqishah-27920a262/"
+          target="_blank"
+          rel="noopener"
+        >
+          <img
+            src={aboutAvatar.src}
+            alt="Amirali Taqishah"
+            style="width:100%;height:100%; object-fit:cover;border-radius:inherit;"
+          />
+        </a>
+      </div>
+
+      <div>
+        <h2 id="founder-title">
+          Amirali Taqishah<span
+            style="font-weight:500;color:#6b7280;font-size:14px;margin-left:10px"
+          >
+            Linguist · Software Developer</span
+          >
+        </h2>
+
+        <p class="muted" style="margin-top:6px;max-width:60ch;">
+          I started Joyful Speaking to bring linguistics and literature together
+          in a way learners actually enjoy. This magazine isn't only
+          educational, it's meant to be entertaining too. I believe linguistics
+          is a powerful science that everyone can benefit from, and what we
+          publish here is designed to share fascinating language insights while
+          helping people communicate with more ease and confidence.
+        </p>
+
+        <div class="tiny-team" aria-hidden="false" style="margin-top:14px">
+          <div class="role">Private Tutor</div>
+          <div class="role">Fullstack freelancer</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- decorative illustration (from unDraw) -->
+    <div class="founder-illus" aria-hidden="true">
+      <img
+        src={undrawBook.src}
+        alt=""
+        class="img-fluid"
+        style="max-width:280px;"
+      />
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials my-5" aria-labelledby="testimonials-title">
+    <h2 id="testimonials-title" class="h4 mb-4 text-center">
+      What learners say
+    </h2>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="p-4 h-100 rounded-4 shadow-sm bg-light">
+          <p class="mb-3">
+            "Joyful Speaking makes English click. The lessons are short but
+            powerful, I finally think in English instead of translating."
+          </p>
+          <div class="d-flex align-items-center gap-2">
+            <img
+              src={TestimonialAvatarOne.src}
+              alt="Aryan Aghajani - Engineer"
+              class="avatar-testimonial"
+            />
+            <div>
+              <strong>Aryan Aghajani</strong><br />
+              <small class="text-muted">Student</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="p-4 h-100 rounded-4 shadow-sm bg-light">
+          <p class="mb-3">
+            "The mix of linguistics and practice is unique. Amirali explains why
+            English works the way it does, it's unforgettable."
+          </p>
+          <div class="d-flex align-items-center gap-2">
+            <img
+              src={TestimonialAvatarTwo.src}
+              alt="Parastoo Taghishah - Graphic Designer"
+              class="avatar-testimonial"
+            />
+            <div>
+              <strong>Parastoo Talaee</strong><br />
+              <small class="text-muted">Graphic Designer</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="p-4 h-100 rounded-4 shadow-sm bg-light">
+          <p class="mb-3">
+            "I used to avoid speaking in English. Now, I feel confident starting
+            conversations at work thanks to Joyful Speaking."
+          </p>
+          <div class="d-flex align-items-center gap-2">
+            <img
+              src={TestimonialAvatarThree.src}
+              alt="Sheyda Gholipour - Sales Manager"
+              class="avatar-testimonial"
+            />
+            <div>
+              <strong>Sheyda Gholipour</strong><br />
+              <small class="text-muted">Sales Manager </small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</MainLayout>

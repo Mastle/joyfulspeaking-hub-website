@@ -1,0 +1,144 @@
+---
+import MainLayout from "../components/Layouts/MainLayout.astro"
+
+// Fetch all posts from the posts directory
+const allPosts = await Astro.glob("./posts/*/index.md")
+
+// Sort posts by date (newest first)
+const sortedPosts = allPosts.sort(
+  (a, b) =>
+    new Date(b.frontmatter.date).getTime() -
+    new Date(a.frontmatter.date).getTime()
+)
+
+// Format date function -- short uppercase month like "JUN 01 2025"
+function formatDate(dateString: string) {
+  const d = new Date(dateString)
+  const opts: Intl.DateTimeFormatOptions = {
+    year: "numeric",
+    month: "short",
+    day: "2-digit",
+  }
+  // e.g. "Jun 01, 2025" -> remove comma and uppercase -> "JUN 01 2025"
+  return d.toLocaleDateString("en-US", opts).replace(",", "").toUpperCase()
+}
+---
+
+<MainLayout title="Writing - Joyful Speaking">
+  <div class="container py-5">
+    <div class="mb-5">
+      <h1 class="display-5 fw-bold mb-3">
+        My writing<span class="text-primary">.</span>
+      </h1>
+      <p class="lead text-muted fs-4 col-lg-8 px-0">
+        Here I write about language: clear concepts, broad reflections on
+        communication, and the poems and allegories that stay with us long after
+        we read them.
+      </p>
+    </div>
+
+    <!-- Posts list: date column on left, content on right -->
+    <div class="posts-list">
+      {
+        sortedPosts.map((post) => (
+          <article class="row align-items-start py-4 post-row">
+            <div class="col-auto date-col pe-4 d-none d-md-block">
+              <time
+                datetime={post.frontmatter.date}
+                class="date small text-muted"
+              >
+                {formatDate(post.frontmatter.date)}
+              </time>
+            </div>
+
+            <div class="col">
+              <a href={post.url} class="text-decoration-none text-dark">
+                <h2 class="h3 mb-1">{post.frontmatter.title}</h2>
+              </a>
+              {post.frontmatter.description && (
+                <p class="text-muted mb-2">{post.frontmatter.description}</p>
+              )}
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">
+                  {post.frontmatter.readTime
+                    ? `${post.frontmatter.readTime} • `
+                    : ""}
+                  <span class="d-inline d-md-none">
+                    {formatDate(post.frontmatter.date)}
+                  </span>
+                </small>
+              </div>
+            </div>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+
+  <style>
+    /* Keep Bootstrap defaults where possible; just small layout & accents */
+
+    /* vertical spacing & separators */
+    .post-row {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    }
+
+    /* left date column */
+    .date-col {
+      width: 120px;
+      position: relative;
+    }
+
+    /* thin accent line (vertical) connecting dates visually */
+    .date-col::after {
+      content: "";
+      position: absolute;
+      left: calc(100% + 8px);
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: rgba(0, 0, 0, 0.04);
+    }
+
+    .date {
+      display: inline-block;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+
+    /* smaller screens: hide left column and show date under meta */
+    @media (max-width: 767.98px) {
+      .date-col {
+        display: none !important;
+      }
+    }
+
+    /* title tightness */
+    .post-row h2 {
+      line-height: 1.25;
+    }
+
+    .read-more-button {
+      font-weight: 500;
+      padding-left: 0.85rem;
+      padding-right: 0.85rem;
+    }
+
+    /* optional: make the primary dot next to page title match buttons */
+    h1 span.text-primary {
+      color: #0d6efd; /* bootstrap primary */
+    }
+
+    h2:hover {
+      text-decoration-line: underline;
+    }
+
+    article {
+      border-bottom: 2px solid rgba(0, 0, 0, 0.308) !important;
+    }
+
+    .posts-list article:last-child {
+      border-bottom: none !important;
+    }
+  </style></MainLayout
+>

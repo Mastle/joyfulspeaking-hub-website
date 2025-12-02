@@ -1,0 +1,83 @@
+/* 1. Global Typography and Line Height for Readability */
+.markdown-content {
+  line-height: 1.6; /* Increased line height for better spacing between lines */
+  color: #333;
+  max-width: 760px; /* Optimal reading width */
+  margin: 0 auto; /* Center the content */
+  font-size: 1.4rem !important;
+}
+
+/* 2. Consistent Heading Margins and Typography */
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  margin-top: 2.5em; /* Large top margin for clear separation */
+  margin-bottom: 0.8em;
+  color: #0056b3; /* A professional color */
+}
+.markdown-content h1 {
+  font-size: 2.5em;
+}
+.markdown-content h2 {
+  font-size: 2em;
+}
+.markdown-content h3 {
+  font-size: 1.5em;
+}
+
+/* 3. Paragraph Spacing (The most important part for vertical distance) */
+.markdown-content p {
+  margin-bottom: 1.2em; /* Overrides Bootstrap's margin for paragraphs */
+}
+.markdown-content ul,
+.markdown-content ol {
+  margin-bottom: 1.5em; /* Add good spacing after lists */
+  padding-left: 20px;
+}
+
+/* 4. Styling the Horizontal Rule */
+.markdown-content hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin: 3em 0; /* Add a large vertical margin around the line */
+}
+
+/* 5. Styling Blockquotes (The > elements) */
+.markdown-content blockquote {
+  border-left: 5px solid #ffcc00; /* Distinct left border color */
+  padding: 10px 20px;
+  margin: 2em 0; /* Clear spacing around the quote */
+  background: #fffaf0; /* A light background tint */
+  font-style: italic;
+  color: #555;
+}
+
+/* 6. Custom Styling for the "Tip Box" div */
+/* Assuming you have an HTML div in your markdown: <div class="tip-box">...</div> */
+.markdown-content .tip-box {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #4caf50; /* Green highlight on the left */
+  margin: 2em 0; /* Important: consistent margin above and below */
+  font-size: 1.1em;
+}
+.markdown-content .tip-box strong {
+  color: #4caf50;
+}
+
+.markdown-content h1 + p {
+  font-weight: 300;
+  font-size: 0.9em;
+  color: #666;
+  letter-spacing: 0.5px;
+  margin-top: 0.3em;
+}
+
+.markdown-content img {
+  max-width: 100%;
+  height: auto;
+}

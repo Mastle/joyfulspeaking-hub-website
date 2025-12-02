@@ -1,0 +1,40 @@
+---
+const { isHome } = Astro.props
+---
+
+<nav
+  class="navbar navbar-expand-lg bg-primary navbar-dark py-3 fixed-top add-border-bottom"
+>
+  <div class="container">
+    <a href="/" class="navbar-brand nav-item-on-hover fs-3">Joyful Speaking</a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navmenu"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a href="/writing" class="nav-link nav-item-on-hover text-white fs-5"
+            >Writing</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="/lessons" class="nav-link nav-item-on-hover text-white fs-5"
+            >Lessons</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="/about" class="nav-link nav-item-on-hover text-white fs-5"
+            >About</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

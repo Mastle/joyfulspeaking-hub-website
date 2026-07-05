@@ -18,7 +18,7 @@ npm install
 
 npm run dev
 
-Vision
+Vision: 
 The goal is to make language learning joyful and accessible — blending structured lessons with interactive, practical experience.
 
 💬 Any feedback or constructive criticism on the code is always appreciated.

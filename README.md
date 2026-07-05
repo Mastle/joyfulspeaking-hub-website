@@ -3,7 +3,7 @@ Joyful Speaking
 
 React Vite Tailwind
 
-A beginner-friendly language learning platform focused on helping users improve their Japanese speaking and comprehension skills through interactive lessons, exercises, and real-world examples.
+A beginner-friendly language learning platform focused on helping users improve their English, Persian and Japanese speaking and comprehension skills through interactive lessons, exercises, and real-world examples.
 
 Built as a clean, engaging frontend-first MVP in Phase I, Joyful Speaking prioritizes clarity, usability, and immersive learning. Phase II (in progress) will introduce user accounts, progress tracking, quizzes, and community features.
 

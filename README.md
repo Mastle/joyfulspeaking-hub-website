@@ -1,14 +1,14 @@
 Joyful Speaking
 🌐 [Visit the Live Site](https://joyfulspeaking.com/)
 
-React Vite Tailwind
+React Vite Bootstrap
 
 A beginner-friendly language learning platform focused on helping users improve their English, Persian and Japanese speaking and comprehension skills through interactive lessons, exercises, and real-world examples.
 
 Built as a clean, engaging frontend-first MVP in Phase I, Joyful Speaking prioritizes clarity, usability, and immersive learning. Phase II (in progress) will introduce user accounts, progress tracking, quizzes, and community features.
 
 Tech Stack
-Frontend: React + Vite + Tailwind
+Frontend: React + Vite + Bootstrap
 Design: Intuitive UI designed for simplicity and focus
 Hosting: Liara
 Setup

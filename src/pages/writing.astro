@@ -2,7 +2,9 @@
 import MainLayout from "../components/Layouts/MainLayout.astro"
 
 // Fetch all posts from the posts directory
-const allPosts = await Astro.glob("./posts/*/index.md")
+const allPosts = Object.values(
+  import.meta.glob("./posts/*/index.md", { eager: true })
+)
 
 // Sort posts by date (newest first)
 const sortedPosts = allPosts.sort(
@@ -140,5 +142,6 @@ function formatDate(dateString: string) {
     .posts-list article:last-child {
       border-bottom: none !important;
     }
-  </style></MainLayout
->
+  </style>
+</MainLayout>
+

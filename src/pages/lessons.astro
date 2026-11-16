@@ -1,8 +1,10 @@
 ---
 import MainLayout from "../components/Layouts/MainLayout.astro"
 
-// Fetch all posts from the posts directory
-const allPosts = await Astro.glob("./lessons/*/index.md")
+// Fetch all posts from the lessons directory
+const allPosts = Object.values(
+  import.meta.glob("./lessons/*/index.md", { eager: true })
+)
 
 // Sort posts by date (newest first)
 const sortedPosts = allPosts.sort(
@@ -141,5 +143,6 @@ const sortedPosts = allPosts.sort(
     .posts-list article:last-child {
       border-bottom: none !important;
     }
-  </style></MainLayout
->
+  </style>
+</MainLayout>
+

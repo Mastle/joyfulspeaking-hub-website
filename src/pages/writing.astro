@@ -1,21 +1,35 @@
 ---
 import MainLayout from "../components/Layouts/MainLayout.astro"
 
+type PostModule = {
+  frontmatter: {
+    date: string | Date
+    title: string
+    description?: string
+    readTime?: string | number
+  }
+  url: string
+}
+
 // Fetch all posts from the posts directory
 const allPosts = Object.values(
-  import.meta.glob("./posts/*/index.md", { eager: true })
+  import.meta.glob<PostModule>("./posts/*/index.md", { eager: true })
 )
+
+function getPostDate(date: string | Date) {
+  return date instanceof Date ? date : new Date(date)
+}
 
 // Sort posts by date (newest first)
 const sortedPosts = allPosts.sort(
   (a, b) =>
-    new Date(b.frontmatter.date).getTime() -
-    new Date(a.frontmatter.date).getTime()
+    getPostDate(b.frontmatter.date).getTime() -
+    getPostDate(a.frontmatter.date).getTime()
 )
 
 // Format date function -- short uppercase month like "JUN 01 2025"
-function formatDate(dateString: string) {
-  const d = new Date(dateString)
+function formatDate(date: string | Date) {
+  const d = getPostDate(date)
   const opts: Intl.DateTimeFormatOptions = {
     year: "numeric",
     month: "short",
@@ -46,7 +60,7 @@ function formatDate(dateString: string) {
           <article class="row align-items-start py-4 post-row">
             <div class="col-auto date-col pe-4 d-none d-md-block">
               <time
-                datetime={post.frontmatter.date}
+                datetime={getPostDate(post.frontmatter.date).toISOString()}
                 class="date small text-muted"
               >
                 {formatDate(post.frontmatter.date)}

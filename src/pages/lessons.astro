@@ -1,16 +1,30 @@
 ---
 import MainLayout from "../components/Layouts/MainLayout.astro"
 
+type PostModule = {
+  frontmatter: {
+    date: string | Date
+    title: string
+    description?: string
+    readTime?: string | number
+  }
+  url: string
+}
+
 // Fetch all posts from the lessons directory
 const allPosts = Object.values(
-  import.meta.glob("./lessons/*/index.md", { eager: true })
+  import.meta.glob<PostModule>("./lessons/*/index.md", { eager: true })
 )
+
+function getPostDate(date: string | Date) {
+  return date instanceof Date ? date : new Date(date)
+}
 
 // Sort posts by date (newest first)
 const sortedPosts = allPosts.sort(
   (a, b) =>
-    new Date(b.frontmatter.date).getTime() -
-    new Date(a.frontmatter.date).getTime()
+    getPostDate(b.frontmatter.date).getTime() -
+    getPostDate(a.frontmatter.date).getTime()
 )
 
 // Format date function -- short uppercase month like "JUN 01 2025"

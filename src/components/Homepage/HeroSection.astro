@@ -4,8 +4,8 @@ import hero from "../../assets/home/hero.svg"
 
 <section class="bg-primary text-light pt-5 text-center text-sm-start">
   <div class="container">
-    <div class="d-sm-flex align-items-center justify-content-between">
-      <div class="hero-text pb-5">
+    <div class="row align-items-center">
+      <div class="hero-text pb-5 col-lg-6">
         <h1 class="pb-2">
           Take some time to enjoy <span class="text-warning">
             the wonders of language
@@ -22,7 +22,9 @@ import hero from "../../assets/home/hero.svg"
           </a>
         </div>
       </div>
-      <img src={hero.src} alt="" class="img-fluid" />
+      <div class="col-lg-6 text-center">
+        <img src={hero.src} alt="" class="img-fluid hero-banner-main" />
+      </div>
     </div>
   </div>
 </section>

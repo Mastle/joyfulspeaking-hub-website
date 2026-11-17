@@ -82,19 +82,19 @@ import aboutAvatar from "../assets/about-avatar.jpg"
       About me
     </div>
     <div class="about-container-info d-flex align-items-start gap-3">
-      <div class="avatar avatar-fix" aria-hidden="true">
-        <a
-          href="https://www.linkedin.com/in/amirali-taqishah-27920a262/"
-          target="_blank"
-          rel="noopener"
-        >
-          <img
-            src={aboutAvatar.src}
-            alt="Amirali Taqishah"
-            style="width:100%;height:100%; object-fit:cover;border-radius:inherit;"
-          />
-        </a>
-      </div>
+      <a
+        class="avatar avatar-fix"
+        href="https://www.linkedin.com/in/amirali-taqishah-27920a262/"
+        target="_blank"
+        rel="noopener"
+        aria-label="View Amirali Taqishah's LinkedIn profile"
+      >
+        <img
+          src={aboutAvatar.src}
+          alt="Amirali Taqishah"
+          class="avatar-self-img"
+        />
+      </a>
 
       <div>
         <h2 id="founder-title">

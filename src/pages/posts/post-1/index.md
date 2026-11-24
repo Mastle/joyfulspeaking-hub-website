@@ -13,7 +13,7 @@ December 20, 2024
 
 <!-- abstract-rising-sun-hills -->
 
-![abstract sun rising over the hills](/public/images/blog-posts/abstract-rising-sun-hills.png)
+![abstract sun rising over the hills](/images/blog-posts/abstract-rising-sun-hills.png)
 
 So, it’s been a minute (or like, 1 year…) since I last posted something here. I want to start by saying that the launch of Joyful Speaking was much more surprising than I thought!
 

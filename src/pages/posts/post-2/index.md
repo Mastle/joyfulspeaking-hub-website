@@ -11,7 +11,7 @@ tags: ["english teaching", "linguistics", "poetry", "education", "reflection"]
 
 October 12, 2025
 
-![person sitting at a desk studying Japanese](/public/images/blog-posts/person-at-desk.png)
+![person sitting at a desk studying Japanese](/images/blog-posts/person-at-desk.png)
 
 When I began learning Japanese a few months ago, I honestly thought it was going to be brutal. I’d admired the language and the culture for years, but I always held back because I assumed it would be too complicated or too time-consuming. It felt like one of those things you admire from a distance without ever expecting yourself to actually do. It took me a while to finally muster the courage to give it a real try.
 
